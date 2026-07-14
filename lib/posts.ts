@@ -877,6 +877,127 @@ const SEEDS: Seed[] = [
       { label: "arXiv — Measurement Study of Post-Quantum Readiness (2026)", url: "https://arxiv.org/pdf/2606.16473" },
     ],
   },
+  {
+    title: "Fatal Fury: City of the Wolves confirma Season 3 para julho — mas o line-up de lutadores ainda é segredo",
+    category: "Games",
+    date: "2026-07-14",
+    excerpt:
+      "A SNK anunciou oficialmente que a nova temporada de conteúdo começa em julho de 2026, mas ainda não revelou nenhum personagem — apesar dos teasers que já circulam entre os fãs.",
+    tags: ["fatal-fury", "city-of-the-wolves", "snk", "season-3", "fighting-games"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "A SNK fechou um ciclo e abriu outro na mesma semana. Durante a EVO 2026, o produtor Yasuyuki Oda subiu ao palco antes das finais de Fatal Fury: City of the Wolves para confirmar duas coisas: Kenshiro, de Hokuto no Ken (Fist of the North Star), chegava como o lutador final da Season 2 — e a Season 3 do jogo começa em julho de 2026. O anúncio foi formalizado em comunicado oficial no site da SNK Corporation no mesmo dia.",
+      },
+      {
+        type: "paragraph",
+        text: "É a confirmação que os jogadores competitivos esperavam: depois de quase um ano de suporte contínuo, com passes de temporada trazendo lutadores clássicos e convidados de crossover, a SNK garante que o ciclo de vida do jogo segue firme para 2026 e além.",
+      },
+      { type: "heading", text: "O que a SNK confirmou — e o que não confirmou" },
+      {
+        type: "paragraph",
+        text: "Aqui vale separar com precisão o que é fato do que é expectativa. O comunicado oficial da SNK confirma apenas o mês de início — julho de 2026 — sem cravar um dia exato. Não há, até a publicação desta matéria, nenhum personagem oficialmente revelado para a Season 3, nenhum novo modo de jogo anunciado e nenhuma informação sobre a estrutura do conteúdo (se virá como Season Pass 3, no mesmo formato de compra da temporada anterior, ou em outro modelo). A frase literal do próprio comunicado da SNK resume a situação: mais detalhes serão revelados 'em devido tempo' — a empresa optou por confirmar a existência da temporada sem antecipar o conteúdo.",
+      },
+      {
+        type: "quote",
+        text: "SNK confirmou a data, não o elenco. É a diferença entre saber que a festa vai acontecer e saber quem foi convidado.",
+        by: "Renato Brito, ARS Geek",
+      },
+      {
+        type: "paragraph",
+        text: "O que circula com força na comunidade — e que este texto trata como especulação, não fato — são teasers visuais que a própria SNK publicou em suas redes oficiais nas semanas anteriores ao anúncio, sugerindo o retorno de Rick Strowd. Veículos especializados como EventHubs e Shacknews também apontam Duck King, Kim Kaphwan e Laocorn Gaudeamus como apostas prováveis para o próximo lote de DLCs, mantendo o ritmo de 'um lutador por mês' que a SNK vinha seguindo na Season 2. Nenhum desses nomes, porém, foi oficialmente anunciado pela SNK até o momento — são teasers e análises de padrão, não confirmações.",
+      },
+      { type: "heading", text: "O que já está garantido" },
+      {
+        type: "paragraph",
+        text: "Fora o mistério do elenco, um ponto é tranquilizador: a Season 3 chega nas mesmas plataformas já disponíveis hoje — PlayStation 5, PlayStation 4, Xbox Series X|S, Steam e Epic Games Store. Não há sinal de fragmentação de plataforma nem de exclusividade temporária, o que preserva o cross-play e a base de jogadores unificada que City of the Wolves construiu desde o lançamento.",
+      },
+      {
+        type: "highlight",
+        text: "Resumo do que é fato: Season 3 confirmada, início em julho de 2026, mesmas plataformas. Resumo do que é rumor: os nomes de Duck King, Kim Kaphwan, Rick Strowd e Laocorn Gaudeamus, baseados em teasers e análise de padrão — não em anúncio oficial da SNK.",
+      },
+      {
+        type: "paragraph",
+        text: "Para o jogador competitivo, a notícia importa por manter o meta vivo: cada temporada nova reorganiza tier lists e obriga replanejamento de matchups. Para o jogador casual, é sinal de que o suporte ao jogo segue robusto — poucos jogos de luta sustentam três temporadas de conteúdo com a regularidade que a SNK vem entregando. A confirmação de julho garante que a espera tem prazo; o restante, por enquanto, segue em aberto — e a SNK prometeu voltar com mais detalhes antes do lançamento.",
+      },
+    ],
+    sources: [
+      { label: "SNK Corporation — Comunicado oficial (Season 3 begins July 2026)", url: "https://www.snk-corp.co.jp/us/press/2026/kenshiro-from-fist-of-the-north-star-hokuto-no-ken-hits-city-of-the-wolves-season-2-a-hundred-times-over-season-3-begins-july-2026-prepare-to-unleash-more-fury/" },
+      { label: "SNK — Página oficial de Fatal Fury: City of the Wolves", url: "https://www.snk-corp.co.jp/us/games/fatalfury-cotw/" },
+      { label: "EventHubs — Season 3 announced", url: "https://www.eventhubs.com/news/2026/jun/28/fatal-fury-season-3-announced/" },
+      { label: "EventHubs — SNK teases Rick Strowd", url: "https://www.eventhubs.com/news/2026/jun/08/snk-tease-rick-strowd-ffcotw/" },
+    ],
+  },
+  {
+    title: "Bleach se aproxima do fim: a temporada final encerra a jornada de Ichigo Kurosaki",
+    category: "Animes",
+    date: "2026-07-14",
+    excerpt:
+      "A quarta e última parte de Thousand-Year Blood War chega para fechar, de vez, a saga de Ichigo Kurosaki — o desfecho que fãs de Bleach esperam há mais de uma década.",
+    tags: ["bleach", "thousand-year-blood-war", "the-calamity", "ichigo-kurosaki", "tite-kubo"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Depois de quatro cours espalhados por quatro anos, Bleach: Thousand-Year Blood War chega ao fim. A Parte 4, subtitulada The Calamity (禍進譚, Kashin-tan), é oficialmente a última leva de episódios da adaptação do arco final do mangá de Tite Kubo — o encerramento definitivo de uma história que fãs antigos acompanham desde o início dos anos 2000, e que uma nova geração descobriu graças ao retorno do anime em 2022.",
+      },
+      {
+        type: "paragraph",
+        text: "Não é só mais uma estreia de temporada. É o fechamento de um ciclo que a própria indústria do anime tratava como inacabado havia mais de dez anos — e a chance, rara em qualquer franquia desse porte, de dar a uma das maiores histórias do gênero shonen o final que ela sempre mereceu.",
+      },
+      { type: "heading", text: "Quando estreia, de fato, a temporada final" },
+      {
+        type: "paragraph",
+        text: "A data oficial de estreia, confirmada pela Viz Media e pelo site oficial japonês da franquia, é 25 de julho de 2026, com transmissão simultânea na Tokyo TV, no Japão, e streaming internacional via Hulu, nos Estados Unidos, e Disney+ nos demais mercados fora da Ásia — o mesmo esquema mantido desde a Parte 1, em 2022. Vale um esclarecimento rápido: a data de 25 de junho, que também circula entre fãs, não é a estreia — corresponde a uma exibição limitada dos três primeiros episódios em cinemas dos Estados Unidos, promovida pela Fathom Entertainment em parceria com a Viz Media, como antecipação promocional antes do lançamento real em julho.",
+      },
+      {
+        type: "paragraph",
+        text: "Sobre o Brasil, nenhum comunicado cita o país nominalmente, mas o padrão histórico de distribuição — Disney+ para os mercados internacionais fora da Ásia, mantido desde 2022 e já válido para as três partes disponíveis no catálogo brasileiro — sugere que a Parte 4 deve seguir o mesmo caminho por aqui.",
+      },
+      { type: "heading", text: "O que esta temporada final deve encerrar" },
+      {
+        type: "paragraph",
+        text: "Sem entrar em detalhes que estragariam a experiência de quem ainda vai assistir, The Calamity deve fechar as pontas mais importantes da Guerra de Mil Anos: o desfecho do confronto entre a Sociedade das Almas e o exército Quincy liderado por Yhwach, o destino que aguarda o mundo humano e a Soul Society depois de tanta destruição e, acima de tudo, o capítulo final da jornada pessoal de Ichigo Kurosaki, o protagonista que carrega a série desde o primeiro episódio, em 2004.",
+      },
+      {
+        type: "quote",
+        text: "Não é apenas o fim de um arco. É o fechamento de uma trajetória que moldou uma geração inteira de leitores e espectadores de anime.",
+        by: "Renato Brito, ARS Geek",
+      },
+      { type: "heading", text: "Por que esse encerramento pesa tanto para os fãs" },
+      {
+        type: "paragraph",
+        text: "Para entender o peso do momento, é preciso lembrar de onde Bleach veio. Lançado em 2001 na Weekly Shōnen Jump, o mangá de Tite Kubo se tornou, ao lado de Naruto e One Piece, um dos pilares da chamada 'Big Three' que definiu o shonen dos anos 2000. O anime original, porém, chegou ao fim em 2012 sem nunca ter adaptado o arco Thousand-Year Blood War — na época, o desfecho da saga em anime simplesmente não existia, e uma geração inteira de fãs cresceu sem ver a conclusão da história na tela.",
+      },
+      {
+        type: "paragraph",
+        text: "Foi só em 2020 que o Bleach 20th Anniversary Project trouxe a notícia que parecia improvável: o arco final finalmente ganharia uma adaptação completa em anime. Desde a retomada, em 2022, a Studio Pierrot vem entregando cours cada vez mais ambiciosos, com direção-geral de Tomohisa Taguchi e, nesta parte final, Hikaru Murata na direção — e agora chega à reta final daquilo que muitos fãs já haviam dado como perdido.",
+      },
+      {
+        type: "highlight",
+        text: "Do lançamento do mangá, em 2001, à conclusão do anime, em 2026: são quase 25 anos de história convergindo para estes episódios finais.",
+      },
+      { type: "heading", text: "O que os fãs esperam da despedida" },
+      {
+        type: "paragraph",
+        text: "A expectativa em torno de The Calamity passa por vários pontos. Tite Kubo segue pessoalmente envolvido na produção — ele escolheu as músicas-tema de todas as quatro partes, incluindo a abertura 'I-Bull', de Jo0ji, e o encerramento 'Rasen', de 9Lana, reveladas para este capítulo final. Relatos da imprensa especializada também apontam que a Parte 4 deve trazer ainda mais conteúdo original em relação ao mangá, expandindo as batalhas finais além do que Kubo desenhou nas páginas — uma aposta que, se bem executada, pode dar ainda mais peso dramático ao desfecho.",
+      },
+      {
+        type: "paragraph",
+        text: "Também pesa a régua que a própria Pierrot construiu: as três partes anteriores já elevaram consideravelmente o nível de animação e direção de combate da franquia, e a torcida geral é que a equipe entregue, nesta reta final, o mesmo capricho nas cenas que os fãs esperam há mais de uma década para ver na tela. Como sempre acontece perto de um final tão aguardado, especulações sobre o que vai acontecer circulam com força — mas até a estreia, o conteúdo real da temporada segue sob sigilo, e vale tratar qualquer 'vazamento' com a devida desconfiança.",
+      },
+      {
+        type: "paragraph",
+        text: "Quando os créditos finais de The Calamity subirem, não vai ser apenas mais um anime chegando ao fim. Vai ser o encerramento de uma jornada que atravessou quase 25 anos, sobreviveu a um hiato de uma década sem conclusão em tela e volta agora para entregar aos fãs — antigos e novos — o final que Ichigo Kurosaki e sua história sempre mereceram.",
+      },
+    ],
+    sources: [
+      { label: "Wikipedia — Bleach: Thousand-Year Blood War", url: "https://en.wikipedia.org/wiki/Bleach:_Thousand-Year_Blood_War" },
+      { label: "Site oficial japonês da Bleach — key visual e data de estreia", url: "https://bleach-anime.com/" },
+      { label: "Variety — Bleach: TYBW – The Calamity sets release date", url: "https://variety.com/2026/tv/news/bleach-thousand-year-blood-war-the-calamity-release-date-hulu-disney-1236799220/" },
+      { label: "CBR — Bleach final anime season confirmation", url: "https://www.cbr.com/bleach-final-anime-season-june-2026/" },
+      { label: "Anime Corner — Temas musicais e key visual", url: "https://animecorner.me/bleach-tybw-part-4-final-season-premieres-on-july-25-main-visual-and-theme-songs-by-jo0ji-and-9lana-revealed/" },
+    ],
+  },
 ];
 
 /**
@@ -885,6 +1006,8 @@ const SEEDS: Seed[] = [
  * seguintes preenchem a seção "Recentes".
  */
 const ORDER: string[] = [
+  "Fatal Fury: City of the Wolves confirma Season 3 para julho — mas o line-up de lutadores ainda é segredo",
+  "Bleach se aproxima do fim: a temporada final encerra a jornada de Ichigo Kurosaki",
   "The Odyssey: o épico de US$ 250 milhões de Nolan chega nesta semana, todo em IMAX",
   "NVIDIA Vera Rubin: a plataforma de seis chips que redefine a régua da IA em 2026",
   "GTA VI: a espera até 19 de novembro — anatomia dos dois adiamentos do jogo mais aguardado da história",

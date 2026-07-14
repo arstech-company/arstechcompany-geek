@@ -156,4 +156,18 @@ export const COVERS: Record<string, PostCover> = {
     imageSource: "https://hollowknightsilksong.com/",
     imageLicense: "Press kit oficial (uso editorial)",
   },
+  "fatal-fury-city-of-the-wolves-confirma-season-3-para-julho-mas-o-line-up-de-lutadores-ainda-e-segredo": {
+    coverImage: "/images/articles/games/fatal-fury-city-of-the-wolves-rock-howard.webp",
+    coverImageAlt: "Rock Howard, protagonista de Fatal Fury: City of the Wolves, invocando chamas roxas com as duas mãos em cena de gameplay",
+    imageCredit: "SNK Corporation",
+    imageSource: "https://store.steampowered.com/app/2492040/",
+    imageLicense: "Material promocional oficial (uso editorial)",
+  },
+  "bleach-se-aproxima-do-fim-a-temporada-final-encerra-a-jornada-de-ichigo-kurosaki": {
+    coverImage: "/images/articles/animes/bleach-tybw-the-calamity-key-visual.webp",
+    coverImageAlt: "Arte-chave oficial de Bleach: Thousand-Year Blood War – The Calamity, com Ichigo diante de uma entidade sombria e espadas quebradas, e a data de estreia de 25 de julho de 2026",
+    imageCredit: "Tite Kubo / Shueisha / TV TOKYO / dentsu / Pierrot",
+    imageSource: "https://bleach-anime.com/",
+    imageLicense: "Material promocional oficial (uso editorial)",
+  },
 };

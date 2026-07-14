@@ -1,11 +1,13 @@
 # Créditos de Imagens
 
 As imagens de artigos foram baixadas do **Wikimedia Commons** (licenças CC0, domínio público, CC BY
-ou CC BY-SA) em 13–14/07/2026 (imagens da categoria Tecnologia acessadas em 14/07/2026), com seis exceções obtidas de **materiais oficiais
+ou CC BY-SA) em 13–14/07/2026 (imagens da categoria Tecnologia acessadas em 14/07/2026), com oito exceções obtidas de **materiais oficiais
 de divulgação** em 14/07/2026 (uso editorial): Silksong (press kit da Team Cherry), GTA VI
 (rockstargames.com), The Odyssey (odysseymovie.com), Avatar: Fire and Ash (avatar.com),
-Supergirl (supergirlmovie.com) e The Batman (thebatman.com). Nenhuma imagem é hotlink:
-todos os arquivos estão versionados em `public/images/articles/`, otimizados em WebP (≤ 300 KB).
+Supergirl (supergirlmovie.com), The Batman (thebatman.com), Fatal Fury: City of the Wolves
+(página oficial da Steam) e Bleach: Thousand-Year Blood War (site oficial japonês da franquia).
+Nenhuma imagem é hotlink: todos os arquivos estão versionados em `public/images/articles/`,
+otimizados em WebP (≤ 300 KB).
 
 As licenças **CC BY** e **CC BY-SA** exigem atribuição — ela é exibida na página de cada artigo
 (legenda sob a capa) e registrada aqui.
@@ -32,6 +34,8 @@ As licenças **CC BY** e **CC BY-SA** exigem atribuição — ela é exibida na 
 | `games/gta-vi-arte-oficial.webp` | GTA VI: a espera até 19 de novembro… | Games | Rockstar Games | Material promocional oficial (uso editorial) | [rockstargames.com/VI](https://www.rockstargames.com/VI) |
 | `games/nintendo-switch-2-console.webp` | Switch 2, um ano depois… | Games | Crisco 1492 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_in_Docking_Console.jpg) |
 | `games/silksong-key-art.webp` | Silksong, dez meses depois… | Games | Team Cherry | Press kit oficial (uso editorial) | [hollowknightsilksong.com](https://hollowknightsilksong.com/) |
+| `games/fatal-fury-city-of-the-wolves-rock-howard.webp` | Fatal Fury: City of the Wolves confirma Season 3 para julho… | Games | SNK Corporation | Material promocional oficial — screenshot de gameplay (uso editorial) | [Steam](https://store.steampowered.com/app/2492040/) |
+| `animes/bleach-tybw-the-calamity-key-visual.webp` | Bleach se aproxima do fim: a temporada final encerra a jornada de Ichigo Kurosaki… | Animes | Tite Kubo / Shueisha / TV TOKYO / dentsu / Pierrot | Material promocional oficial — key visual (uso editorial) | [bleach-anime.com](https://bleach-anime.com/) |
 
 | `tecnologia/nvidia-vera-rubin-jensen-huang.webp` | NVIDIA Vera Rubin: a plataforma de seis chips… | Tecnologia | Maurizio Pesce | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nvidia_CEO_Jensen_Huang_gestikuliert.jpg) |
 | `tecnologia/windows-10-notebook.webp` | Windows 10 ganha sobrevida até 2027… | Tecnologia | Donald Trung Quoc Don | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Windows_10_Surface_Laptop_2_at_the_Media_Markt_Sontplein,_Groningen_(2020).jpg) |

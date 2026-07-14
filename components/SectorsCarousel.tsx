@@ -125,6 +125,7 @@ export default function SectorsCarousel({ categories }: SectorsCarouselProps) {
         className="sectors-carousel__btn sectors-carousel__btn--prev"
         aria-label="Ver setor anterior"
         disabled={!canPrev}
+        suppressHydrationWarning
         onClick={() => scrollByCards(-1)}
       >
         ‹
@@ -154,6 +155,7 @@ export default function SectorsCarousel({ categories }: SectorsCarouselProps) {
         className="sectors-carousel__btn sectors-carousel__btn--next"
         aria-label="Ver próximo setor"
         disabled={!canNext}
+        suppressHydrationWarning
         onClick={() => scrollByCards(1)}
       >
         ›
