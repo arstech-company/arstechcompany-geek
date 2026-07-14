@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { INSTITUTIONAL_URL } from "@/lib/site";
+import { INSTITUTIONAL_URL, withBasePath } from "@/lib/site";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -23,7 +23,7 @@ export default function Header() {
       <div className="container site-header__inner">
         <Link href="/" className="brand">
           <Image
-            src="/images/ars-tech-logo.jpeg"
+            src={withBasePath("/images/ars-tech-logo.jpeg")}
             alt="ARS Tech"
             width={36}
             height={36}

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import PostCard from "@/components/PostCard";
+import SectorsCarousel from "@/components/SectorsCarousel";
 import { getAllPosts, getCategoriesWithCounts } from "@/lib/posts";
 import { SITE_DESCRIPTION } from "@/lib/site";
 
@@ -51,24 +52,11 @@ export default function Home() {
         <div className="container section">
           <div className="section__head">
             <h2 className="section__title">Navegue por universo</h2>
-            <span className="section__kicker">06 SETORES ATIVOS</span>
+            <span className="section__kicker">
+              {String(categories.length).padStart(2, "0")} SETORES ATIVOS
+            </span>
           </div>
-          <div className="category-grid">
-            {categories.map((category) => (
-              <Link
-                key={category.slug}
-                href={`/artigos?categoria=${category.slug}`}
-                className="category-card"
-                style={{ borderColor: category.colorDim }}
-              >
-                <span className="category-card__code" style={{ color: category.color }}>
-                  {category.code}
-                </span>
-                <span className="category-card__name">{category.name}</span>
-                <span className="category-card__count">{category.count} artigos</span>
-              </Link>
-            ))}
-          </div>
+          <SectorsCarousel categories={categories} />
         </div>
       </section>
 

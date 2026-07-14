@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none">
+  <!-- Quadrinhos: retícula halftone + raios de energia heroica -->
+  <defs>
+    <pattern id="halftone" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.1" fill="#e5484d"/>
+    </pattern>
+  </defs>
+  <rect x="180" y="0" width="140" height="200" fill="url(#halftone)" opacity=".55"/>
+  <g stroke="#e5484d" stroke-width="2">
+    <path d="M18 182 L96 92" opacity=".8"/>
+    <path d="M34 190 L118 108" opacity=".55"/>
+    <path d="M8 158 L74 84" opacity=".4"/>
+  </g>
+  <path d="M96 92 L132 56 L120 82 L156 48" stroke="#e5484d" stroke-width="2.4" stroke-linejoin="round" opacity=".9"/>
+  <rect x="20" y="18" width="96" height="52" rx="5" stroke="#e5484d" stroke-width="1.6" opacity=".5"/>
+  <rect x="30" y="28" width="76" height="6" rx="3" fill="#e5484d" opacity=".4"/>
+  <rect x="30" y="42" width="52" height="6" rx="3" fill="#e5484d" opacity=".28"/>
+</svg>

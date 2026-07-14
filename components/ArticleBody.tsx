@@ -5,37 +5,50 @@ interface ArticleBodyProps {
 }
 
 export default function ArticleBody({ post }: ArticleBodyProps) {
-  const { body, color } = post;
-
   return (
     <div className="article-body">
-      <p>{body.intro}</p>
-      <p>{body.context}</p>
+      {post.blocks.map((block, index) => {
+        switch (block.type) {
+          case "paragraph":
+            return <p key={index}>{block.text}</p>;
 
-      <blockquote className="quote-block" style={{ borderLeftColor: color, background: post.tint }}>
-        “{body.quote}”
-        <footer style={{ color }}>— {body.quoteBy}</footer>
-      </blockquote>
+          case "heading":
+            return <h2 key={index}>{block.text}</h2>;
 
-      <h2>{body.sectionTitle}</h2>
-      <p>{body.sectionBody}</p>
+          case "quote":
+            return (
+              <blockquote
+                key={index}
+                className="quote-block"
+                style={{ borderLeftColor: post.color, background: post.tint }}
+              >
+                “{block.text}”
+                <footer style={{ color: post.color }}>— {block.by}</footer>
+              </blockquote>
+            );
 
-      <figure className="code-block">
-        <figcaption className="code-block__bar">
-          <span className="code-block__dot" style={{ background: "#e5484d" }} aria-hidden="true" />
-          <span className="code-block__dot" style={{ background: "#e2c044" }} aria-hidden="true" />
-          <span className="code-block__dot" style={{ background: "#3ecf8e" }} aria-hidden="true" />
-          <span className="code-block__filename">{body.codeFile}</span>
-        </figcaption>
-        <pre className="code-block__pre">{body.codeSnippet}</pre>
-      </figure>
+          case "highlight":
+            return (
+              <aside key={index} className="highlight-block">
+                <div className="highlight-block__kicker">⟡ DESTAQUE</div>
+                <p className="highlight-block__text">{block.text}</p>
+              </aside>
+            );
 
-      <aside className="highlight-block">
-        <div className="highlight-block__kicker">⟡ DESTAQUE</div>
-        <p className="highlight-block__text">{body.highlight}</p>
-      </aside>
-
-      <p>{body.closing}</p>
+          case "code":
+            return (
+              <figure key={index} className="code-block">
+                <figcaption className="code-block__bar">
+                  <span className="code-block__dot" style={{ background: "#e5484d" }} aria-hidden="true" />
+                  <span className="code-block__dot" style={{ background: "#e2c044" }} aria-hidden="true" />
+                  <span className="code-block__dot" style={{ background: "#3ecf8e" }} aria-hidden="true" />
+                  <span className="code-block__filename">{block.filename}</span>
+                </figcaption>
+                <pre className="code-block__pre">{block.code}</pre>
+              </figure>
+            );
+        }
+      })}
     </div>
   );
 }

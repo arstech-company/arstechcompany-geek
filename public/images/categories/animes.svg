@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none">
+  <!-- Mangá: linhas cinéticas de velocidade + quadros de página -->
+  <g stroke="#ec6bb0" stroke-linecap="round">
+    <path d="M320 12 L96 44" stroke-width="2.6" opacity=".8"/>
+    <path d="M320 42 L60 78" stroke-width="2" opacity=".6"/>
+    <path d="M320 74 L110 96" stroke-width="1.5" opacity=".45"/>
+    <path d="M320 104 L76 128" stroke-width="2.2" opacity=".55"/>
+    <path d="M320 136 L120 150" stroke-width="1.4" opacity=".4"/>
+    <path d="M320 166 L64 184" stroke-width="1.8" opacity=".5"/>
+  </g>
+  <g stroke="#ec6bb0" fill="none" stroke-width="1.6">
+    <path d="M14 16 L96 16 L88 84 L14 84 Z" opacity=".6"/>
+    <path d="M14 100 L84 96 L92 182 L14 176 Z" opacity=".45"/>
+  </g>
+  <circle cx="52" cy="48" r="12" stroke="#ec6bb0" stroke-width="1.6" opacity=".55"/>
+  <path d="M40 140 L64 128 L58 152 Z" fill="#ec6bb0" opacity=".5"/>
+</svg>

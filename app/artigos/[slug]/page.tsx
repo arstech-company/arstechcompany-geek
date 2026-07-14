@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ArticleBody from "@/components/ArticleBody";
+import ArticleImage from "@/components/ArticleImage";
 import PostCard from "@/components/PostCard";
 import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/posts";
 import { formatDate } from "@/lib/format";
@@ -33,11 +34,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url,
       publishedTime: post.date,
       authors: [post.author],
+      images: [{ url: post.coverImage, alt: post.coverImageAlt }],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
+      images: [post.coverImage],
     },
   };
 }
@@ -62,8 +65,9 @@ export default async function ArticlePage({ params }: PageProps) {
       url: "https://arstechcompany.com.br",
     },
     mainEntityOfPage: `${SITE_URL}/artigos/${post.slug}`,
+    image: `${SITE_URL}${post.coverImage}`,
     articleSection: post.category,
-    keywords: post.body.tags.join(", "),
+    keywords: post.tags.join(", "),
   };
 
   return (
@@ -96,38 +100,54 @@ export default async function ArticlePage({ params }: PageProps) {
           </span>
           <div>
             <div className="article__author">{post.author}</div>
-            <div className="article__date">
-              {formatDate(post.date)} · {post.readMinutes} min de leitura
-            </div>
+            <div className="article__date">{formatDate(post.date)}</div>
           </div>
         </div>
 
-        <div
-          className="cover article-cover"
-          style={{
-            borderColor: post.colorDim,
-            background: `linear-gradient(145deg, ${post.tintDeep}, #00111d 70%)`,
-            color: post.color,
-          }}
-          aria-hidden="true"
-        >
-          <div className="cover__grid" />
-          <span className="cover__code" style={{ color: post.color }}>
-            {post.code}
-          </span>
-          <span className="cover__bracket cover__bracket--tl" />
-          <span className="cover__bracket cover__bracket--br" />
-        </div>
+        <figure className="article-figure">
+          <ArticleImage
+            src={post.coverImage}
+            alt={post.coverImageAlt}
+            code={post.code}
+            color={post.color}
+            priority
+            sizes="(max-width: 800px) 100vw, 760px"
+            className="article-cover"
+          />
+          <figcaption className="article-figure__credit">
+            Imagem:{" "}
+            <a href={post.imageSource} target="_blank" rel="noopener noreferrer">
+              {post.imageCredit}
+            </a>{" "}
+            · {post.imageLicense}
+            {post.imageSource.includes("wikimedia.org") && " · via Wikimedia Commons"}
+          </figcaption>
+        </figure>
 
         <ArticleBody post={post} />
 
         <div className="tag-row">
-          {post.body.tags.map((tag) => (
+          {post.tags.map((tag) => (
             <span key={tag} className="tag">
               # {tag}
             </span>
           ))}
         </div>
+
+        {post.sources && post.sources.length > 0 && (
+          <aside className="article-sources" aria-label="Fontes consultadas">
+            <div className="article-sources__title">FONTES CONSULTADAS</div>
+            <ul className="article-sources__list">
+              {post.sources.map((source) => (
+                <li key={source.url}>
+                  <a href={source.url} target="_blank" rel="noopener noreferrer">
+                    {source.label} ↗
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </aside>
+        )}
       </article>
 
       {related.length > 0 && (

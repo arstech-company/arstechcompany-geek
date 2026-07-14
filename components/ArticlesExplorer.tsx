@@ -29,7 +29,11 @@ export default function ArticlesExplorer({ posts, categories }: ArticlesExplorer
     return posts.filter((p) => {
       const matchesCategory = category === "Todas" || p.category === category;
       const matchesQuery =
-        !q || p.title.toLowerCase().includes(q) || p.excerpt.toLowerCase().includes(q);
+        !q ||
+        p.title.toLowerCase().includes(q) ||
+        p.excerpt.toLowerCase().includes(q) ||
+        p.category.toLowerCase().includes(q) ||
+        p.tags.some((tag) => tag.toLowerCase().includes(q));
       return matchesCategory && matchesQuery;
     });
   }, [posts, category, query]);

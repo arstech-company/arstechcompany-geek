@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none">
+  <!-- Cidade noturna: skyline de Metrópolis/Gotham + céu -->
+  <g fill="#4c8dff">
+    <rect x="12" y="118" width="30" height="82" opacity=".5"/>
+    <rect x="48" y="86" width="26" height="114" opacity=".65"/>
+    <rect x="80" y="130" width="22" height="70" opacity=".45"/>
+    <rect x="108" y="64" width="34" height="136" opacity=".75"/>
+    <rect x="148" y="104" width="24" height="96" opacity=".55"/>
+    <rect x="178" y="42" width="30" height="158" opacity=".85"/>
+    <rect x="214" y="92" width="26" height="108" opacity=".6"/>
+    <rect x="246" y="120" width="30" height="80" opacity=".5"/>
+    <rect x="282" y="76" width="26" height="124" opacity=".7"/>
+  </g>
+  <g fill="#00111d">
+    <rect x="114" y="74" width="5" height="5"/><rect x="126" y="74" width="5" height="5"/>
+    <rect x="114" y="90" width="5" height="5"/><rect x="132" y="104" width="5" height="5"/>
+    <rect x="184" y="54" width="5" height="5"/><rect x="196" y="70" width="5" height="5"/>
+    <rect x="184" y="92" width="5" height="5"/><rect x="288" y="90" width="5" height="5"/>
+    <rect x="298" y="112" width="5" height="5"/><rect x="54" y="98" width="5" height="5"/>
+  </g>
+  <circle cx="258" cy="30" r="14" stroke="#4c8dff" stroke-width="1.6" opacity=".8"/>
+  <path d="M10 20 L52 20 M64 20 L88 20" stroke="#4c8dff" stroke-width="1.4" opacity=".4"/>
+</svg>

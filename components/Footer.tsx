@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CATEGORIES } from "@/lib/categories";
-import { CONTACT_EMAIL, INSTITUTIONAL_URL, TOOLS_URL } from "@/lib/site";
+import { CONTACT_EMAIL, INSTITUTIONAL_URL, TOOLS_URL, withBasePath } from "@/lib/site";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -12,7 +12,7 @@ export default function Footer() {
         <div>
           <div className="site-footer__brand">
             <Image
-              src="/images/ars-tech-logo.jpeg"
+              src={withBasePath("/images/ars-tech-logo.jpeg")}
               alt=""
               width={30}
               height={30}

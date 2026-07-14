@@ -4,7 +4,8 @@ export type CategoryName =
   | "Marvel"
   | "DC"
   | "Animes"
-  | "Games";
+  | "Games"
+  | "Tecnologia";
 
 export interface Category {
   name: CategoryName;
@@ -12,6 +13,17 @@ export interface Category {
   color: string;
   /** HUD-style prefix shown on cover placeholders, e.g. "FLM://" */
   code: string;
+  /** Textura SVG decorativa de fundo do card de setor (em /public) */
+  texture: string;
+}
+
+/** Metadados da imagem de capa de um artigo (arquivo local em /public). */
+export interface PostCover {
+  coverImage: string;
+  coverImageAlt: string;
+  imageCredit: string;
+  imageSource: string;
+  imageLicense: string;
 }
 
 export interface DecoratedCategory extends Category {
@@ -20,21 +32,19 @@ export interface DecoratedCategory extends Category {
   tint: string;
 }
 
-export interface PostBody {
-  intro: string;
-  context: string;
-  quote: string;
-  quoteBy: string;
-  sectionTitle: string;
-  sectionBody: string;
-  codeFile: string;
-  codeSnippet: string;
-  highlight: string;
-  closing: string;
-  tags: string[];
-}
+/**
+ * Blocos editoriais que compõem o corpo de um artigo. A estrutura em blocos
+ * espelha o design system (parágrafo, subtítulo, citação, destaque, código)
+ * e foi pensada para mapear 1:1 com um CMS headless ou MDX no futuro.
+ */
+export type ArticleBlock =
+  | { type: "paragraph"; text: string }
+  | { type: "heading"; text: string }
+  | { type: "quote"; text: string; by: string }
+  | { type: "highlight"; text: string }
+  | { type: "code"; filename: string; code: string };
 
-export interface PostSeed {
+export interface PostSeed extends PostCover {
   slug: string;
   title: string;
   category: CategoryName;
@@ -42,8 +52,10 @@ export interface PostSeed {
   author: string;
   /** ISO date (YYYY-MM-DD) */
   date: string;
-  readMinutes: number;
-  body: PostBody;
+  tags: string[];
+  blocks: ArticleBlock[];
+  /** Fontes consultadas na apuração, exibidas ao fim do artigo */
+  sources?: Array<{ label: string; url: string }>;
 }
 
 export interface Post extends PostSeed {

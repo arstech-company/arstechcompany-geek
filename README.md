@@ -24,8 +24,12 @@ Filmes, Star Wars, Marvel, DC, Animes e Games — com busca local e filtro por c
 derivada do site institucional (`arstechcompany-site`), com uma camada "HUD sci-fi" e ciano elétrico
 (`#38bdf8`) como cor de assinatura do braço geek.
 
-O conteúdo desta versão é **mockado** (`lib/posts.ts`, `lib/categories.ts`) com uma estrutura pensada para
-troca futura por CMS, API ou arquivos Markdown/MDX sem precisar alterar componentes ou páginas.
+O conteúdo editorial vive em `lib/posts.ts`: **18 matérias originais** (3 por categoria), assinadas por
+Renato Brito e publicadas em 13/07/2026, escritas com base em fatos verificados em fontes públicas
+(Wikipedia, Deadline, Variety, Box Office Mojo, StarWars.com, Marvel.com, ILM.com e imprensa
+especializada). O corpo dos artigos usa uma estrutura de blocos tipados (`ArticleBlock`: parágrafo,
+subtítulo, citação, destaque, código) pensada para migração futura a CMS headless, API ou MDX sem
+alterações nos componentes.
 
 > Newsletter, formulário de inscrição e qualquer envio de e-mail **não fazem parte deste escopo** — ficaram
 > de fora intencionalmente.
@@ -83,6 +87,7 @@ Analytics/AdSense em dev:
 | Variável | Uso | Obrigatória |
 |---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | URL canônica usada em metadata, `sitemap.xml` e `robots.txt` | Não (default `https://geek.arstechcompany.com.br`) |
+| `NEXT_PUBLIC_BASE_PATH` | Prefixo quando o site é servido em subpasta (ex.: `/arstechcompany-geek` em project pages). No deploy via Actions é **detectado automaticamente** | Não |
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | ID do Google Analytics (gtag). Script só é injetado se definida | Não |
 | `NEXT_PUBLIC_ADSENSE_CLIENT_ID` | Client ID do Google AdSense. Script só é injetado se definida | Não |
 
@@ -100,6 +105,19 @@ Dois workflows no GitHub Actions:
   esperadas (`index.html`, `artigos.html`, `sitemap.xml`, `robots.txt`).
 - **`deploy.yml`** — roda em push na `main`: lint → build → publica `out/` no GitHub Pages. O lint é
   etapa obrigatória; se falhar, o deploy não acontece.
+
+O deploy usa `actions/configure-pages` para detectar como o site será servido e ajustar os caminhos
+automaticamente:
+
+- **Sem domínio customizado** (ex.: `arstech-company.github.io/arstechcompany-geek`): o build recebe
+  `basePath=/arstechcompany-geek`, e CSS/JS/imagens/links resolvem na subpasta correta.
+- **Com domínio customizado** (`geek.arstechcompany.com.br` configurado em Settings → Pages): o build
+  usa a raiz, sem prefixo.
+
+> [!NOTE]
+> Se o site aparecer **sem estilo (CSS quebrado)** na URL `*.github.io/arstechcompany-geek`, é sinal de
+> que o build publicado é anterior a essa detecção automática — basta rodar o workflow de deploy
+> novamente (novo push em `main` ou "Re-run" no Actions).
 
 ## Deploy no GitHub Pages
 
@@ -127,10 +145,13 @@ touch out/.nojekyll
 
 ## Limitações conhecidas
 
-- Conteúdo (12 posts) é mockado em `lib/posts.ts`; não há CMS, API ou build de MDX conectado ainda.
-- Capas dos artigos são placeholders "HUD" gerados em CSS (gradiente + grade + código mono), não imagens
-  reais — a estrutura em `components/CoverPlaceholder.tsx` foi pensada para ser trocada por `next/image`
-  quando houver artes finais.
-- Busca e filtro de categoria são client-side sobre o array mockado; não escalam para um catálogo grande
-  sem paginação no servidor/API.
+- O conteúdo (18 matérias) vive em `lib/posts.ts` como TypeScript tipado; não há CMS, API ou build de
+  MDX conectado ainda — a estrutura de blocos foi desenhada para essa migração.
+- As capas dos artigos são fotos reais do Wikimedia Commons (CC0/CC BY/CC BY-SA/domínio público),
+  otimizadas em WebP e servidas localmente — créditos completos em `IMAGE_CREDITS.md`. O placeholder
+  HUD original permanece como fallback automático caso alguma imagem falhe (`components/ArticleImage.tsx`).
+- Busca e filtro de categoria são client-side sobre o array em memória; não escalam para um catálogo
+  grande sem paginação no servidor/API.
+- Fatos das matérias foram verificados em julho/2026; artigos sobre lançamentos futuros (GTA VI,
+  Doomsday, The Batman: Parte II) refletem o estado das informações nessa data.
 - Newsletter/inscrição por e-mail foram propositalmente omitidas deste escopo.

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import type { Post } from "@/lib/types";
 import { formatDate } from "@/lib/format";
+import ArticleImage from "./ArticleImage";
 import CategoryBadge from "./CategoryBadge";
-import CoverPlaceholder from "./CoverPlaceholder";
 
 interface PostCardProps {
   post: Post;
@@ -15,7 +15,14 @@ export default function PostCard({ post, variant = "grid" }: PostCardProps) {
   if (variant === "hero") {
     return (
       <Link href={href} className="post-card post-card--hero" style={{ borderColor: post.colorDim }}>
-        <CoverPlaceholder color={post.color} code={post.code} gridSize="lg" />
+        <ArticleImage
+          src={post.coverImage}
+          alt={post.coverImageAlt}
+          code={post.code}
+          color={post.color}
+          priority
+          sizes="(max-width: 720px) 100vw, 60vw"
+        />
         <div className="post-card__body">
           <CategoryBadge name={post.category} color={post.color} colorDim={post.colorDim} tint={post.tint} />
           <h2 className="post-card__title">{post.title}</h2>
@@ -24,8 +31,6 @@ export default function PostCard({ post, variant = "grid" }: PostCardProps) {
             <span>{post.author}</span>
             <span>·</span>
             <span>{formatDate(post.date)}</span>
-            <span>·</span>
-            <span>{post.readMinutes} min</span>
           </div>
         </div>
       </Link>
@@ -39,7 +44,7 @@ export default function PostCard({ post, variant = "grid" }: PostCardProps) {
         <h3 className="post-card__title--side">{post.title}</h3>
         <p className="post-card__excerpt--sm">{post.excerpt}</p>
         <div className="post-card__meta post-card__meta--sm">
-          {formatDate(post.date)} · {post.readMinutes} min
+          {formatDate(post.date)}
         </div>
       </Link>
     );
@@ -53,7 +58,7 @@ export default function PostCard({ post, variant = "grid" }: PostCardProps) {
           {post.title}
         </h3>
         <div className="post-card__meta post-card__meta--sm">
-          {formatDate(post.date)} · {post.readMinutes} min
+          {formatDate(post.date)}
         </div>
       </Link>
     );
@@ -61,14 +66,20 @@ export default function PostCard({ post, variant = "grid" }: PostCardProps) {
 
   return (
     <Link href={href} className="post-card">
-      <CoverPlaceholder color={post.color} code={post.code} gridSize="sm" />
+      <ArticleImage
+        src={post.coverImage}
+        alt={post.coverImageAlt}
+        code={post.code}
+        color={post.color}
+        sizes="(max-width: 720px) 100vw, 320px"
+      />
       <div className="post-card__body">
         <CategoryBadge name={post.category} color={post.color} colorDim={post.colorDim} tint={post.tint} size="sm" />
         <h3 className="post-card__title--card">{post.title}</h3>
         {variant === "list" && <p className="post-card__excerpt--sm">{post.excerpt}</p>}
         <div className="post-card__meta post-card__meta--sm">
           {variant === "list" ? `${post.author} · ` : ""}
-          {formatDate(post.date)} · {post.readMinutes} min
+          {formatDate(post.date)}
         </div>
       </div>
     </Link>
