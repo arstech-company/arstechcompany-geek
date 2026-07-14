@@ -1,7 +1,7 @@
 # Guia do Editor — Como publicar e remover artigos no ARS GEEK
 
 > Este documento é para quem vai mexer no **conteúdo** do blog (artigos), não na arquitetura do
-> projeto. Se você é estagiário(a) e nunca trabalhou com Next.js/React/TypeScript antes, comece por
+> projeto. Se você é desenvolvedor(a) e nunca trabalhou com Next.js/React/TypeScript antes, comece por
 > este guia — ele explica cada passo com exemplos reais tirados do próprio projeto.
 
 ## 1. Introdução
