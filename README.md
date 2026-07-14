@@ -58,7 +58,9 @@ arstechcompany-geek/
 │                                # CategoryBadge, ArticleBody, ArticlesExplorer
 ├── lib/                        # posts.ts, categories.ts, types.ts, site.ts,
 │                                # colors.ts, format.ts — dados mockados + helpers
-├── public/images/               # logo
+├── public/
+│   ├── CNAME                    # geek.arstechcompany.com.br
+│   └── images/                  # logo e imagens locais
 ├── CNAME                        # geek.arstechcompany.com.br
 └── .github/workflows/
     ├── ci.yml                   # esteira: lint + build em PRs e branches
@@ -87,7 +89,6 @@ Analytics/AdSense em dev:
 | Variável | Uso | Obrigatória |
 |---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | URL canônica usada em metadata, `sitemap.xml` e `robots.txt` | Não (default `https://geek.arstechcompany.com.br`) |
-| `NEXT_PUBLIC_BASE_PATH` | Prefixo quando o site é servido em subpasta (ex.: `/arstechcompany-geek` em project pages). No deploy via Actions é **detectado automaticamente** | Não |
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | ID do Google Analytics (gtag). Script só é injetado se definida | Não |
 | `NEXT_PUBLIC_ADSENSE_CLIENT_ID` | Client ID do Google AdSense. Script só é injetado se definida | Não |
 
@@ -106,18 +107,9 @@ Dois workflows no GitHub Actions:
 - **`deploy.yml`** — roda em push na `main`: lint → build → publica `out/` no GitHub Pages. O lint é
   etapa obrigatória; se falhar, o deploy não acontece.
 
-O deploy usa `actions/configure-pages` para detectar como o site será servido e ajustar os caminhos
-automaticamente:
-
-- **Sem domínio customizado** (ex.: `arstech-company.github.io/arstechcompany-geek`): o build recebe
-  `basePath=/arstechcompany-geek`, e CSS/JS/imagens/links resolvem na subpasta correta.
-- **Com domínio customizado** (`geek.arstechcompany.com.br` configurado em Settings → Pages): o build
-  usa a raiz, sem prefixo.
-
-> [!NOTE]
-> Se o site aparecer **sem estilo (CSS quebrado)** na URL `*.github.io/arstechcompany-geek`, é sinal de
-> que o build publicado é anterior a essa detecção automática — basta rodar o workflow de deploy
-> novamente (novo push em `main` ou "Re-run" no Actions).
+O deploy é configurado para o domínio customizado `geek.arstechcompany.com.br`, servido na raiz. Por isso,
+o build não usa `basePath` nem `assetPrefix`: CSS, JS, imagens e fontes devem sair como `/_next/static/...`,
+`/images/...` e demais caminhos absolutos a partir da raiz do domínio.
 
 ## Deploy no GitHub Pages
 
@@ -129,8 +121,8 @@ O workflow `.github/workflows/deploy.yml` builda e publica a pasta `out/` a cada
    - `NEXT_PUBLIC_ADSENSE_CLIENT_ID`
 2. Em **Settings → Pages**, configure a fonte como "GitHub Actions".
 3. Configure o DNS de `geek.arstechcompany.com.br` (registro `CNAME` apontando para
-   `<usuario>.github.io`) — o arquivo `CNAME` na raiz do repositório já contém o domínio e é copiado para
-   `public/` pelo workflow antes do build.
+   `<usuario>.github.io`) — `public/CNAME` já contém o domínio e é copiado automaticamente para `out/`
+   pelo export estático do Next.js.
 4. Faça push para `main` — o Actions builda (`next build` com `output: "export"`) e publica `out/` via
    `actions/deploy-pages`.
 

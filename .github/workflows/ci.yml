@@ -41,7 +41,8 @@ jobs:
       - name: Check export output
         run: |
           test -f out/index.html
-          test -f out/artigos.html
+          test -f out/artigos/index.html
           test -f out/sitemap.xml
           test -f out/robots.txt
+          test -f out/CNAME
           echo "Export OK: $(find out -name '*.html' | wc -l) páginas HTML geradas"

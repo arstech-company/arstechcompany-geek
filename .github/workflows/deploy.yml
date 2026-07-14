@@ -34,22 +34,14 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      # Detecta a configuração do GitHub Pages do repositório:
-      #  - com domínio customizado: base_path vazio, base_url = https://geek.arstechcompany.com.br
-      #  - sem domínio (project page): base_path = /<repo>, base_url = https://<user>.github.io/<repo>
-      # Isso garante que CSS/JS/imagens resolvam corretamente nos dois cenários.
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Copy CNAME to public
-        run: cp CNAME public/CNAME
-
       - name: Build
         run: npm run build
         env:
-          NEXT_PUBLIC_SITE_URL: ${{ steps.pages.outputs.base_url }}
-          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          NEXT_PUBLIC_SITE_URL: https://geek.arstechcompany.com.br
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ vars.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
           NEXT_PUBLIC_ADSENSE_CLIENT_ID: ${{ vars.NEXT_PUBLIC_ADSENSE_CLIENT_ID }}
 
