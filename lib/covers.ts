@@ -170,4 +170,11 @@ export const COVERS: Record<string, PostCover> = {
     imageSource: "https://bleach-anime.com/",
     imageLicense: "Material promocional oficial (uso editorial)",
   },
+  "crunchyroll-retira-15-titulos-no-brasil-em-julho-de-2026-veja-a-lista-completa": {
+    coverImage: "/images/articles/animes/crunchyroll-catalogo-brasil.webp",
+    coverImageAlt: "Logotipo laranja da Crunchyroll, representando mudanças no catálogo brasileiro de animes",
+    imageCredit: "Crunchyroll",
+    imageSource: "https://commons.wikimedia.org/wiki/File:Crunchyroll_logo_2024.png",
+    imageLicense: "CC0 1.0",
+  },
 };

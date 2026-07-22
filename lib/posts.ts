@@ -998,6 +998,134 @@ const SEEDS: Seed[] = [
       { label: "Anime Corner — Temas musicais e key visual", url: "https://animecorner.me/bleach-tybw-part-4-final-season-premieres-on-july-25-main-visual-and-theme-songs-by-jo0ji-and-9lana-revealed/" },
     ],
   },
+  {
+    title: "Crunchyroll retira 15 títulos no Brasil em julho de 2026 - veja a lista completa",
+    category: "Animes",
+    date: "2026-07-22",
+    excerpt:
+      "Quatorze animes e um filme live-action deixaram a Crunchyroll no Brasil desde 14 de julho, sem aviso oficial. Confira a lista e o impacto para assinantes.",
+    tags: ["crunchyroll", "streaming", "catalogo", "licenciamento", "anime"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "A Crunchyroll retirou 15 títulos de seu catálogo brasileiro ao longo de julho de 2026, em uma mudança que começou a ser percebida no dia 14. A lista, levantada pela ANMTV e acompanhada por veículos brasileiros especializados, reúne produções que já não podem ser reproduzidas normalmente no país — inclusive obras que tinham dublagem em português.",
+      },
+      {
+        type: "paragraph",
+        text: "Há uma correção importante em relação à forma como a notícia circulou: não são exatamente 15 animes. O pacote é formado por 14 produções animadas e As the Gods Will, filme japonês em live-action. Para quem assina o serviço, a diferença não reduz o impacto: séries salvas na lista ou em andamento deixaram de estar disponíveis sem que a Crunchyroll publicasse um aviso específico sobre essa leva de remoções.",
+      },
+      { type: "heading", text: "Os 15 títulos removidos da Crunchyroll no Brasil" },
+      {
+        type: "paragraph",
+        text: "1. Blood Blockade Battlefront (Kekkai Sensen) — Ação e fantasia urbana do estúdio Bones sobre uma Nova York tomada por criaturas sobrenaturais. As duas temporadas do anime, lançadas em 2015 e 2017, saíram do catálogo; com isso, a dublagem brasileira também deixou de ser acessível pela plataforma.",
+      },
+      {
+        type: "paragraph",
+        text: "2. Black Lagoon — Produção do estúdio Madhouse centrada em mercenários e no submundo do Sudeste Asiático. O anime tem duas temporadas televisivas, além da série de OVAs Roberta's Blood Trail, e é uma das obras de ação adulta mais conhecidas dos anos 2000.",
+      },
+      {
+        type: "paragraph",
+        text: "3. Fate/kaleid liner PRISMA ILLYA — Spin-off de Fate que transforma Illyasviel em uma garota mágica. A animação teve quatro temporadas de TV entre 2013 e 2016, além de especiais e filmes; sua página permanece no site da Crunchyroll, mas informa que os vídeos não estão disponíveis.",
+      },
+      {
+        type: "paragraph",
+        text: "4. Rokka: Braves of the Six Flowers (Rokka no Yuusha) — Fantasia com mistério em uma única temporada de 12 episódios. A obra também tem importância local: foi o primeiro anime dublado em português pela própria Crunchyroll, e essa versão ficou indisponível com a retirada.",
+      },
+      {
+        type: "paragraph",
+        text: "5. Endride — Aventura de fantasia original sobre um jovem levado ao mundo subterrâneo de Endra. A série foi exibida em 2016 e conta com 24 episódios.",
+      },
+      {
+        type: "paragraph",
+        text: "6. Moeyo Ken — Comédia de fantasia histórica que mistura samurais, criaturas sobrenaturais e uma versão alternativa de Kyoto. A série televisiva de 2005 tem 13 episódios.",
+      },
+      {
+        type: "paragraph",
+        text: "7. Sakura Quest — Anime do estúdio P.A. Works sobre cinco mulheres envolvidas na tentativa de revitalizar uma pequena cidade rural. A história de trabalho e cotidiano foi concluída em 25 episódios, exibidos em 2017.",
+      },
+      {
+        type: "paragraph",
+        text: "8. BEM — Releitura de 2019 do clássico Humanoid Monster Bem, acompanhando três humanoides que combatem monstros enquanto procuram se tornar humanos. A temporada tem 12 episódios.",
+      },
+      {
+        type: "paragraph",
+        text: "9. Trickster — Mistério e ficção científica inspirado nos personagens do escritor Edogawa Ranpo, transportados para um cenário futurista. O anime teve 24 episódios entre 2016 e 2017.",
+      },
+      {
+        type: "paragraph",
+        text: "10. The Melancholy of Haruhi-chan Suzumiya & Nyoron! Churuya-san — Duas séries de curtas cômicos derivadas do universo de Haruhi Suzumiya, publicadas originalmente na internet. Ambas foram retiradas como um único item do catálogo.",
+      },
+      {
+        type: "paragraph",
+        text: "11. Regalia: The Three Sacred Stars — Anime original de mecha sobre as irmãs Yui e Rena e máquinas gigantes conhecidas como Regalia. A série de 2016 foi concluída em 13 episódios.",
+      },
+      {
+        type: "paragraph",
+        text: "12. Sasami: Magical Girls Club — Série de garotas mágicas ligada à franquia Tenchi Muyo!, mas ambientada em uma continuidade própria. Suas duas temporadas somam 26 episódios.",
+      },
+      {
+        type: "paragraph",
+        text: "13. Orange — Drama escolar com romance e ficção científica no qual Naho recebe cartas enviadas por seu eu do futuro. O anime de 13 episódios também tinha dublagem em português, agora inacessível na Crunchyroll brasileira.",
+      },
+      {
+        type: "paragraph",
+        text: "14. Barakamon — Comédia slice of life sobre um jovem calígrafo que se muda para as ilhas Goto e amadurece no convívio com a comunidade local. A série tem 12 episódios e é bastante lembrada pelo tom leve e humano.",
+      },
+      {
+        type: "paragraph",
+        text: "15. As the Gods Will — O único título da lista que não é anime. Trata-se do filme live-action de 2014 dirigido por Takashi Miike, no qual estudantes são forçados a participar de jogos mortais inspirados em brincadeiras infantis.",
+      },
+      {
+        type: "highlight",
+        text: "No recorte brasileiro, a contagem exata é de 15 títulos removidos: 14 animes e um filme live-action. A retirada começou a ser identificada em 14 de julho de 2026.",
+      },
+      { type: "heading", text: "Por que animes são removidos dos catálogos?" },
+      {
+        type: "paragraph",
+        text: "Serviços de streaming não mantêm automaticamente os direitos de uma obra para sempre. Os contratos podem expirar, deixar de ser renovados, passar para outro detentor ou conter limitações por país. Acordos de exclusividade também podem deslocar uma produção de uma plataforma para outra. A própria Central de Ajuda da Crunchyroll explica que a disponibilidade varia entre regiões por causa das licenças concedidas em cada território.",
+      },
+      {
+        type: "paragraph",
+        text: "Neste caso, porém, a Crunchyroll não publicou um comunicado explicando o motivo de cada retirada no Brasil. O vencimento ou a reorganização de licenças é uma explicação provável — especialmente porque parte das obras veio do antigo catálogo da Funimation —, mas não pode ser apresentada como causa oficialmente confirmada. Os títulos ainda podem retornar se novos acordos forem fechados.",
+      },
+      {
+        type: "quote",
+        text: "Licenciamento é a explicação mais plausível para a mudança, não uma justificativa oficial da Crunchyroll para estes 15 títulos.",
+        by: "Renato Brito, ARS Geek",
+      },
+      { type: "heading", text: "O impacto para os assinantes brasileiros" },
+      {
+        type: "paragraph",
+        text: "A saída é sentida primeiro por quem estava no meio de uma temporada ou mantinha um dos títulos na lista para assistir depois. Um card pode desaparecer da busca, ficar sem episódios reproduzíveis ou continuar com uma página informativa vazia, o que torna a mudança pouco clara para o usuário.",
+      },
+      {
+        type: "paragraph",
+        text: "No Brasil, a perda de faixas em português pesa especialmente. As dublagens de Blood Blockade Battlefront, Rokka e Orange ficaram sem acesso oficial pela Crunchyroll após as remoções. Mesmo quando uma obra reaparece em outro serviço, ela pode chegar apenas legendada ou com um pacote diferente de idiomas, fragmentando ainda mais a experiência entre várias assinaturas.",
+      },
+      { type: "heading", text: "Onde assistir aos títulos removidos" },
+      {
+        type: "paragraph",
+        text: "Até o fechamento desta matéria, não havia uma nova plataforma legal confirmada para receber no Brasil o conjunto de títulos retirados. A exceção localizada foi Fate/kaleid liner PRISMA ILLYA: o JustWatch indicava uma temporada no Koiplay Amazon Channel, enquanto as demais temporadas continuavam sem uma alternativa confirmada. Para Rokka, o agregador não apontava nenhuma opção de streaming no país.",
+      },
+      {
+        type: "paragraph",
+        text: "Como catálogos mudam e bases de busca podem levar algum tempo para atualizar, vale conferir a disponibilidade diretamente no aplicativo de cada serviço antes de contratar uma assinatura. A ausência atual não significa que as séries tenham desaparecido em definitivo: novos contratos podem recolocá-las na Crunchyroll ou levá-las a outra plataforma. Por enquanto, a recomendação segura é acompanhar os canais oficiais e evitar páginas não autorizadas.",
+      },
+      { type: "heading", text: "Uma mudança de catálogo que merece atenção" },
+      {
+        type: "paragraph",
+        text: "As remoções de julho mostram por que a lista de um streaming não funciona como uma coleção permanente. Para o público brasileiro, a falta de aviso oficial e a perda de versões dubladas tornam o impacto maior do que uma simples troca de prateleira digital. Acompanhar anúncios, revisar a fila de episódios e verificar periodicamente os títulos salvos continua sendo a melhor forma de não ser surpreendido por novas saídas.",
+      },
+    ],
+    sources: [
+      { label: "ANMTV — 15 títulos removidos da Crunchyroll em julho", url: "https://anmtv.com.br/crunchyroll-15-animes-foram-removidos-do-catalogo-da-plataforma-no-mes-de-julho/" },
+      { label: "Brasil Anime Café — Atualizações do catálogo brasileiro em julho de 2026", url: "https://brasilanimecafe.com.br/lancamentos-de-animes-da-crunchyroll-pra-temporada-de-verao-2026/" },
+      { label: "Crunchyroll — Por que não posso assistir a alguns títulos na minha região?", url: "https://help.crunchyroll.com/hc/en-us/articles/43269213267092-Why-can-t-I-watch-certain-shows-in-my-region" },
+      { label: "Crunchyroll — Fate/kaleid liner PRISMA ILLYA", url: "https://www.crunchyroll.com/series/GRDQV79DY/fatekaleid-liner-prisma-illya" },
+      { label: "JustWatch Brasil — Fate/kaleid liner PRISMA ILLYA", url: "https://www.justwatch.com/br/serie/fate-kaleid-liner-purizumairiya" },
+      { label: "JustWatch Brasil — Rokka: Braves of the Six Flowers", url: "https://www.justwatch.com/br/serie/liu-hua-noyong-zhe" },
+    ],
+  },
 ];
 
 /**
@@ -1006,6 +1134,7 @@ const SEEDS: Seed[] = [
  * seguintes preenchem a seção "Recentes".
  */
 const ORDER: string[] = [
+  "Crunchyroll retira 15 títulos no Brasil em julho de 2026 - veja a lista completa",
   "Fatal Fury: City of the Wolves confirma Season 3 para julho — mas o line-up de lutadores ainda é segredo",
   "Bleach se aproxima do fim: a temporada final encerra a jornada de Ichigo Kurosaki",
   "The Odyssey: o épico de US$ 250 milhões de Nolan chega nesta semana, todo em IMAX",
