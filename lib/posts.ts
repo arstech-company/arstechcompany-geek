@@ -1126,6 +1126,164 @@ const SEEDS: Seed[] = [
       { label: "JustWatch Brasil — Rokka: Braves of the Six Flowers", url: "https://www.justwatch.com/br/serie/liu-hua-noyong-zhe" },
     ],
   },
+  {
+    title: "Kevin Feige projeta MCU mais simples após Guerras Secretas, com X-Men no centro",
+    category: "Filmes",
+    date: "2026-07-22",
+    excerpt:
+      "Kevin Feige descreve um MCU de linha única após Vingadores: Guerras Secretas e coloca os X-Men no centro da próxima era da Marvel.",
+    tags: ["kevin-feige", "guerras-secretas", "x-men", "mcu", "marvel-studios"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "O futuro do Universo Cinematográfico Marvel ganhou um contorno mais claro. Em declarações feitas em momentos distintos, Kevin Feige, presidente da Marvel Studios, apontou Vingadores: Guerras Secretas como ponto de virada para uma continuidade mais simples e para uma fase em que os X-Men devem ocupar papel central. Não é o anúncio de que todo o MCU será apagado; é a indicação de uma reorganização planejada depois do grande encontro de realidades que o estúdio vem construindo.",
+      },
+      {
+        type: "paragraph",
+        text: "Para o público brasileiro, a novidade importa menos por prometer uma resposta imediata e mais por explicar a direção da franquia nos próximos anos. Até aqui, não há data brasileira divulgada para Guerras Secretas nem calendário local de filmes posterior ao longa. O que existe são declarações sobre a estratégia criativa, não uma lista fechada de estreias, personagens ou elencos.",
+      },
+      { type: "heading", text: "O que Kevin Feige efetivamente declarou" },
+      {
+        type: "paragraph",
+        text: "Em julho de 2025, em conversa com a imprensa repercutida pela Variety, Feige afirmou que Guerras Secretas serviria para concluir as histórias contadas desde Ultimato e, ao mesmo tempo, preparar o futuro. Na ocasião, ele evitou chamar a mudança de reboot: preferiu falar em um reset e em pensar numa linha do tempo singular. Também confirmou que o novo filme dos X-Men receberá atores diferentes dos intérpretes associados às produções da Fox.",
+      },
+      {
+        type: "paragraph",
+        text: "Mais recentemente, durante o Bilibili World, em Xangai, a fala de Feige foi repercutida no Brasil pela ANMTV. Segundo a tradução publicada pelo veículo, Guerras Secretas deve estabelecer um universo único, simplificado e mais fácil de acompanhar, preservando alguns elementos familiares enquanto introduz muitos outros. A expressão é relevante: ele falou em um próximo universo e em simplificação, não em apagar toda a continuidade anterior.",
+      },
+      {
+        type: "highlight",
+        text: "O termo sustentado pelas declarações é reset, com uma linha do tempo mais simples — não um reboot completo confirmado para cada personagem do MCU.",
+      },
+      { type: "heading", text: "O papel de Vingadores: Guerras Secretas" },
+      {
+        type: "paragraph",
+        text: "A Marvel mantém Guerras Secretas anunciado em seu calendário internacional para 2027, com Joe e Anthony Russo na direção. Esse calendário, porém, não substitui uma confirmação de data de lançamento no Brasil; por isso, a estreia brasileira não é tratada aqui como definida. O filme sucede Vingadores: Doutor Destino na programação dos Vingadores e deve funcionar como a ponte entre a atual fase de histórias multiversais e a etapa seguinte.",
+      },
+      {
+        type: "paragraph",
+        text: "Nos quadrinhos, Secret Wars é o nome de eventos diferentes. A Marvel destaca que a saga de 2015, de Jonathan Hickman, envolve o colapso de universos e a formação de Battleworld. Isso ajuda a entender por que fãs relacionam o filme a uma reorganização de continuidade, mas não confirma Battleworld, adaptações literais, mortes ou qualquer detalhe do roteiro do longa.",
+      },
+      {
+        type: "quote",
+        text: "Guerras Secretas foi apresentado como uma passagem para o futuro do MCU, não como uma autorização para tratar teorias de enredo como anúncio oficial.",
+        by: "Renato Brito, ARS Geek",
+      },
+      { type: "heading", text: "Os X-Men no centro da próxima era" },
+      {
+        type: "paragraph",
+        text: "O ponto mais concreto do novo discurso é a prioridade dos mutantes. Feige descreveu os X-Men como mais do que uma equipe ou um único personagem: para ele, representam um universo capaz de sustentar uma saga de várias etapas. A Variety também informou que o próximo filme da equipe será dirigido por Jake Schreier, de Thunderbolts*, e usará um novo elenco depois de Guerras Secretas.",
+      },
+      {
+        type: "paragraph",
+        text: "Isso separa duas coisas que às vezes se confundem nas redes. Participações de atores da era Fox em histórias multiversais não equivalem à confirmação de que aqueles mesmos intérpretes formarão a equipe permanente da Marvel Studios. Tampouco há elenco, título definitivo, sinopse ou data brasileira anunciados para o filme dos X-Men. A promessa oficial é de uma nova etapa; sua escala ainda depende dos próximos anúncios.",
+      },
+      { type: "heading", text: "Reset, recast e reboot não são a mesma coisa" },
+      {
+        type: "paragraph",
+        text: "Um reboot completo descartaria a continuidade para recomeçar tudo do zero. Um recast troca intérpretes, mas não determina sozinho o que permanece válido na história. Já uma reorganização de continuidade pode reunir elementos de diferentes fases numa mesma linha temporal sem eliminar automaticamente todos os acontecimentos anteriores. Foi essa terceira via — um reset orientado por uma linha única — que Feige associou ao período pós-Guerras Secretas.",
+      },
+      {
+        type: "paragraph",
+        text: "Portanto, dizer que o MCU inteiro será reiniciado ou que personagens específicos já ganharam novos atores vai além do que foi confirmado. Há sinal verde para uma nova formação dos X-Men e para uma continuidade mais acessível; o restante continua no campo da interpretação jornalística e da expectativa dos fãs.",
+      },
+      { type: "heading", text: "O que muda para os fãs no Brasil" },
+      {
+        type: "paragraph",
+        text: "Uma linha de entrada mais clara pode ser especialmente útil para quem acompanha a Marvel pelos cinemas e pelo streaming no Brasil, mas não conseguiu seguir cada ramificação do multiverso. Ainda assim, não há anúncio de estratégia brasileira específica, calendário local pós-Guerras Secretas ou mudança confirmada nas plataformas. A repercussão por aqui é, por enquanto, a de uma franquia preparando terreno para receber os mutantes com identidade própria.",
+      },
+      {
+        type: "paragraph",
+        text: "O que está confirmado é a direção: Guerras Secretas antecede uma fase mais concentrada e os X-Men estão no centro dela. O que ainda não está é justamente o que mais desperta curiosidade — quem estará na equipe, quais histórias chegarão primeiro e quando o público brasileiro verá esses filmes. Até novos comunicados da Marvel Studios, prudência vale mais do que qualquer lista de rumores.",
+      },
+    ],
+    sources: [
+      { label: "Variety — Kevin Feige sobre reset, linha do tempo singular e recast dos X-Men", url: "https://au.variety.com/2025/film/news/marvel-x-men-recasting-secret-wars-25370/" },
+      { label: "ANMTV — Declarações de Feige sobre o futuro do MCU e os X-Men", url: "https://anmtv.com.br/marvel-studios-kevin-feige-fala-sobre-os-x-men-e-futuro-do-mcu/" },
+      { label: "Marvel — Página oficial de Vingadores: Guerras Secretas", url: "https://www.marvel.com/movies/avengers-secret-wars" },
+      { label: "Marvel — Guia oficial para as sagas Secret Wars nos quadrinhos", url: "https://www.marvel.com/articles/comics/secret-wars-official-marvel-guide" },
+    ],
+  },
+  {
+    title: "Trailer final de Homem-Aranha: Um Novo Dia relembra Peter antes da estreia no Brasil",
+    category: "Filmes",
+    date: "2026-07-22",
+    excerpt:
+      "Trailer final dublado de Homem-Aranha: Um Novo Dia retoma a trajetória de Peter Parker filme chega aos cinemas brasileiros em 29 de julho.",
+    tags: ["homem-aranha", "um-novo-dia", "trailer-final", "sony-pictures-brasil", "tom-holland"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "A Sony Pictures Brasil publicou o trailer final dublado de Homem-Aranha: Um Novo Dia em 21 de julho. Batizada de A Jornada de Peter, a prévia troca a lógica de revelar cada vez mais do enredo por uma recapitulação emocional do caminho de Peter Parker até aqui — e chega a poucos dias da estreia brasileira, marcada para 29 de julho, exclusivamente nos cinemas.",
+      },
+      {
+        type: "paragraph",
+        text: "O nome de trailer final não é apenas um rótulo de imprensa: ele aparece no título do vídeo oficial do canal verificado da Sony Pictures Brasil. É a versão adequada para o público local, com dublagem e o título brasileiro confirmado pela própria distribuidora: Homem-Aranha: Um Novo Dia.",
+      },
+      { type: "heading", text: "O que a prévia final mostra" },
+      {
+        type: "paragraph",
+        text: "O vídeo revisita momentos da trilogia de Tom Holland e coloca em primeiro plano as relações de Peter com MJ e Ned. Depois, volta ao presente: o herói atua sozinho em uma Nova York que não se lembra de sua identidade, enquanto seus antigos amigos seguem a vida sem ele. É uma escolha de montagem que reforça a consequência emocional do filme anterior sem transformar a prévia em uma explicação longa para quem já conhece a saga.",
+      },
+      {
+        type: "paragraph",
+        text: "Nas cenas de ação, o trailer mostra o Escorpião e o Hulk. O material não identifica o grande antagonista que a sinopse chama de uma ameaça poderosa que ninguém consegue enxergar; por isso, atribuir uma identidade a essa figura seria especulação. A prévia também não esclarece o papel de Sadie Sink, apesar de a atriz constar na lista oficial de elenco.",
+      },
+      {
+        type: "highlight",
+        text: "O trailer final brasileiro confirma o foco: Peter está sozinho, o Escorpião e o Hulk aparecem em ação, e a ameaça central continua deliberadamente sem nome.",
+      },
+      { type: "heading", text: "Peter Parker em uma fase nova" },
+      {
+        type: "paragraph",
+        text: "A sinopse divulgada junto do vídeo descreve Peter combatendo o crime em tempo integral em um mundo que não se lembra dele. Ela acrescenta que o personagem passa por uma mudança que talvez não consiga controlar e que essa transformação pode ser a única maneira de proteger a cidade e as pessoas que ama. É a base oficial do conflito; qualquer explicação sobre a natureza dessa mudança ainda está sob sigilo.",
+      },
+      {
+        type: "paragraph",
+        text: "Esse ponto conecta Um Novo Dia a Homem-Aranha: Sem Volta para Casa sem precisar repetir seus spoilers. O novo filme parte das consequências pessoais daquele encerramento e devolve Peter a uma posição mais solitária, com a responsabilidade de ser o Homem-Aranha pesando mais do que a vida universitária ou as grandes conexões de equipe.",
+      },
+      { type: "heading", text: "Personagens e ameaças confirmados" },
+      {
+        type: "paragraph",
+        text: "A relação oficial de elenco inclui Tom Holland, Zendaya, Sadie Sink, Jacob Batalon, Jon Bernthal, Tramell Tillman, Michael Mando e Mark Ruffalo. Destin Daniel Cretton dirige o longa. No trailer, Hulk e Escorpião são visíveis; a presença de Mando como Escorpião também foi repercutida por veículos brasileiros. Já o Justiceiro integra o elenco anunciado, mas isso não autoriza a concluir que toda participação ou parceria vista em rumores esteja no filme.",
+      },
+      {
+        type: "paragraph",
+        text: "A ameaça invisível citada na sinopse é o maior mistério da campanha. Ela alimentou teorias sobre quem estaria por trás dos acontecimentos e sobre a personagem de Sadie Sink, mas nenhuma dessas hipóteses recebeu confirmação da Sony Pictures Brasil ou da Marvel Studios. O trailer preserva exatamente esse segredo.",
+      },
+      { type: "heading", text: "Conexões com o MCU e teorias" },
+      {
+        type: "paragraph",
+        text: "Hulk é a conexão explícita com o MCU no material divulgado. O restante precisa ser separado com cuidado: a presença de outros heróis, cenas pós-créditos, identidades ocultas e ligações diretas com futuros Vingadores continuam sendo teorias de fãs enquanto não houver anúncio oficial. O próprio trailer prefere olhar para a história de Peter a abrir o jogo sobre as próximas peças do universo compartilhado.",
+      },
+      {
+        type: "quote",
+        text: "A prévia final vende emoção e contexto, mas guarda a informação que realmente mudaria a experiência no cinema: quem é a ameaça que Peter ainda não consegue ver.",
+        by: "Renato Brito, ARS Geek",
+      },
+      { type: "heading", text: "Estreia, pré-venda e classificação no Brasil" },
+      {
+        type: "paragraph",
+        text: "A data brasileira confirmada pela Sony Pictures Brasil é 29 de julho de 2026, com lançamento exclusivo nos cinemas. A UCI já mantém uma página do filme em sua programação nacional, mas sessões, formatos, preços e disponibilidade de ingressos variam por cidade e rede; por isso, vale consultar o cinema de preferência antes de comprar. Não há anúncio de estreia em streaming no material oficial consultado.",
+      },
+      {
+        type: "paragraph",
+        text: "Também não foi localizada uma classificação indicativa brasileira oficial para o longa nos materiais de divulgação analisados. Há decisões de classificação para trailers, mas elas não substituem a classificação do filme. Quando o selo definitivo for divulgado, ele deve ser conferido diretamente nos canais da distribuidora, das redes exibidoras ou do órgão competente.",
+      },
+      { type: "heading", text: "O que permanece em segredo até 29 de julho" },
+      {
+        type: "paragraph",
+        text: "Com o trailer final, a campanha deixa clara a nova condição de Peter Parker, confirma rostos importantes em torno dele e mostra que a ação vai escalar. Mas a identidade da ameaça, o alcance da mudança de poderes e o papel de Sadie Sink seguem protegidos. Para o público brasileiro, a informação essencial já está definida: a versão dublada está no canal oficial da Sony Pictures Brasil e o filme chega aos cinemas em 29 de julho.",
+      },
+    ],
+    sources: [
+      { label: "Sony Pictures Brasil — Trailer Final (A Jornada de Peter) dublado", url: "https://www.youtube.com/watch?v=bwt2-nyEP0A" },
+      { label: "Sony Pictures Brasil — Site oficial da distribuidora", url: "https://www.sonypictures.com.br/" },
+      { label: "UCI Cinemas — Página brasileira de Homem-Aranha: Um Novo Dia", url: "https://www.ucicinemas.com.br/Home/CinemaHorarios/11013?filme=HOMEM-ARANHA%3A-UM-NOVO-DIA" },
+      { label: "Canaltech — Cobertura brasileira do trailer final", url: "https://canaltech.com.br/entretenimento/trailer-final-de-homem-aranha-um-novo-dia-destaca-jornada-emocionante-do-heroi/" },
+      { label: "Omelete — Cobertura brasileira do trailer final", url: "https://www.omelete.com.br/filmes/homem-aranha-um-novo-dia-trailer-final" },
+    ],
+  },
 ];
 
 /**
@@ -1134,6 +1292,8 @@ const SEEDS: Seed[] = [
  * seguintes preenchem a seção "Recentes".
  */
 const ORDER: string[] = [
+  "Kevin Feige projeta MCU mais simples após Guerras Secretas, com X-Men no centro",
+  "Trailer final de Homem-Aranha: Um Novo Dia relembra Peter antes da estreia no Brasil",
   "Crunchyroll retira 15 títulos no Brasil em julho de 2026 - veja a lista completa",
   "Fatal Fury: City of the Wolves confirma Season 3 para julho — mas o line-up de lutadores ainda é segredo",
   "Bleach se aproxima do fim: a temporada final encerra a jornada de Ichigo Kurosaki",
