@@ -6,6 +6,7 @@ de divulgação** em 14/07/2026 (uso editorial): Silksong (press kit da Team Che
 (rockstargames.com), The Odyssey (odysseymovie.com), Avatar: Fire and Ash (avatar.com),
 Supergirl (supergirlmovie.com), The Batman (thebatman.com), Fatal Fury: City of the Wolves
 (página oficial da Steam) e Bleach: Thousand-Year Blood War (site oficial japonês da franquia).
+O logotipo da Crunchyroll foi obtido no Wikimedia Commons em 22/07/2026, sob licença CC0 1.0.
 Nenhuma imagem é hotlink: todos os arquivos estão versionados em `public/images/articles/`,
 otimizados em WebP (≤ 300 KB).
 
@@ -19,6 +20,8 @@ As licenças **CC BY** e **CC BY-SA** exigem atribuição — ela é exibida na 
 | `filmes/the-odyssey-arte-oficial.webp` | The Odyssey: o épico de US$ 250 milhões de Nolan… | Filmes | Universal Pictures | Material promocional oficial — key art do site do filme (uso editorial) | [odysseymovie.com](https://www.odysseymovie.com/) |
 | `filmes/avatar-fire-ash-poster-oficial.webp` | Avatar: Fire and Ash fecha em US$ 1,49 bilhão… | Filmes | 20th Century Studios / Disney | Material promocional oficial — pôster (uso editorial; recortada a faixa de streaming) | [avatar.com](https://www.avatar.com/movies/avatar-fire-and-ash) |
 | `filmes/duna-parte-dois-deserto.webp` | Como Duna: Parte Dois venceu os Oscars… | Filmes | Thomas Fuhrmann | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Erg_Chebbi_sunset.jpg) |
+| `filmes/kevin-feige-futuro-mcu.webp` | Kevin Feige projeta MCU mais simples após Guerras Secretas… | Filmes | Gage Skidmore | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Kevin_Feige_(48462887397).jpg) |
+| `filmes/homem-aranha-um-novo-dia-trailer-final.webp` | Trailer final de Homem-Aranha: Um Novo Dia… | Filmes | Sony Pictures Brasil / Marvel Studios | Material promocional oficial — miniatura do trailer dublado (uso editorial) | [YouTube](https://www.youtube.com/watch?v=bwt2-nyEP0A) |
 | `star-wars/the-mandalorian-and-grogu-cosplay.webp` | The Mandalorian and Grogu: o que os US$ 340 milhões dizem… | Star Wars | John Manard | CC BY-SA 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Saturday_Cosplay_Contest_Mandalorian_Cosplay_at_GalaxyCon_Richmond_2022_01.jpg) |
 | `star-wars/starfighter-xwing-replica.webp` | Star Wars: Starfighter já está filmado… | Star Wars | ZLEA | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Incom_T-65B_X-wing_replica_(6-17-2025).jpg) |
 | `star-wars/stagecraft-estudio-producao-virtual.webp` | StageCraft: como a tecnologia criada para The Mandalorian… | Star Wars | Tim Sheerman-Chase | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:University_of_Portsmouth_CCIXR_1_Virtual_Production_and_Mixed_Reality_Studio.jpg) |
@@ -36,6 +39,7 @@ As licenças **CC BY** e **CC BY-SA** exigem atribuição — ela é exibida na 
 | `games/silksong-key-art.webp` | Silksong, dez meses depois… | Games | Team Cherry | Press kit oficial (uso editorial) | [hollowknightsilksong.com](https://hollowknightsilksong.com/) |
 | `games/fatal-fury-city-of-the-wolves-rock-howard.webp` | Fatal Fury: City of the Wolves confirma Season 3 para julho… | Games | SNK Corporation | Material promocional oficial — screenshot de gameplay (uso editorial) | [Steam](https://store.steampowered.com/app/2492040/) |
 | `animes/bleach-tybw-the-calamity-key-visual.webp` | Bleach se aproxima do fim: a temporada final encerra a jornada de Ichigo Kurosaki… | Animes | Tite Kubo / Shueisha / TV TOKYO / dentsu / Pierrot | Material promocional oficial — key visual (uso editorial) | [bleach-anime.com](https://bleach-anime.com/) |
+| `animes/crunchyroll-catalogo-brasil.webp` | Crunchyroll retira 15 títulos no Brasil em julho de 2026… | Animes | Crunchyroll | CC0 1.0 | [Commons](https://commons.wikimedia.org/wiki/File:Crunchyroll_logo_2024.png) |
 
 | `tecnologia/nvidia-vera-rubin-jensen-huang.webp` | NVIDIA Vera Rubin: a plataforma de seis chips… | Tecnologia | Maurizio Pesce | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nvidia_CEO_Jensen_Huang_gestikuliert.jpg) |
 | `tecnologia/windows-10-notebook.webp` | Windows 10 ganha sobrevida até 2027… | Tecnologia | Donald Trung Quoc Don | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Windows_10_Surface_Laptop_2_at_the_Media_Markt_Sontplein,_Groningen_(2020).jpg) |
