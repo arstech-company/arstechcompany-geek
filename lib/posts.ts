@@ -674,6 +674,60 @@ const SEEDS: Seed[] = [
       },
     ],
   },
+  {
+  title: "God of War: Laufey coloca Faye no centro da franquia e inaugura uma nova era para a saga",
+  category: "Games",
+  excerpt:
+    "Santa Monica Studio revela oficialmente God of War: Laufey, primeiro título principal da série sem Kratos como protagonista e que promete expandir o universo da franquia pelos olhos de Faye.",
+  tags: ["god-of-war", "laufey", "playstation", "santa-monica-studio"],
+  blocks: [
+    {
+      type: "paragraph",
+      text: "Depois de duas décadas acompanhando a jornada de Kratos, a Santa Monica Studio decidiu dar o passo mais ousado da história da franquia. Anunciado durante um State of Play, God of War: Laufey coloca Faye — ou Laufey, entre os gigantes — como protagonista de uma aventura inédita que se passa após sua morte e antes dos acontecimentos que conhecemos em God of War (2018).",
+    },
+    {
+      type: "paragraph",
+      text: "A proposta muda completamente a perspectiva da série. Em vez de acompanhar o Fantasma de Esparta, os jogadores assumem o controle da guerreira responsável por iniciar toda a jornada de Kratos e Atreus. A história leva Faye ao Everywhen, um misterioso pós-vida dos deuses, onde ela precisa impedir que seus planos para proteger a família sejam destruídos.",
+    },
+    {
+      type: "heading",
+      text: "Muito mais do que uma troca de protagonista",
+    },
+    {
+      type: "paragraph",
+      text: "Desde God of War (2018), Faye sempre foi uma das personagens mais importantes da narrativa, mesmo sem aparecer viva em nenhum momento. As profecias deixadas por ela conduziram praticamente toda a saga nórdica, transformando-a em uma figura central para o destino dos Nove Reinos.",
+    },
+    {
+      type: "paragraph",
+      text: "Ao colocá-la como protagonista, a Santa Monica Studio não apenas responde perguntas que os fãs carregam há anos, mas também mostra que God of War pode continuar evoluindo sem depender exclusivamente de Kratos. É uma decisão que amplia significativamente as possibilidades narrativas da franquia.",
+    },
+    {
+      type: "quote",
+      text: "A maior mudança de God of War não é trocar Kratos por Faye. É mostrar que a franquia amadureceu o suficiente para contar novas histórias sem abandonar sua identidade.",
+      by: "Arthur Mendes, ARS Geek",
+    },
+    {
+      type: "heading",
+      text: "Combate familiar, mas com uma identidade própria",
+    },
+    {
+      type: "paragraph",
+      text: "Segundo a Santa Monica Studio, o combate de Laufey combina a fluidez da era grega com a construção de mundo introduzida na saga nórdica. Como a lendária 'Mão Dourada dos Jötnar', Faye utiliza habilidades ligadas à manipulação de almas, permitindo criar combinações inéditas durante as batalhas e explorar um estilo de jogo mais ágil do que o visto nos títulos anteriores.",
+    },
+    {
+      type: "paragraph",
+      text: "Além do novo sistema de combate, o Everywhen surge como um dos cenários mais ambiciosos já apresentados pela franquia. O reino reúne divindades de diferentes mitologias em uma região marcada por magia antiga e disputas por poder, ampliando o escopo do universo de God of War.",
+    },
+    {
+      type: "highlight",
+      text: "God of War: Laufey já pode ser adicionado à lista de desejos na PlayStation Store. O jogo foi confirmado para PlayStation 5, mas ainda não possui uma data oficial de lançamento.",
+    },
+    {
+      type: "paragraph",
+      text: "Mais do que apresentar uma nova protagonista, God of War: Laufey representa um possível novo capítulo para a série. Se a aposta da Santa Monica Studio funcionar, a franquia deixa de ser apenas a história de Kratos para se tornar um universo capaz de explorar diferentes personagens, épocas e mitologias, mantendo viva uma das marcas mais importantes da história do PlayStation.",
+    },
+  ],
+},
   // ── TECNOLOGIA ──────────────────────────────────────────────────────
   {
     title: "NVIDIA Vera Rubin: a plataforma de seis chips que redefine a régua da IA em 2026",
