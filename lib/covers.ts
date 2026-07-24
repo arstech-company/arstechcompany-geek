@@ -170,4 +170,25 @@ export const COVERS: Record<string, PostCover> = {
     imageSource: "https://bleach-anime.com/",
     imageLicense: "Material promocional oficial (uso editorial)",
   },
+  "crunchyroll-retira-15-titulos-no-brasil-em-julho-de-2026-veja-a-lista-completa": {
+    coverImage: "/images/articles/animes/crunchyroll-catalogo-brasil.webp",
+    coverImageAlt: "Logotipo laranja da Crunchyroll, representando mudanças no catálogo brasileiro de animes",
+    imageCredit: "Crunchyroll",
+    imageSource: "https://commons.wikimedia.org/wiki/File:Crunchyroll_logo_2024.png",
+    imageLicense: "CC0 1.0",
+  },
+  "kevin-feige-projeta-mcu-mais-simples-apos-guerras-secretas-com-x-men-no-centro": {
+    coverImage: "/images/articles/filmes/kevin-feige-futuro-mcu.webp",
+    coverImageAlt: "Kevin Feige fala ao microfone durante painel da San Diego Comic-Con, usando boné dos Vingadores",
+    imageCredit: "Gage Skidmore",
+    imageSource: "https://commons.wikimedia.org/wiki/File:Kevin_Feige_(48462887397).jpg",
+    imageLicense: "CC BY-SA 2.0",
+  },
+  "trailer-final-de-homem-aranha-um-novo-dia-relembra-peter-antes-da-estreia-no-brasil": {
+    coverImage: "/images/articles/filmes/homem-aranha-um-novo-dia-trailer-final.webp",
+    coverImageAlt: "MJ é carregada pelo Homem-Aranha entre prédios de Nova York na arte oficial do trailer final dublado",
+    imageCredit: "Sony Pictures Brasil / Marvel Studios",
+    imageSource: "https://www.youtube.com/watch?v=bwt2-nyEP0A",
+    imageLicense: "Material promocional oficial (uso editorial)",
+  },
 };

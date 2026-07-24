@@ -1052,6 +1052,292 @@ const SEEDS: Seed[] = [
       { label: "Anime Corner — Temas musicais e key visual", url: "https://animecorner.me/bleach-tybw-part-4-final-season-premieres-on-july-25-main-visual-and-theme-songs-by-jo0ji-and-9lana-revealed/" },
     ],
   },
+  {
+    title: "Crunchyroll retira 15 títulos no Brasil em julho de 2026 - veja a lista completa",
+    category: "Animes",
+    date: "2026-07-22",
+    excerpt:
+      "Quatorze animes e um filme live-action deixaram a Crunchyroll no Brasil desde 14 de julho, sem aviso oficial. Confira a lista e o impacto para assinantes.",
+    tags: ["crunchyroll", "streaming", "catalogo", "licenciamento", "anime"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "A Crunchyroll retirou 15 títulos de seu catálogo brasileiro ao longo de julho de 2026, em uma mudança que começou a ser percebida no dia 14. A lista, levantada pela ANMTV e acompanhada por veículos brasileiros especializados, reúne produções que já não podem ser reproduzidas normalmente no país — inclusive obras que tinham dublagem em português.",
+      },
+      {
+        type: "paragraph",
+        text: "Há uma correção importante em relação à forma como a notícia circulou: não são exatamente 15 animes. O pacote é formado por 14 produções animadas e As the Gods Will, filme japonês em live-action. Para quem assina o serviço, a diferença não reduz o impacto: séries salvas na lista ou em andamento deixaram de estar disponíveis sem que a Crunchyroll publicasse um aviso específico sobre essa leva de remoções.",
+      },
+      { type: "heading", text: "Os 15 títulos removidos da Crunchyroll no Brasil" },
+      {
+        type: "paragraph",
+        text: "1. Blood Blockade Battlefront (Kekkai Sensen) — Ação e fantasia urbana do estúdio Bones sobre uma Nova York tomada por criaturas sobrenaturais. As duas temporadas do anime, lançadas em 2015 e 2017, saíram do catálogo; com isso, a dublagem brasileira também deixou de ser acessível pela plataforma.",
+      },
+      {
+        type: "paragraph",
+        text: "2. Black Lagoon — Produção do estúdio Madhouse centrada em mercenários e no submundo do Sudeste Asiático. O anime tem duas temporadas televisivas, além da série de OVAs Roberta's Blood Trail, e é uma das obras de ação adulta mais conhecidas dos anos 2000.",
+      },
+      {
+        type: "paragraph",
+        text: "3. Fate/kaleid liner PRISMA ILLYA — Spin-off de Fate que transforma Illyasviel em uma garota mágica. A animação teve quatro temporadas de TV entre 2013 e 2016, além de especiais e filmes; sua página permanece no site da Crunchyroll, mas informa que os vídeos não estão disponíveis.",
+      },
+      {
+        type: "paragraph",
+        text: "4. Rokka: Braves of the Six Flowers (Rokka no Yuusha) — Fantasia com mistério em uma única temporada de 12 episódios. A obra também tem importância local: foi o primeiro anime dublado em português pela própria Crunchyroll, e essa versão ficou indisponível com a retirada.",
+      },
+      {
+        type: "paragraph",
+        text: "5. Endride — Aventura de fantasia original sobre um jovem levado ao mundo subterrâneo de Endra. A série foi exibida em 2016 e conta com 24 episódios.",
+      },
+      {
+        type: "paragraph",
+        text: "6. Moeyo Ken — Comédia de fantasia histórica que mistura samurais, criaturas sobrenaturais e uma versão alternativa de Kyoto. A série televisiva de 2005 tem 13 episódios.",
+      },
+      {
+        type: "paragraph",
+        text: "7. Sakura Quest — Anime do estúdio P.A. Works sobre cinco mulheres envolvidas na tentativa de revitalizar uma pequena cidade rural. A história de trabalho e cotidiano foi concluída em 25 episódios, exibidos em 2017.",
+      },
+      {
+        type: "paragraph",
+        text: "8. BEM — Releitura de 2019 do clássico Humanoid Monster Bem, acompanhando três humanoides que combatem monstros enquanto procuram se tornar humanos. A temporada tem 12 episódios.",
+      },
+      {
+        type: "paragraph",
+        text: "9. Trickster — Mistério e ficção científica inspirado nos personagens do escritor Edogawa Ranpo, transportados para um cenário futurista. O anime teve 24 episódios entre 2016 e 2017.",
+      },
+      {
+        type: "paragraph",
+        text: "10. The Melancholy of Haruhi-chan Suzumiya & Nyoron! Churuya-san — Duas séries de curtas cômicos derivadas do universo de Haruhi Suzumiya, publicadas originalmente na internet. Ambas foram retiradas como um único item do catálogo.",
+      },
+      {
+        type: "paragraph",
+        text: "11. Regalia: The Three Sacred Stars — Anime original de mecha sobre as irmãs Yui e Rena e máquinas gigantes conhecidas como Regalia. A série de 2016 foi concluída em 13 episódios.",
+      },
+      {
+        type: "paragraph",
+        text: "12. Sasami: Magical Girls Club — Série de garotas mágicas ligada à franquia Tenchi Muyo!, mas ambientada em uma continuidade própria. Suas duas temporadas somam 26 episódios.",
+      },
+      {
+        type: "paragraph",
+        text: "13. Orange — Drama escolar com romance e ficção científica no qual Naho recebe cartas enviadas por seu eu do futuro. O anime de 13 episódios também tinha dublagem em português, agora inacessível na Crunchyroll brasileira.",
+      },
+      {
+        type: "paragraph",
+        text: "14. Barakamon — Comédia slice of life sobre um jovem calígrafo que se muda para as ilhas Goto e amadurece no convívio com a comunidade local. A série tem 12 episódios e é bastante lembrada pelo tom leve e humano.",
+      },
+      {
+        type: "paragraph",
+        text: "15. As the Gods Will — O único título da lista que não é anime. Trata-se do filme live-action de 2014 dirigido por Takashi Miike, no qual estudantes são forçados a participar de jogos mortais inspirados em brincadeiras infantis.",
+      },
+      {
+        type: "highlight",
+        text: "No recorte brasileiro, a contagem exata é de 15 títulos removidos: 14 animes e um filme live-action. A retirada começou a ser identificada em 14 de julho de 2026.",
+      },
+      { type: "heading", text: "Por que animes são removidos dos catálogos?" },
+      {
+        type: "paragraph",
+        text: "Serviços de streaming não mantêm automaticamente os direitos de uma obra para sempre. Os contratos podem expirar, deixar de ser renovados, passar para outro detentor ou conter limitações por país. Acordos de exclusividade também podem deslocar uma produção de uma plataforma para outra. A própria Central de Ajuda da Crunchyroll explica que a disponibilidade varia entre regiões por causa das licenças concedidas em cada território.",
+      },
+      {
+        type: "paragraph",
+        text: "Neste caso, porém, a Crunchyroll não publicou um comunicado explicando o motivo de cada retirada no Brasil. O vencimento ou a reorganização de licenças é uma explicação provável — especialmente porque parte das obras veio do antigo catálogo da Funimation —, mas não pode ser apresentada como causa oficialmente confirmada. Os títulos ainda podem retornar se novos acordos forem fechados.",
+      },
+      {
+        type: "quote",
+        text: "Licenciamento é a explicação mais plausível para a mudança, não uma justificativa oficial da Crunchyroll para estes 15 títulos.",
+        by: "Renato Brito, ARS Geek",
+      },
+      { type: "heading", text: "O impacto para os assinantes brasileiros" },
+      {
+        type: "paragraph",
+        text: "A saída é sentida primeiro por quem estava no meio de uma temporada ou mantinha um dos títulos na lista para assistir depois. Um card pode desaparecer da busca, ficar sem episódios reproduzíveis ou continuar com uma página informativa vazia, o que torna a mudança pouco clara para o usuário.",
+      },
+      {
+        type: "paragraph",
+        text: "No Brasil, a perda de faixas em português pesa especialmente. As dublagens de Blood Blockade Battlefront, Rokka e Orange ficaram sem acesso oficial pela Crunchyroll após as remoções. Mesmo quando uma obra reaparece em outro serviço, ela pode chegar apenas legendada ou com um pacote diferente de idiomas, fragmentando ainda mais a experiência entre várias assinaturas.",
+      },
+      { type: "heading", text: "Onde assistir aos títulos removidos" },
+      {
+        type: "paragraph",
+        text: "Até o fechamento desta matéria, não havia uma nova plataforma legal confirmada para receber no Brasil o conjunto de títulos retirados. A exceção localizada foi Fate/kaleid liner PRISMA ILLYA: o JustWatch indicava uma temporada no Koiplay Amazon Channel, enquanto as demais temporadas continuavam sem uma alternativa confirmada. Para Rokka, o agregador não apontava nenhuma opção de streaming no país.",
+      },
+      {
+        type: "paragraph",
+        text: "Como catálogos mudam e bases de busca podem levar algum tempo para atualizar, vale conferir a disponibilidade diretamente no aplicativo de cada serviço antes de contratar uma assinatura. A ausência atual não significa que as séries tenham desaparecido em definitivo: novos contratos podem recolocá-las na Crunchyroll ou levá-las a outra plataforma. Por enquanto, a recomendação segura é acompanhar os canais oficiais e evitar páginas não autorizadas.",
+      },
+      { type: "heading", text: "Uma mudança de catálogo que merece atenção" },
+      {
+        type: "paragraph",
+        text: "As remoções de julho mostram por que a lista de um streaming não funciona como uma coleção permanente. Para o público brasileiro, a falta de aviso oficial e a perda de versões dubladas tornam o impacto maior do que uma simples troca de prateleira digital. Acompanhar anúncios, revisar a fila de episódios e verificar periodicamente os títulos salvos continua sendo a melhor forma de não ser surpreendido por novas saídas.",
+      },
+    ],
+    sources: [
+      { label: "ANMTV — 15 títulos removidos da Crunchyroll em julho", url: "https://anmtv.com.br/crunchyroll-15-animes-foram-removidos-do-catalogo-da-plataforma-no-mes-de-julho/" },
+      { label: "Brasil Anime Café — Atualizações do catálogo brasileiro em julho de 2026", url: "https://brasilanimecafe.com.br/lancamentos-de-animes-da-crunchyroll-pra-temporada-de-verao-2026/" },
+      { label: "Crunchyroll — Por que não posso assistir a alguns títulos na minha região?", url: "https://help.crunchyroll.com/hc/en-us/articles/43269213267092-Why-can-t-I-watch-certain-shows-in-my-region" },
+      { label: "Crunchyroll — Fate/kaleid liner PRISMA ILLYA", url: "https://www.crunchyroll.com/series/GRDQV79DY/fatekaleid-liner-prisma-illya" },
+      { label: "JustWatch Brasil — Fate/kaleid liner PRISMA ILLYA", url: "https://www.justwatch.com/br/serie/fate-kaleid-liner-purizumairiya" },
+      { label: "JustWatch Brasil — Rokka: Braves of the Six Flowers", url: "https://www.justwatch.com/br/serie/liu-hua-noyong-zhe" },
+    ],
+  },
+  {
+    title: "Kevin Feige projeta MCU mais simples após Guerras Secretas, com X-Men no centro",
+    category: "Filmes",
+    date: "2026-07-22",
+    excerpt:
+      "Kevin Feige descreve um MCU de linha única após Vingadores: Guerras Secretas e coloca os X-Men no centro da próxima era da Marvel.",
+    tags: ["kevin-feige", "guerras-secretas", "x-men", "mcu", "marvel-studios"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "O futuro do Universo Cinematográfico Marvel ganhou um contorno mais claro. Em declarações feitas em momentos distintos, Kevin Feige, presidente da Marvel Studios, apontou Vingadores: Guerras Secretas como ponto de virada para uma continuidade mais simples e para uma fase em que os X-Men devem ocupar papel central. Não é o anúncio de que todo o MCU será apagado; é a indicação de uma reorganização planejada depois do grande encontro de realidades que o estúdio vem construindo.",
+      },
+      {
+        type: "paragraph",
+        text: "Para o público brasileiro, a novidade importa menos por prometer uma resposta imediata e mais por explicar a direção da franquia nos próximos anos. Até aqui, não há data brasileira divulgada para Guerras Secretas nem calendário local de filmes posterior ao longa. O que existe são declarações sobre a estratégia criativa, não uma lista fechada de estreias, personagens ou elencos.",
+      },
+      { type: "heading", text: "O que Kevin Feige efetivamente declarou" },
+      {
+        type: "paragraph",
+        text: "Em julho de 2025, em conversa com a imprensa repercutida pela Variety, Feige afirmou que Guerras Secretas serviria para concluir as histórias contadas desde Ultimato e, ao mesmo tempo, preparar o futuro. Na ocasião, ele evitou chamar a mudança de reboot: preferiu falar em um reset e em pensar numa linha do tempo singular. Também confirmou que o novo filme dos X-Men receberá atores diferentes dos intérpretes associados às produções da Fox.",
+      },
+      {
+        type: "paragraph",
+        text: "Mais recentemente, durante o Bilibili World, em Xangai, a fala de Feige foi repercutida no Brasil pela ANMTV. Segundo a tradução publicada pelo veículo, Guerras Secretas deve estabelecer um universo único, simplificado e mais fácil de acompanhar, preservando alguns elementos familiares enquanto introduz muitos outros. A expressão é relevante: ele falou em um próximo universo e em simplificação, não em apagar toda a continuidade anterior.",
+      },
+      {
+        type: "highlight",
+        text: "O termo sustentado pelas declarações é reset, com uma linha do tempo mais simples — não um reboot completo confirmado para cada personagem do MCU.",
+      },
+      { type: "heading", text: "O papel de Vingadores: Guerras Secretas" },
+      {
+        type: "paragraph",
+        text: "A Marvel mantém Guerras Secretas anunciado em seu calendário internacional para 2027, com Joe e Anthony Russo na direção. Esse calendário, porém, não substitui uma confirmação de data de lançamento no Brasil; por isso, a estreia brasileira não é tratada aqui como definida. O filme sucede Vingadores: Doutor Destino na programação dos Vingadores e deve funcionar como a ponte entre a atual fase de histórias multiversais e a etapa seguinte.",
+      },
+      {
+        type: "paragraph",
+        text: "Nos quadrinhos, Secret Wars é o nome de eventos diferentes. A Marvel destaca que a saga de 2015, de Jonathan Hickman, envolve o colapso de universos e a formação de Battleworld. Isso ajuda a entender por que fãs relacionam o filme a uma reorganização de continuidade, mas não confirma Battleworld, adaptações literais, mortes ou qualquer detalhe do roteiro do longa.",
+      },
+      {
+        type: "quote",
+        text: "Guerras Secretas foi apresentado como uma passagem para o futuro do MCU, não como uma autorização para tratar teorias de enredo como anúncio oficial.",
+        by: "Renato Brito, ARS Geek",
+      },
+      { type: "heading", text: "Os X-Men no centro da próxima era" },
+      {
+        type: "paragraph",
+        text: "O ponto mais concreto do novo discurso é a prioridade dos mutantes. Feige descreveu os X-Men como mais do que uma equipe ou um único personagem: para ele, representam um universo capaz de sustentar uma saga de várias etapas. A Variety também informou que o próximo filme da equipe será dirigido por Jake Schreier, de Thunderbolts*, e usará um novo elenco depois de Guerras Secretas.",
+      },
+      {
+        type: "paragraph",
+        text: "Isso separa duas coisas que às vezes se confundem nas redes. Participações de atores da era Fox em histórias multiversais não equivalem à confirmação de que aqueles mesmos intérpretes formarão a equipe permanente da Marvel Studios. Tampouco há elenco, título definitivo, sinopse ou data brasileira anunciados para o filme dos X-Men. A promessa oficial é de uma nova etapa; sua escala ainda depende dos próximos anúncios.",
+      },
+      { type: "heading", text: "Reset, recast e reboot não são a mesma coisa" },
+      {
+        type: "paragraph",
+        text: "Um reboot completo descartaria a continuidade para recomeçar tudo do zero. Um recast troca intérpretes, mas não determina sozinho o que permanece válido na história. Já uma reorganização de continuidade pode reunir elementos de diferentes fases numa mesma linha temporal sem eliminar automaticamente todos os acontecimentos anteriores. Foi essa terceira via — um reset orientado por uma linha única — que Feige associou ao período pós-Guerras Secretas.",
+      },
+      {
+        type: "paragraph",
+        text: "Portanto, dizer que o MCU inteiro será reiniciado ou que personagens específicos já ganharam novos atores vai além do que foi confirmado. Há sinal verde para uma nova formação dos X-Men e para uma continuidade mais acessível; o restante continua no campo da interpretação jornalística e da expectativa dos fãs.",
+      },
+      { type: "heading", text: "O que muda para os fãs no Brasil" },
+      {
+        type: "paragraph",
+        text: "Uma linha de entrada mais clara pode ser especialmente útil para quem acompanha a Marvel pelos cinemas e pelo streaming no Brasil, mas não conseguiu seguir cada ramificação do multiverso. Ainda assim, não há anúncio de estratégia brasileira específica, calendário local pós-Guerras Secretas ou mudança confirmada nas plataformas. A repercussão por aqui é, por enquanto, a de uma franquia preparando terreno para receber os mutantes com identidade própria.",
+      },
+      {
+        type: "paragraph",
+        text: "O que está confirmado é a direção: Guerras Secretas antecede uma fase mais concentrada e os X-Men estão no centro dela. O que ainda não está é justamente o que mais desperta curiosidade — quem estará na equipe, quais histórias chegarão primeiro e quando o público brasileiro verá esses filmes. Até novos comunicados da Marvel Studios, prudência vale mais do que qualquer lista de rumores.",
+      },
+    ],
+    sources: [
+      { label: "Variety — Kevin Feige sobre reset, linha do tempo singular e recast dos X-Men", url: "https://au.variety.com/2025/film/news/marvel-x-men-recasting-secret-wars-25370/" },
+      { label: "ANMTV — Declarações de Feige sobre o futuro do MCU e os X-Men", url: "https://anmtv.com.br/marvel-studios-kevin-feige-fala-sobre-os-x-men-e-futuro-do-mcu/" },
+      { label: "Marvel — Página oficial de Vingadores: Guerras Secretas", url: "https://www.marvel.com/movies/avengers-secret-wars" },
+      { label: "Marvel — Guia oficial para as sagas Secret Wars nos quadrinhos", url: "https://www.marvel.com/articles/comics/secret-wars-official-marvel-guide" },
+    ],
+  },
+  {
+    title: "Trailer final de Homem-Aranha: Um Novo Dia relembra Peter antes da estreia no Brasil",
+    category: "Filmes",
+    date: "2026-07-22",
+    excerpt:
+      "Trailer final dublado de Homem-Aranha: Um Novo Dia retoma a trajetória de Peter Parker filme chega aos cinemas brasileiros em 29 de julho.",
+    tags: ["homem-aranha", "um-novo-dia", "trailer-final", "sony-pictures-brasil", "tom-holland"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "A Sony Pictures Brasil publicou o trailer final dublado de Homem-Aranha: Um Novo Dia em 21 de julho. Batizada de A Jornada de Peter, a prévia troca a lógica de revelar cada vez mais do enredo por uma recapitulação emocional do caminho de Peter Parker até aqui — e chega a poucos dias da estreia brasileira, marcada para 29 de julho, exclusivamente nos cinemas.",
+      },
+      {
+        type: "paragraph",
+        text: "O nome de trailer final não é apenas um rótulo de imprensa: ele aparece no título do vídeo oficial do canal verificado da Sony Pictures Brasil. É a versão adequada para o público local, com dublagem e o título brasileiro confirmado pela própria distribuidora: Homem-Aranha: Um Novo Dia.",
+      },
+      { type: "heading", text: "O que a prévia final mostra" },
+      {
+        type: "paragraph",
+        text: "O vídeo revisita momentos da trilogia de Tom Holland e coloca em primeiro plano as relações de Peter com MJ e Ned. Depois, volta ao presente: o herói atua sozinho em uma Nova York que não se lembra de sua identidade, enquanto seus antigos amigos seguem a vida sem ele. É uma escolha de montagem que reforça a consequência emocional do filme anterior sem transformar a prévia em uma explicação longa para quem já conhece a saga.",
+      },
+      {
+        type: "paragraph",
+        text: "Nas cenas de ação, o trailer mostra o Escorpião e o Hulk. O material não identifica o grande antagonista que a sinopse chama de uma ameaça poderosa que ninguém consegue enxergar; por isso, atribuir uma identidade a essa figura seria especulação. A prévia também não esclarece o papel de Sadie Sink, apesar de a atriz constar na lista oficial de elenco.",
+      },
+      {
+        type: "highlight",
+        text: "O trailer final brasileiro confirma o foco: Peter está sozinho, o Escorpião e o Hulk aparecem em ação, e a ameaça central continua deliberadamente sem nome.",
+      },
+      { type: "heading", text: "Peter Parker em uma fase nova" },
+      {
+        type: "paragraph",
+        text: "A sinopse divulgada junto do vídeo descreve Peter combatendo o crime em tempo integral em um mundo que não se lembra dele. Ela acrescenta que o personagem passa por uma mudança que talvez não consiga controlar e que essa transformação pode ser a única maneira de proteger a cidade e as pessoas que ama. É a base oficial do conflito; qualquer explicação sobre a natureza dessa mudança ainda está sob sigilo.",
+      },
+      {
+        type: "paragraph",
+        text: "Esse ponto conecta Um Novo Dia a Homem-Aranha: Sem Volta para Casa sem precisar repetir seus spoilers. O novo filme parte das consequências pessoais daquele encerramento e devolve Peter a uma posição mais solitária, com a responsabilidade de ser o Homem-Aranha pesando mais do que a vida universitária ou as grandes conexões de equipe.",
+      },
+      { type: "heading", text: "Personagens e ameaças confirmados" },
+      {
+        type: "paragraph",
+        text: "A relação oficial de elenco inclui Tom Holland, Zendaya, Sadie Sink, Jacob Batalon, Jon Bernthal, Tramell Tillman, Michael Mando e Mark Ruffalo. Destin Daniel Cretton dirige o longa. No trailer, Hulk e Escorpião são visíveis; a presença de Mando como Escorpião também foi repercutida por veículos brasileiros. Já o Justiceiro integra o elenco anunciado, mas isso não autoriza a concluir que toda participação ou parceria vista em rumores esteja no filme.",
+      },
+      {
+        type: "paragraph",
+        text: "A ameaça invisível citada na sinopse é o maior mistério da campanha. Ela alimentou teorias sobre quem estaria por trás dos acontecimentos e sobre a personagem de Sadie Sink, mas nenhuma dessas hipóteses recebeu confirmação da Sony Pictures Brasil ou da Marvel Studios. O trailer preserva exatamente esse segredo.",
+      },
+      { type: "heading", text: "Conexões com o MCU e teorias" },
+      {
+        type: "paragraph",
+        text: "Hulk é a conexão explícita com o MCU no material divulgado. O restante precisa ser separado com cuidado: a presença de outros heróis, cenas pós-créditos, identidades ocultas e ligações diretas com futuros Vingadores continuam sendo teorias de fãs enquanto não houver anúncio oficial. O próprio trailer prefere olhar para a história de Peter a abrir o jogo sobre as próximas peças do universo compartilhado.",
+      },
+      {
+        type: "quote",
+        text: "A prévia final vende emoção e contexto, mas guarda a informação que realmente mudaria a experiência no cinema: quem é a ameaça que Peter ainda não consegue ver.",
+        by: "Renato Brito, ARS Geek",
+      },
+      { type: "heading", text: "Estreia, pré-venda e classificação no Brasil" },
+      {
+        type: "paragraph",
+        text: "A data brasileira confirmada pela Sony Pictures Brasil é 29 de julho de 2026, com lançamento exclusivo nos cinemas. A UCI já mantém uma página do filme em sua programação nacional, mas sessões, formatos, preços e disponibilidade de ingressos variam por cidade e rede; por isso, vale consultar o cinema de preferência antes de comprar. Não há anúncio de estreia em streaming no material oficial consultado.",
+      },
+      {
+        type: "paragraph",
+        text: "Também não foi localizada uma classificação indicativa brasileira oficial para o longa nos materiais de divulgação analisados. Há decisões de classificação para trailers, mas elas não substituem a classificação do filme. Quando o selo definitivo for divulgado, ele deve ser conferido diretamente nos canais da distribuidora, das redes exibidoras ou do órgão competente.",
+      },
+      { type: "heading", text: "O que permanece em segredo até 29 de julho" },
+      {
+        type: "paragraph",
+        text: "Com o trailer final, a campanha deixa clara a nova condição de Peter Parker, confirma rostos importantes em torno dele e mostra que a ação vai escalar. Mas a identidade da ameaça, o alcance da mudança de poderes e o papel de Sadie Sink seguem protegidos. Para o público brasileiro, a informação essencial já está definida: a versão dublada está no canal oficial da Sony Pictures Brasil e o filme chega aos cinemas em 29 de julho.",
+      },
+    ],
+    sources: [
+      { label: "Sony Pictures Brasil — Trailer Final (A Jornada de Peter) dublado", url: "https://www.youtube.com/watch?v=bwt2-nyEP0A" },
+      { label: "Sony Pictures Brasil — Site oficial da distribuidora", url: "https://www.sonypictures.com.br/" },
+      { label: "UCI Cinemas — Página brasileira de Homem-Aranha: Um Novo Dia", url: "https://www.ucicinemas.com.br/Home/CinemaHorarios/11013?filme=HOMEM-ARANHA%3A-UM-NOVO-DIA" },
+      { label: "Canaltech — Cobertura brasileira do trailer final", url: "https://canaltech.com.br/entretenimento/trailer-final-de-homem-aranha-um-novo-dia-destaca-jornada-emocionante-do-heroi/" },
+      { label: "Omelete — Cobertura brasileira do trailer final", url: "https://www.omelete.com.br/filmes/homem-aranha-um-novo-dia-trailer-final" },
+    ],
+  },
 ];
 
 /**
@@ -1060,6 +1346,9 @@ const SEEDS: Seed[] = [
  * seguintes preenchem a seção "Recentes".
  */
 const ORDER: string[] = [
+  "Kevin Feige projeta MCU mais simples após Guerras Secretas, com X-Men no centro",
+  "Trailer final de Homem-Aranha: Um Novo Dia relembra Peter antes da estreia no Brasil",
+  "Crunchyroll retira 15 títulos no Brasil em julho de 2026 - veja a lista completa",
   "Fatal Fury: City of the Wolves confirma Season 3 para julho — mas o line-up de lutadores ainda é segredo",
   "Bleach se aproxima do fim: a temporada final encerra a jornada de Ichigo Kurosaki",
   "The Odyssey: o épico de US$ 250 milhões de Nolan chega nesta semana, todo em IMAX",
