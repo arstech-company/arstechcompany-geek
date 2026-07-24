@@ -1,11 +1,12 @@
 # Créditos de Imagens
 
 As imagens de artigos foram baixadas do **Wikimedia Commons** (licenças CC0, domínio público, CC BY
-ou CC BY-SA) em 13–14/07/2026 (imagens da categoria Tecnologia acessadas em 14/07/2026), com oito exceções obtidas de **materiais oficiais
+ou CC BY-SA) em 13–14/07/2026 (imagens da categoria Tecnologia acessadas em 14/07/2026), com nove exceções obtidas de **materiais oficiais
 de divulgação** em 14/07/2026 (uso editorial): Silksong (press kit da Team Cherry), GTA VI
 (rockstargames.com), The Odyssey (odysseymovie.com), Avatar: Fire and Ash (avatar.com),
 Supergirl (supergirlmovie.com), The Batman (thebatman.com), Fatal Fury: City of the Wolves
-(página oficial da Steam) e Bleach: Thousand-Year Blood War (site oficial japonês da franquia).
+(página oficial da Steam), Bleach: Thousand-Year Blood War (site oficial japonês da franquia)
+e God of War Laufey (vídeo oficial da PlayStation no YouTube).
 O logotipo da Crunchyroll foi obtido no Wikimedia Commons em 22/07/2026, sob licença CC0 1.0.
 Nenhuma imagem é hotlink: todos os arquivos estão versionados em `public/images/articles/`,
 otimizados em WebP (≤ 300 KB).
@@ -38,6 +39,7 @@ As licenças **CC BY** e **CC BY-SA** exigem atribuição — ela é exibida na 
 | `games/nintendo-switch-2-console.webp` | Switch 2, um ano depois… | Games | Crisco 1492 | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_in_Docking_Console.jpg) |
 | `games/silksong-key-art.webp` | Silksong, dez meses depois… | Games | Team Cherry | Press kit oficial (uso editorial) | [hollowknightsilksong.com](https://hollowknightsilksong.com/) |
 | `games/fatal-fury-city-of-the-wolves-rock-howard.webp` | Fatal Fury: City of the Wolves confirma Season 3 para julho… | Games | SNK Corporation | Material promocional oficial — screenshot de gameplay (uso editorial) | [Steam](https://store.steampowered.com/app/2492040/) |
+| `games/god-of-war-laufey-faye-oficial.webp` | God of War Laufey: Faye assume o centro da franquia… | Games | PlayStation / Santa Monica Studio | Material promocional oficial — miniatura do vídeo de revelação (uso editorial) | [YouTube / PlayStation](https://www.youtube.com/watch?v=HLMX2w3cwuE) |
 | `animes/bleach-tybw-the-calamity-key-visual.webp` | Bleach se aproxima do fim: a temporada final encerra a jornada de Ichigo Kurosaki… | Animes | Tite Kubo / Shueisha / TV TOKYO / dentsu / Pierrot | Material promocional oficial — key visual (uso editorial) | [bleach-anime.com](https://bleach-anime.com/) |
 | `animes/crunchyroll-catalogo-brasil.webp` | Crunchyroll retira 15 títulos no Brasil em julho de 2026… | Animes | Crunchyroll | CC0 1.0 | [Commons](https://commons.wikimedia.org/wiki/File:Crunchyroll_logo_2024.png) |
 
@@ -60,7 +62,8 @@ não derivam de logotipos, interfaces ou artes registradas das franquias. © 202
 - Fotos de cosplay retratam trajes de fãs em eventos públicos; não são material promocional oficial
   dos estúdios.
 - **Material promocional oficial** (Silksong, GTA VI, The Odyssey, Avatar: Fire and Ash, Supergirl,
-  The Batman): artes distribuídas publicamente pelos próprios estúdios para divulgação/imprensa;
+  The Batman, Fatal Fury, Bleach e God of War Laufey): artes distribuídas publicamente pelos próprios
+  estúdios para divulgação/imprensa;
   usadas aqui em contexto editorial. Direitos autorais dos respectivos estúdios (Team Cherry,
   Rockstar Games, Universal Pictures, 20th Century Studios/Disney, Warner Bros./DC Studios). Não são
   cobertas por licença livre — se o projeto mudar de finalidade (ex.: uso comercial fora do contexto

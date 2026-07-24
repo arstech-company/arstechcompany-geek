@@ -163,6 +163,13 @@ export const COVERS: Record<string, PostCover> = {
     imageSource: "https://store.steampowered.com/app/2492040/",
     imageLicense: "Material promocional oficial (uso editorial)",
   },
+  "god-of-war-laufey-faye-assume-o-centro-da-franquia-em-novo-capitulo-oficial": {
+    coverImage: "/images/articles/games/god-of-war-laufey-faye-oficial.webp",
+    coverImageAlt: "Faye, protagonista de God of War Laufey, em cenário de fantasia da arte oficial de revelação do jogo",
+    imageCredit: "PlayStation / Santa Monica Studio",
+    imageSource: "https://www.youtube.com/watch?v=HLMX2w3cwuE",
+    imageLicense: "Material promocional oficial — miniatura do vídeo de revelação (uso editorial)",
+  },
   "bleach-se-aproxima-do-fim-a-temporada-final-encerra-a-jornada-de-ichigo-kurosaki": {
     coverImage: "/images/articles/animes/bleach-tybw-the-calamity-key-visual.webp",
     coverImageAlt: "Arte-chave oficial de Bleach: Thousand-Year Blood War – The Calamity, com Ichigo diante de uma entidade sombria e espadas quebradas, e a data de estreia de 25 de julho de 2026",

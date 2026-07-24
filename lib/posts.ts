@@ -18,7 +18,11 @@ const AUTHOR = "Renato Brito";
 const PUBLISH_DATE = "2026-07-13";
 
 /** Seeds podem definir `date` própria; sem ela, vale PUBLISH_DATE. */
-type Seed = Omit<PostSeed, "slug" | "author" | "date" | keyof PostCover> & { date?: string };
+type Seed = Omit<PostSeed, "slug" | "author" | "date" | keyof PostCover> & {
+  /** Sobrescreve a assinatura padrão apenas quando a matéria tiver outro autor. */
+  author?: string;
+  date?: string;
+};
 
 const SEEDS: Seed[] = [
   // ── FILMES ──────────────────────────────────────────────────────────
@@ -675,59 +679,75 @@ const SEEDS: Seed[] = [
     ],
   },
   {
-  title: "God of War: Laufey coloca Faye no centro da franquia e inaugura uma nova era para a saga",
-  category: "Games",
-  excerpt:
-    "Santa Monica Studio revela oficialmente God of War: Laufey, primeiro título principal da série sem Kratos como protagonista e que promete expandir o universo da franquia pelos olhos de Faye.",
-  tags: ["god-of-war", "laufey", "playstation", "santa-monica-studio"],
-  blocks: [
-    {
-      type: "paragraph",
-      text: "Depois de duas décadas acompanhando a jornada de Kratos, a Santa Monica Studio decidiu dar o passo mais ousado da história da franquia. Anunciado durante um State of Play, God of War: Laufey coloca Faye — ou Laufey, entre os gigantes — como protagonista de uma aventura inédita que se passa após sua morte e antes dos acontecimentos que conhecemos em God of War (2018).",
-    },
-    {
-      type: "paragraph",
-      text: "A proposta muda completamente a perspectiva da série. Em vez de acompanhar o Fantasma de Esparta, os jogadores assumem o controle da guerreira responsável por iniciar toda a jornada de Kratos e Atreus. A história leva Faye ao Everywhen, um misterioso pós-vida dos deuses, onde ela precisa impedir que seus planos para proteger a família sejam destruídos.",
-    },
-    {
-      type: "heading",
-      text: "Muito mais do que uma troca de protagonista",
-    },
-    {
-      type: "paragraph",
-      text: "Desde God of War (2018), Faye sempre foi uma das personagens mais importantes da narrativa, mesmo sem aparecer viva em nenhum momento. As profecias deixadas por ela conduziram praticamente toda a saga nórdica, transformando-a em uma figura central para o destino dos Nove Reinos.",
-    },
-    {
-      type: "paragraph",
-      text: "Ao colocá-la como protagonista, a Santa Monica Studio não apenas responde perguntas que os fãs carregam há anos, mas também mostra que God of War pode continuar evoluindo sem depender exclusivamente de Kratos. É uma decisão que amplia significativamente as possibilidades narrativas da franquia.",
-    },
-    {
-      type: "quote",
-      text: "A maior mudança de God of War não é trocar Kratos por Faye. É mostrar que a franquia amadureceu o suficiente para contar novas histórias sem abandonar sua identidade.",
-      by: "Arthur Mendes, ARS Geek",
-    },
-    {
-      type: "heading",
-      text: "Combate familiar, mas com uma identidade própria",
-    },
-    {
-      type: "paragraph",
-      text: "Segundo a Santa Monica Studio, o combate de Laufey combina a fluidez da era grega com a construção de mundo introduzida na saga nórdica. Como a lendária 'Mão Dourada dos Jötnar', Faye utiliza habilidades ligadas à manipulação de almas, permitindo criar combinações inéditas durante as batalhas e explorar um estilo de jogo mais ágil do que o visto nos títulos anteriores.",
-    },
-    {
-      type: "paragraph",
-      text: "Além do novo sistema de combate, o Everywhen surge como um dos cenários mais ambiciosos já apresentados pela franquia. O reino reúne divindades de diferentes mitologias em uma região marcada por magia antiga e disputas por poder, ampliando o escopo do universo de God of War.",
-    },
-    {
-      type: "highlight",
-      text: "God of War: Laufey já pode ser adicionado à lista de desejos na PlayStation Store. O jogo foi confirmado para PlayStation 5, mas ainda não possui uma data oficial de lançamento.",
-    },
-    {
-      type: "paragraph",
-      text: "Mais do que apresentar uma nova protagonista, God of War: Laufey representa um possível novo capítulo para a série. Se a aposta da Santa Monica Studio funcionar, a franquia deixa de ser apenas a história de Kratos para se tornar um universo capaz de explorar diferentes personagens, épocas e mitologias, mantendo viva uma das marcas mais importantes da história do PlayStation.",
-    },
-  ],
-},
+    title: "God of War Laufey: Faye assume o centro da franquia em novo capítulo oficial",
+    category: "Games",
+    author: "Arthur Mendes",
+    date: "2026-07-23",
+    excerpt:
+      "Anunciado pela Santa Monica Studio, God of War Laufey põe Faye no papel principal e revisita a figura que guiou Kratos e Atreus por toda a saga nórdica.",
+    tags: ["god-of-war", "laufey", "faye", "playstation", "santa-monica-studio", "kratos", "atreus"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "A próxima protagonista de God of War não é uma aposta de rumor: a Santa Monica Studio anunciou oficialmente God of War Laufey no State of Play de 2 de junho. O novo capítulo põe Laufey, chamada de Faye pela família, no controle da aventura — uma mudança de perspectiva para uma personagem que moldou a jornada nórdica de Kratos e Atreus mesmo quando permanecia fora de cena.",
+      },
+      {
+        type: "paragraph",
+        text: "A página brasileira da PlayStation confirma o jogo para PS5, sem data de lançamento divulgada. Segundo a premissa oficial, Faye desperta em uma terra estranha depois de seu funeral e descobre que os planos que deixou para proteger Kratos e Atreus estão ameaçados. Para salvá-los, ela atravessa o Todo-Tempo (Everywhen), o pós-vida dos deuses, onde divindades de diferentes mitologias disputam poder.",
+      },
+      { type: "heading", text: "Quem é Laufey, a Faye de Kratos e Atreus" },
+      {
+        type: "paragraph",
+        text: "Em God of War (2018), Faye é a esposa de Kratos e mãe de Atreus. O pedido dela para que os dois espalhem suas cinzas no pico mais alto dos Nove Reinos dá início à viagem do jogo. Só perto do fim fica claro o alcance de sua identidade: Faye era Laufey, uma jötunn, e Atreus é Loki entre os gigantes.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa revelação reorganiza a leitura da aventura. As marcas nos caminhos, os murais de Jötunheim e a escolha de levar Kratos e Atreus até lá mostram que Faye tinha preparado uma rota para que pai e filho conhecessem verdades que ela não contou em vida. Ela não é uma presença decorativa ou apenas uma motivação para Kratos: é a ligação direta de Atreus com os gigantes e o ponto de encontro de duas famílias marcadas por profecias.",
+      },
+      { type: "heading", text: "O que Ragnarök aprofundou" },
+      {
+        type: "paragraph",
+        text: "God of War Ragnarök tornou Faye visível em memórias de Kratos e aprofundou sua importância antes da jornada de 2018. O jogo a apresenta como uma guerreira dos gigantes, conhecida como Laufey, a Justa, e mostra sua oposição à violência dos Aesir sob Odin. Também revela que ela e Kratos encontraram uma profecia sobre a morte dele; em vez de aceitar o destino como uma ordem, Faye buscou construir escolhas que dessem a Kratos e Atreus a chance de mudá-lo.",
+      },
+      {
+        type: "paragraph",
+        text: "A relação dela com os gigantes, portanto, é central e confirmada pelos jogos. Já os Vanir fazem parte do mesmo conflito maior dos Nove Reinos, mas a narrativa publicada não estabelece uma aliança específica de Faye com esse povo. É uma distinção importante: o material oficial permite falar de sua resistência aos Aesir e de seu legado jötunn, não preencher as lacunas com relações que os jogos ainda não mostraram.",
+      },
+      {
+        type: "quote",
+        text: "Laufey sempre esteve no coração da história nórdica; agora a franquia pode mostrar o que ela fez antes de deixar pistas para os outros seguirem.",
+        by: "Arthur Mendes, ARS Geek",
+      },
+      { type: "heading", text: "Uma história nova, sem apagar Kratos" },
+      {
+        type: "paragraph",
+        text: "O anúncio não transforma God of War em uma série sem Kratos, nem detalha como ele e Atreus participarão da nova trama. O que foi confirmado é a troca de protagonista e a busca de Faye no Todo-Tempo. A PlayStation descreve uma guerreira de precisão, velocidade e autocontrole; por enquanto, qualquer comparação mais específica entre sistemas de combate ou promessas de cruzar mitologias além desse cenário continua sendo interpretação, não informação técnica publicada.",
+      },
+      {
+        type: "paragraph",
+        text: "É justamente aí que está o potencial narrativo. Uma campanha centrada em Faye pode explorar sua vida entre os gigantes, sua resistência aos Aesir, o encontro com Kratos e as decisões que antecedem a jornada de 2018 sem repetir a dinâmica de pai e filho. Também pode usar o novo pós-vida como espaço para contar uma aventura própria, em vez de simplesmente preencher uma cronologia conhecida.",
+      },
+      {
+        type: "highlight",
+        text: "Confirmado: God of War Laufey é um novo jogo para PS5, com Faye como protagonista e sem data de lançamento anunciada. Não confirmado: janela de estreia, plataformas adicionais e detalhes completos da jogabilidade.",
+      },
+      { type: "heading", text: "O que essa nova fase pode significar" },
+      {
+        type: "paragraph",
+        text: "No Brasil, a confirmação repercutiu em veículos como Canaltech e Voxel, que destacaram a passagem de Faye de figura ausente a protagonista. A discussão faz sentido porque ela já carregava boa parte da arquitetura emocional da saga: para Kratos, foi parceira e a pessoa que o empurrou a quebrar seu ciclo de violência; para Atreus, é a origem de um nome, de uma herança e de uma escolha de futuro.",
+      },
+      {
+        type: "paragraph",
+        text: "God of War Laufey não precisa prometer uma 'nova era' por si só para ser relevante. Como capítulo oficial, ele abre uma oportunidade concreta de ampliar o universo por uma voz que os jogos anteriores mantinham nas margens. Se a Santa Monica Studio sustentar essa perspectiva com a mesma atenção dada a Kratos e Atreus, Faye pode transformar o legado que deixou em uma história que finalmente é sua.",
+      },
+    ],
+    sources: [
+      { label: "PlayStation Brasil — God of War Laufey", url: "https://www.playstation.com/pt-br/games/god-of-war-laufey/" },
+      { label: "PlayStation.Blog Brasil — Primeiros detalhes de God of War Laufey", url: "https://blog.br.playstation.com/2026/06/02/primeiros-detalhes-de-god-of-war-laufey/" },
+      { label: "Canaltech — Quem é a atriz que faz Faye em God of War Laufey?", url: "https://canaltech.com.br/games/quem-e-a-atriz-que-faz-faye-em-god-of-war-laufey/" },
+      { label: "Voxel — Por que o novo God of War se chama Laufey?", url: "https://www.tecmundo.com.br/voxel/504470-por-que-o-novo-god-of-war-se-chama-laufey-entenda-ambientacao-do-game-estrelado-por-faye.htm" },
+    ],
+  },
   // ── TECNOLOGIA ──────────────────────────────────────────────────────
   {
     title: "NVIDIA Vera Rubin: a plataforma de seis chips que redefine a régua da IA em 2026",
@@ -1346,6 +1366,7 @@ const SEEDS: Seed[] = [
  * seguintes preenchem a seção "Recentes".
  */
 const ORDER: string[] = [
+  "God of War Laufey: Faye assume o centro da franquia em novo capítulo oficial",
   "Kevin Feige projeta MCU mais simples após Guerras Secretas, com X-Men no centro",
   "Trailer final de Homem-Aranha: Um Novo Dia relembra Peter antes da estreia no Brasil",
   "Crunchyroll retira 15 títulos no Brasil em julho de 2026 - veja a lista completa",
@@ -1383,14 +1404,14 @@ function decorate(seed: Seed, index: number): Post {
     ...seed,
     ...cover,
     slug,
-    author: AUTHOR,
+    author: seed.author ?? AUTHOR,
     date: seed.date ?? PUBLISH_DATE,
     code: `${category.code}${String(index + 1).padStart(3, "0")}`,
     color: category.color,
     colorDim: hexToRgba(category.color, 0.4),
     tint: hexToRgba(category.color, 0.1),
     tintDeep: hexToRgba(category.color, 0.28),
-    initials: initials(AUTHOR),
+    initials: initials(seed.author ?? AUTHOR),
   };
 }
 
