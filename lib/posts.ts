@@ -250,6 +250,94 @@ const SEEDS: Seed[] = [
       },
     ],
   },
+  {
+    title:
+      "Star Wars: A Caçada por Ben Solo nasceu de uma ideia de Adam Driver, mas nunca recebeu sinal verde da Disney",
+    category: "Star Wars",
+    author: "Arthur Mendes",
+    date: "2026-07-29",
+    excerpt:
+      "Projeto idealizado por Adam Driver chegou a ser desenvolvido internamente, mas acabou arquivado antes de receber aprovação da Disney.",
+    tags: [
+      "star-wars",
+      "ben-solo",
+      "adam-driver",
+      "lucasfilm",
+      "disney",
+      "steven-soderbergh",
+    ],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Após interpretar Ben Solo ao longo da trilogia sequela, Adam Driver acreditava que a jornada do personagem ainda não havia chegado ao fim. O interesse do ator em explorar um novo capítulo da história deu origem ao projeto Star Wars: A Caçada por Ben Solo, um filme que chegou a ser desenvolvido internamente, mas acabou não recebendo aprovação da Disney para seguir adiante.",
+      },
+      {
+        type: "paragraph",
+        text: "O diretor Steven Soderbergh revelou que toda a iniciativa partiu do próprio Driver. O ator acreditava que ainda existia espaço para aprofundar a trajetória de Ben Solo após os acontecimentos de Star Wars: A Ascensão Skywalker, motivando o início das conversas sobre um possível retorno ao universo da franquia.",
+      },
+      {
+        type: "heading",
+        text: "A ideia surgiu do próprio Adam Driver",
+      },
+      {
+        type: "paragraph",
+        text: "O projeto começou de uma forma pouco comum para uma produção do universo Star Wars: foi o próprio Adam Driver quem demonstrou interesse em desenvolver uma nova história para Ben Solo.",
+      },
+      {
+        type: "quote",
+        text: "Foi o próprio Adam dizendo: ‘Acho que ainda há algo a explorar com esse personagem.’ Foi assim que tudo começou. Caso contrário, eu nunca, em um milhão de anos, teria voltado para esse universo.",
+        by: "Steven Soderbergh",
+      },
+      {
+        type: "paragraph",
+        text: "A declaração mostra que a proposta não nasceu inicialmente como parte de um planejamento da Lucasfilm para expandir a franquia, mas da convicção de Driver de que o personagem ainda possuía potencial narrativo após o encerramento da Saga Skywalker.",
+      },
+      {
+        type: "heading",
+        text: "O projeto chegou a avançar dentro da Lucasfilm",
+      },
+      {
+        type: "paragraph",
+        text: "A Caçada por Ben Solo deixou de ser apenas uma ideia inicial e passou a ser discutido internamente. A proposta começou a ganhar forma, envolvendo profissionais ligados ao seu desenvolvimento e despertando interesse dentro da Lucasfilm.",
+      },
+      {
+        type: "paragraph",
+        text: "A intenção era construir uma nova história centrada em Ben Solo após os eventos de A Ascensão Skywalker, oferecendo uma perspectiva inédita sobre um dos personagens mais marcantes da trilogia sequela.",
+      },
+      {
+        type: "paragraph",
+        text: "Embora o projeto tenha avançado durante suas etapas iniciais, ele ainda dependia da aprovação da Disney para entrar oficialmente em produção.",
+      },
+      {
+        type: "heading",
+        text: "A Disney nunca deu o sinal verde",
+      },
+      {
+        type: "paragraph",
+        text: "Foi justamente nessa etapa que o projeto encontrou seu principal obstáculo.",
+      },
+      {
+        type: "paragraph",
+        text: "A proposta chegou aos executivos responsáveis pela decisão final, mas não recebeu autorização para seguir em frente. Sem o sinal verde da Disney, Star Wars: A Caçada por Ben Solo acabou arquivado antes mesmo de ser oficialmente anunciado ao público.",
+      },
+      {
+        type: "highlight",
+        text: "O longa nunca entrou em produção e não chegou a ser oficialmente anunciado pela Disney, apesar de ter avançado durante suas fases iniciais de desenvolvimento.",
+      },
+      {
+        type: "heading",
+        text: "O futuro de Ben Solo continua indefinido",
+      },
+      {
+        type: "paragraph",
+        text: "Mesmo sem sair do papel, Star Wars: A Caçada por Ben Solo mostra que ainda existiam ideias para expandir a história de Ben Solo após o fim da Saga Skywalker. A iniciativa de Adam Driver demonstra que o ator enxergava novas possibilidades para o personagem, mesmo depois do encerramento de sua participação nos cinemas.",
+      },
+      {
+        type: "paragraph",
+        text: "Com o projeto arquivado e sem novos anúncios envolvendo Ben Solo, o futuro do personagem permanece indefinido dentro da franquia. Ainda assim, a revelação dos bastidores apresenta aos fãs um caminho que chegou a ser considerado pela Lucasfilm, mas que acabou ficando apenas como um capítulo não realizado da história de Star Wars.",
+      },
+    ],
+  },
 
   // ── MARVEL ──────────────────────────────────────────────────────────
   {
@@ -1366,6 +1454,7 @@ const SEEDS: Seed[] = [
  * seguintes preenchem a seção "Recentes".
  */
 const ORDER: string[] = [
+  "Star Wars: A Caçada por Ben Solo nasceu de uma ideia de Adam Driver, mas nunca recebeu sinal verde da Disney",
   "God of War Laufey: Faye assume o centro da franquia em novo capítulo oficial",
   "Kevin Feige projeta MCU mais simples após Guerras Secretas, com X-Men no centro",
   "Trailer final de Homem-Aranha: Um Novo Dia relembra Peter antes da estreia no Brasil",

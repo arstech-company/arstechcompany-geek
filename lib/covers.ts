@@ -51,6 +51,14 @@ export const COVERS: Record<string, PostCover> = {
     imageSource: "https://commons.wikimedia.org/wiki/File:University_of_Portsmouth_CCIXR_1_Virtual_Production_and_Mixed_Reality_Studio.jpg",
     imageLicense: "CC BY 2.0",
   },
+    "star-wars-a-cacada-por-ben-solo-nasceu-de-uma-ideia-de-adam-driver-mas-nunca-recebeu-sinal-verde-da-disney": {
+    coverImage: "/images/articles/star-wars/ben-solo-hunt-oficial.jpg",
+    coverImageAlt:
+      "Ben Solo caracterizado como Kylo Ren em imagem promocional oficial de Star Wars",
+    imageCredit: "Lucasfilm Ltd.",
+    imageSource: "https://www.starwars.com/",
+    imageLicense: "Material promocional oficial (uso editorial)",
+  },
   "vingadores-doomsday-em-dezembro-robert-downey-jr-como-doutor-destino-e-o-maior-elenco-da-historia-do-mcu": {
     coverImage: "/images/articles/marvel/avengers-doomsday-robert-downey-jr.webp",
     coverImageAlt: "Robert Downey Jr., intérprete do Doutor Destino, em painel da San Diego Comic-Con",
