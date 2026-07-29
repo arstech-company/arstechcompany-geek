@@ -1454,6 +1454,7 @@ const SEEDS: Seed[] = [
  * seguintes preenchem a seção "Recentes".
  */
 const ORDER: string[] = [
+  "Star Wars: A Caçada por Ben Solo nasceu de uma ideia de Adam Driver, mas nunca recebeu sinal verde da Disney",
   "God of War Laufey: Faye assume o centro da franquia em novo capítulo oficial",
   "Kevin Feige projeta MCU mais simples após Guerras Secretas, com X-Men no centro",
   "Trailer final de Homem-Aranha: Um Novo Dia relembra Peter antes da estreia no Brasil",
