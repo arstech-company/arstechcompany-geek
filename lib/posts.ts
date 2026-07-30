@@ -836,6 +836,193 @@ const SEEDS: Seed[] = [
       { label: "Voxel — Por que o novo God of War se chama Laufey?", url: "https://www.tecmundo.com.br/voxel/504470-por-que-o-novo-god-of-war-se-chama-laufey-entenda-ambientacao-do-game-estrelado-por-faye.htm" },
     ],
   },
+{
+  title:
+    "Resident Evil Requiem: como a Capcom reencontrou a essência de Resident Evil",
+  category: "Games",
+  author: "Arthur Mendes",
+  date: "2026-07-30",
+  excerpt:
+    "O aguardado retorno de Leon Kennedy, o reencontro com Raccoon City, milhões de cópias vendidas e uma expansão já confirmada fazem de Resident Evil Requiem um dos capítulos mais importantes da história da franquia.",
+  tags: [
+    "resident-evil",
+    "resident-evil-requiem",
+    "leon-kennedy",
+    "grace-ashcroft",
+    "capcom",
+    "survival-horror",
+  ],
+  blocks: [
+    {
+      type: "paragraph",
+      text: "Existem poucas franquias na história dos videogames capazes de atravessar gerações mantendo o mesmo prestígio de Resident Evil. Desde sua estreia, em 1996, a série criada pela Capcom ajudou a definir o gênero survival horror, apresentou personagens que se tornaram verdadeiros ícones da indústria e mostrou, repetidas vezes, que era capaz de evoluir sem perder sua essência.",
+    },
+    {
+      type: "paragraph",
+      text: "Essa trajetória fez de Resident Evil Requiem um dos jogos mais aguardados dos últimos anos.",
+    },
+    {
+      type: "paragraph",
+      text: "Desde o primeiro trailer, a Capcom optou por uma estratégia incomum: revelar apenas fragmentos da história e esconder detalhes importantes da campanha. Cada nova apresentação alimentava teorias da comunidade, enquanto uma pergunta dominava as discussões: quem seria o protagonista dessa nova jornada?",
+    },
+    {
+      type: "highlight",
+      text: "A resposta veio acompanhada de uma das revelações mais comemoradas pelos fãs nos últimos anos: Leon S. Kennedy estava de volta.",
+    },
+    {
+      type: "paragraph",
+      text: "O retorno de um dos personagens mais importantes da franquia representava muito mais do que um momento de nostalgia. Era um sinal de que a Capcom pretendia reconectar Resident Evil com suas próprias origens.",
+    },
+    {
+      type: "paragraph",
+      text: "Somado à chegada de uma nova protagonista, ao excelente desempenho comercial e aos planos já confirmados para expandir a experiência, Requiem rapidamente deixou de ser apenas mais um lançamento para se consolidar como um dos capítulos mais importantes da história da série.",
+    },
+    {
+      type: "heading",
+      text: "Quando o passado encontra o presente",
+    },
+    {
+      type: "paragraph",
+      text: "Durante boa parte da campanha de divulgação, a Capcom manteve em segredo informações importantes sobre seus protagonistas. A estratégia transformou cada novo trailer em motivo de especulação, com fãs analisando cenas, diálogos e pequenos detalhes em busca de pistas sobre o rumo da narrativa.",
+    },
+    {
+      type: "paragraph",
+      text: "Quando Leon S. Kennedy foi finalmente confirmado, a recepção foi praticamente imediata. O personagem, que marcou alguns dos momentos mais memoráveis da franquia, retornaria justamente ao cenário onde sua história começou: Raccoon City.",
+    },
+    {
+      type: "paragraph",
+      text: "A escolha, no entanto, foi muito além do apelo emocional.",
+    },
+    {
+      type: "paragraph",
+      text: "Em entrevista ao PlayStation Blog, o diretor Koshi Nakanishi explicou que Resident Evil Requiem nasceu da necessidade de recolocar a história principal da franquia em evidência. Depois de Resident Evil 7 e Village explorarem narrativas mais independentes, a equipe acreditava que havia chegado o momento de revisitar acontecimentos fundamentais para a série.",
+    },
+    {
+      type: "highlight",
+      text: "Para Leon, isso significa retornar ao lugar onde tudo começou — não apenas fisicamente, mas também emocionalmente.",
+    },
+    {
+      type: "paragraph",
+      text: "Raccoon City deixa de ser apenas um cenário e passa a representar um reencontro com os acontecimentos que moldaram sua trajetória. Em vez de apresentar somente um herói experiente, Requiem mostra um personagem obrigado a revisitar memórias que continuam definindo quem ele é.",
+    },
+    {
+      type: "heading",
+      text: "Grace Ashcroft e uma nova perspectiva para o horror",
+    },
+    {
+      type: "paragraph",
+      text: "Se Leon simboliza a experiência acumulada ao longo da franquia, Grace Ashcroft representa um novo olhar sobre Resident Evil.",
+    },
+    {
+      type: "paragraph",
+      text: "Segundo o produtor Masato Kumazawa, a personagem foi criada para devolver ao jogador uma sensação que sempre esteve presente nos primeiros títulos da série: a vulnerabilidade.",
+    },
+    {
+      type: "paragraph",
+      text: "Ao contrário de Leon, Grace não possui anos de treinamento nem experiência enfrentando armas biológicas. Ela reage ao desconhecido como qualquer pessoa reagiria, hesitando diante do perigo, demonstrando medo e transmitindo ao jogador uma tensão constante durante sua jornada.",
+    },
+    {
+      type: "paragraph",
+      text: "Essa diferença também influencia diretamente o ritmo da campanha.",
+    },
+    {
+      type: "paragraph",
+      text: "Enquanto Leon conduz momentos marcados pela ação e pelo combate, Grace protagoniza sequências focadas na exploração, na sobrevivência e na construção da atmosfera de terror. A alternância entre os dois personagens cria um equilíbrio que permite ao jogo unir diferentes fases da franquia em uma única experiência.",
+    },
+    {
+      type: "heading",
+      text: "Uma homenagem construída para diferentes gerações",
+    },
+    {
+      type: "paragraph",
+      text: "Um dos aspectos mais interessantes de Resident Evil Requiem é perceber que suas escolhas de design foram planejadas para dialogar com diferentes públicos.",
+    },
+    {
+      type: "paragraph",
+      text: "Os próprios desenvolvedores explicaram que cada protagonista representa uma filosofia distinta da série.",
+    },
+    {
+      type: "paragraph",
+      text: "Grace remete ao clima claustrofóbico, investigativo e psicológico que marcou Resident Evil 2. Leon, por sua vez, herda a dinâmica introduzida por Resident Evil 4, privilegiando áreas mais amplas, confrontos mais intensos e maior liberdade durante a exploração.",
+    },
+    {
+      type: "paragraph",
+      text: "Essa combinação permite que veteranos reconheçam elementos clássicos da franquia, enquanto novos jogadores encontram mecânicas modernas e acessíveis.",
+    },
+    {
+      type: "highlight",
+      text: "Mais do que revisitar o passado, Requiem demonstra que Resident Evil continua evoluindo sem abandonar aquilo que construiu sua identidade.",
+    },
+    {
+      type: "heading",
+      text: "Um sucesso confirmado também pelos números",
+    },
+    {
+      type: "paragraph",
+      text: "Nem sempre uma recepção positiva se traduz em sucesso comercial. Com Resident Evil Requiem, aconteceu exatamente o contrário.",
+    },
+    {
+      type: "paragraph",
+      text: "Segundo dados oficiais divulgados pela Capcom, o jogo ultrapassou a marca de cinco milhões de cópias vendidas poucos dias após seu lançamento.",
+    },
+    {
+      type: "paragraph",
+      text: "Pouco tempo depois, esse número chegou a seis milhões de unidades comercializadas, estabelecendo o melhor ritmo de vendas já registrado por um título da franquia.",
+    },
+    {
+      type: "paragraph",
+      text: "O desempenho confirma a excelente recepção do jogo e reforça a força de Resident Evil como uma das propriedades mais importantes da Capcom e um dos maiores nomes do gênero survival horror.",
+    },
+    {
+      type: "heading",
+      text: "O futuro da franquia já começou",
+    },
+    {
+      type: "paragraph",
+      text: "Mesmo após um lançamento histórico, Resident Evil Requiem ainda parece estar apenas iniciando sua trajetória.",
+    },
+    {
+      type: "paragraph",
+      text: "A Capcom confirmou oficialmente que o jogo receberá uma expansão inédita. Embora praticamente todos os detalhes permaneçam sob sigilo, a confirmação do novo conteúdo demonstra a confiança da empresa no projeto e aumenta a expectativa da comunidade para os próximos meses.",
+    },
+    {
+      type: "paragraph",
+      text: "Além da expansão, produtores da franquia afirmaram que Resident Evil continuará alternando lançamentos inéditos e remakes, estratégia que reforça o compromisso da Capcom em manter a série em constante evolução.",
+    },
+    {
+      type: "highlight",
+      text: "Requiem não representa apenas mais um capítulo da franquia, mas o início de uma nova fase para Resident Evil.",
+    },
+    {
+      type: "heading",
+      text: "Um capítulo que entende a essência de Resident Evil",
+    },
+    {
+      type: "paragraph",
+      text: "Existe uma razão para Resident Evil permanecer relevante depois de quase três décadas: a franquia nunca teve medo de mudar.",
+    },
+    {
+      type: "paragraph",
+      text: "Mudou sua câmera, reinventou sua jogabilidade, apresentou novos protagonistas e experimentou diferentes estilos de narrativa. Ainda assim, conseguiu preservar aquilo que sempre definiu sua identidade: a constante sensação de que o perigo pode surgir a qualquer instante.",
+    },
+    {
+      type: "paragraph",
+      text: "Resident Evil Requiem compreende essa herança.",
+    },
+    {
+      type: "paragraph",
+      text: "O retorno de Leon Kennedy, a introdução de Grace Ashcroft, o reencontro com Raccoon City e a forma como o jogo equilibra tradição e inovação demonstram que a Capcom conhece profundamente aquilo que tornou a série uma referência para o gênero.",
+    },
+    {
+      type: "paragraph",
+      text: "Resident Evil Requiem não conquistou jogadores apenas pelo retorno de Leon Kennedy ou pelos expressivos números de vendas. Seu maior feito foi provar que a franquia continua capaz de evoluir sem abandonar suas raízes.",
+    },
+    {
+      type: "paragraph",
+      text: "Ao unir personagens históricos, novas ideias e uma visão clara para o futuro, Requiem consolida-se como um dos capítulos mais importantes da história de Resident Evil e reforça que a série permanece preparada para conquistar tanto antigos fãs quanto uma nova geração de jogadores.",
+    },
+  ],
+},
   // ── TECNOLOGIA ──────────────────────────────────────────────────────
   {
     title: "NVIDIA Vera Rubin: a plataforma de seis chips que redefine a régua da IA em 2026",
@@ -1454,6 +1641,7 @@ const SEEDS: Seed[] = [
  * seguintes preenchem a seção "Recentes".
  */
 const ORDER: string[] = [
+  "Resident Evil Requiem: como a Capcom reencontrou a essência de Resident Evil",
   "Star Wars: A Caçada por Ben Solo nasceu de uma ideia de Adam Driver, mas nunca recebeu sinal verde da Disney",
   "God of War Laufey: Faye assume o centro da franquia em novo capítulo oficial",
   "Kevin Feige projeta MCU mais simples após Guerras Secretas, com X-Men no centro",

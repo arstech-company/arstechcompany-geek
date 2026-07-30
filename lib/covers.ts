@@ -185,6 +185,13 @@ export const COVERS: Record<string, PostCover> = {
     imageSource: "https://bleach-anime.com/",
     imageLicense: "Material promocional oficial (uso editorial)",
   },
+  "resident-evil-requiem-como-a-capcom-reencontrou-a-essencia-de-resident-evil": {
+  coverImage: "/images/articles/games/resident-evil-requiem-leon-kennedy.jpg",
+  coverImageAlt: "Leon Kennedy em Resident Evil Requiem.",
+  imageCredit: "Capcom",
+  imageSource: "",
+  imageLicense: "Material promocional oficial (uso editorial)",
+},
   "crunchyroll-retira-15-titulos-no-brasil-em-julho-de-2026-veja-a-lista-completa": {
     coverImage: "/images/articles/animes/crunchyroll-catalogo-brasil.webp",
     coverImageAlt: "Logotipo laranja da Crunchyroll, representando mudanças no catálogo brasileiro de animes",
