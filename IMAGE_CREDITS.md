@@ -11,6 +11,15 @@ O logotipo da Crunchyroll foi obtido no Wikimedia Commons em 22/07/2026, sob lic
 Nenhuma imagem é hotlink: todos os arquivos estão versionados em `public/images/articles/`,
 otimizados em WebP (≤ 300 KB).
 
+As oito imagens da edição de **28/08/2026** (Gemini Omni 1.1 Flash, mercado de segurança para IA,
+Metal Gear Solid: Master Collection Vol. 2, ROG Xbox Ally X20, Galaxy Z Fold8/Flip8, Scott Pilgrim EX,
+Star Wars Zero Company e Whisper of the House) foram extraídas dos documentos de pauta enviados pela
+redação, todas provenientes de **materiais oficiais de divulgação** das empresas responsáveis e usadas
+em contexto editorial. Nenhuma delas está sob licença livre.
+**Três casos permanecem com direitos de uso não confirmados** — Gemini Omni 1.1 Flash (Google),
+Scott Pilgrim EX (Tribute Games / PlayStation) e Whisper of the House (GD Studio / PlayStation):
+a publicação dessas capas depende de autorização ou confirmação de uso junto aos titulares.
+
 As licenças **CC BY** e **CC BY-SA** exigem atribuição — ela é exibida na página de cada artigo
 (legenda sob a capa) e registrada aqui.
 
@@ -46,6 +55,14 @@ As licenças **CC BY** e **CC BY-SA** exigem atribuição — ela é exibida na 
 | `tecnologia/nvidia-vera-rubin-jensen-huang.webp` | NVIDIA Vera Rubin: a plataforma de seis chips… | Tecnologia | Maurizio Pesce | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:Nvidia_CEO_Jensen_Huang_gestikuliert.jpg) |
 | `tecnologia/windows-10-notebook.webp` | Windows 10 ganha sobrevida até 2027… | Tecnologia | Donald Trung Quoc Don | CC BY-SA 4.0 | [Commons](https://commons.wikimedia.org/wiki/File:Windows_10_Surface_Laptop_2_at_the_Media_Markt_Sontplein,_Groningen_(2020).jpg) |
 | `tecnologia/criptografia-pos-quantica-ibm-q.webp` | Criptografia pós-quântica vira maioria… | Tecnologia | IBM Research | CC BY 2.0 | [Commons](https://commons.wikimedia.org/wiki/File:IBM_Q_System_One_(Fraunhofer)_installation.jpg) |
+| `tecnologia/gemini-omni-1-1-flash-video-ia-4k.webp` | Gemini Omni 1.1 Flash leva vídeo por IA a 4K… | Tecnologia | Google | Material institucional oficial de divulgação — **direitos de uso não confirmados**; publicação depende de autorização | [blog.google](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/) |
+| `tecnologia/seguranca-inteligencia-artificial-nist.webp` | Mercado de segurança para inteligência artificial… | Tecnologia | N. Hanacek/NIST | Imagem institucional ilustrativa do NIST (uso editorial) | [nist.gov](https://www.nist.gov/news-events/news/2024/01/nist-identifies-types-cyberattacks-manipulate-behavior-ai-systems) |
+| `games/metal-gear-solid-master-collection-vol-2.webp` | Metal Gear Solid 4 deixa o PlayStation 3 após 18 anos… | Games | Konami Digital Entertainment | Material promocional oficial (uso editorial) | [playstation.com](https://www.playstation.com/en-us/games/metal-gear-solid-master-collection-vol-2/) |
+| `games/rog-xbox-ally-x20.webp` | ROG Xbox Ally X20 aposta em tela OLED… | Games | ASUS / Xbox | Material promocional oficial (uso editorial) | [Xbox Wire](https://news.xbox.com/en-us/2026/08/25/preorder-the-rog-xbox-ally-x20-starting-today/) |
+| `tecnologia/samsung-galaxy-z-fold8-flip8.webp` | Samsung apresenta nova geração Galaxy Z… | Tecnologia | Samsung Electronics | Material promocional oficial (uso editorial) | [Samsung Newsroom](https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living) |
+| `games/scott-pilgrim-ex-back-in-the-band.webp` | Scott Pilgrim EX transforma Kim Pine e Knives Chau… | Games | Tribute Games / PlayStation | Material promocional oficial — **direitos de uso não confirmados**; publicação depende de autorização | [PlayStation Blog](https://blog.playstation.com/2026/08/27/scott-pilgrim-ex-bringing-three-new-heroes-to-life-in-back-in-the-band-dlc/) |
+| `star-wars/star-wars-zero-company.webp` | Star Wars Zero Company estreia com estratégia… | Star Wars | Electronic Arts / Bit Reactor / Lucasfilm Games | Material promocional oficial (uso editorial) | [ea.com](https://www.ea.com/games/starwars/zero-company/news/lead-zero-company-to-victory) |
+| `games/whisper-of-the-house-ps5.webp` | Whisper of the House transforma organização em narrativa… | Games | GD Studio / PlayStation | Screenshot promocional oficial — **direitos de uso não confirmados**; publicação depende de autorização | [PlayStation Blog](https://blog.playstation.com/2026/08/27/whisper-of-the-house-opens-its-doors-on-ps5-today/) |
 
 ## Texturas de categoria
 

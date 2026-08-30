@@ -14,14 +14,14 @@ export const COVERS: Record<string, PostCover> = {
     coverImageAlt: "Arte oficial de The Odyssey: Odisseu de armadura e elmo diante do Cavalo de Troia em chamas",
     imageCredit: "Universal Pictures",
     imageSource: "https://www.odysseymovie.com/",
-    imageLicense: "Material promocional oficial (uso editorial)",
+    imageLicense: "Material promocional oficial",
   },
   "avatar-fire-and-ash-fecha-em-us-1-49-bilhao-e-a-franquia-de-cameron-cruza-os-us-6-bilhoes": {
     coverImage: "/images/articles/filmes/avatar-fire-ash-poster-oficial.webp",
     coverImageAlt: "Pôster oficial de Avatar: Fire and Ash com a vilã Varang, a família Sully e as paisagens de Pandora",
     imageCredit: "20th Century Studios / Disney",
     imageSource: "https://www.avatar.com/movies/avatar-fire-and-ash",
-    imageLicense: "Material promocional oficial (uso editorial)",
+    imageLicense: "Material promocional oficial",
   },
   "como-duna-parte-dois-venceu-os-oscars-de-som-e-efeitos-visuais-a-engenharia-do-deserto": {
     coverImage: "/images/articles/filmes/duna-parte-dois-deserto.webp",
@@ -57,7 +57,7 @@ export const COVERS: Record<string, PostCover> = {
       "Ben Solo caracterizado como Kylo Ren em imagem promocional oficial de Star Wars",
     imageCredit: "Lucasfilm Ltd.",
     imageSource: "https://www.starwars.com/",
-    imageLicense: "Material promocional oficial (uso editorial)",
+    imageLicense: "Material promocional oficial",
   },
   "vingadores-doomsday-em-dezembro-robert-downey-jr-como-doutor-destino-e-o-maior-elenco-da-historia-do-mcu": {
     coverImage: "/images/articles/marvel/avengers-doomsday-robert-downey-jr.webp",
@@ -85,7 +85,7 @@ export const COVERS: Record<string, PostCover> = {
     coverImageAlt: "Arte oficial de Supergirl: Milly Alcock de uniforme, ajoelhada diante do brasão da personagem",
     imageCredit: "Warner Bros. / DC Studios",
     imageSource: "https://www.supergirlmovie.com/",
-    imageLicense: "Material promocional oficial (uso editorial)",
+    imageLicense: "Material promocional oficial",
   },
   "superman-um-ano-depois-os-us-618-milhoes-que-reergueram-a-dc": {
     coverImage: "/images/articles/dc/superman-david-corenswet.webp",
@@ -99,7 +99,7 @@ export const COVERS: Record<string, PostCover> = {
     coverImageAlt: "Arte oficial de The Batman (2022): o Batman de Robert Pattinson sob chuva, com Catwoman, Pinguim e Charada",
     imageCredit: "Warner Bros. Pictures",
     imageSource: "https://www.thebatman.com/",
-    imageLicense: "Material promocional oficial (uso editorial)",
+    imageLicense: "Material promocional oficial",
   },
   "frieren-encerra-a-2-temporada-e-ja-tem-a-3-marcada-a-jornada-continua-em-outubro-de-2027": {
     coverImage: "/images/articles/animes/frieren-cosplay.webp",
@@ -127,7 +127,7 @@ export const COVERS: Record<string, PostCover> = {
     coverImageAlt: "Arte promocional oficial de Grand Theft Auto VI com Jason, Lucia e cenas de Vice City",
     imageCredit: "Rockstar Games",
     imageSource: "https://www.rockstargames.com/VI",
-    imageLicense: "Material promocional oficial (uso editorial)",
+    imageLicense: "Material promocional oficial",
   },
   "switch-2-um-ano-depois-recordes-freio-na-producao-e-o-dilema-do-preco": {
     coverImage: "/images/articles/games/nintendo-switch-2-console.webp",
@@ -162,35 +162,35 @@ export const COVERS: Record<string, PostCover> = {
     coverImageAlt: "Arte oficial de Hollow Knight: Silksong com a protagonista Hornet empunhando sua agulha",
     imageCredit: "Team Cherry",
     imageSource: "https://hollowknightsilksong.com/",
-    imageLicense: "Press kit oficial (uso editorial)",
+    imageLicense: "Press kit oficial",
   },
   "fatal-fury-city-of-the-wolves-confirma-season-3-para-julho-mas-o-line-up-de-lutadores-ainda-e-segredo": {
     coverImage: "/images/articles/games/fatal-fury-city-of-the-wolves-rock-howard.webp",
     coverImageAlt: "Rock Howard, protagonista de Fatal Fury: City of the Wolves, invocando chamas roxas com as duas mãos em cena de gameplay",
     imageCredit: "SNK Corporation",
     imageSource: "https://store.steampowered.com/app/2492040/",
-    imageLicense: "Material promocional oficial (uso editorial)",
+    imageLicense: "Material promocional oficial",
   },
   "god-of-war-laufey-faye-assume-o-centro-da-franquia-em-novo-capitulo-oficial": {
     coverImage: "/images/articles/games/god-of-war-laufey-faye-oficial.webp",
     coverImageAlt: "Faye, protagonista de God of War Laufey, em cenário de fantasia da arte oficial de revelação do jogo",
     imageCredit: "PlayStation / Santa Monica Studio",
     imageSource: "https://www.youtube.com/watch?v=HLMX2w3cwuE",
-    imageLicense: "Material promocional oficial — miniatura do vídeo de revelação (uso editorial)",
+    imageLicense: "Material promocional oficial — miniatura do vídeo de revelação",
   },
   "bleach-se-aproxima-do-fim-a-temporada-final-encerra-a-jornada-de-ichigo-kurosaki": {
     coverImage: "/images/articles/animes/bleach-tybw-the-calamity-key-visual.webp",
     coverImageAlt: "Arte-chave oficial de Bleach: Thousand-Year Blood War – The Calamity, com Ichigo diante de uma entidade sombria e espadas quebradas, e a data de estreia de 25 de julho de 2026",
     imageCredit: "Tite Kubo / Shueisha / TV TOKYO / dentsu / Pierrot",
     imageSource: "https://bleach-anime.com/",
-    imageLicense: "Material promocional oficial (uso editorial)",
+    imageLicense: "Material promocional oficial",
   },
   "resident-evil-requiem-como-a-capcom-reencontrou-a-essencia-de-resident-evil": {
   coverImage: "/images/articles/games/resident-evil-requiem-leon-kennedy.jpg",
   coverImageAlt: "Leon Kennedy em Resident Evil Requiem.",
   imageCredit: "Capcom",
   imageSource: "",
-  imageLicense: "Material promocional oficial (uso editorial)",
+  imageLicense: "Material promocional oficial",
 },
   "crunchyroll-retira-15-titulos-no-brasil-em-julho-de-2026-veja-a-lista-completa": {
     coverImage: "/images/articles/animes/crunchyroll-catalogo-brasil.webp",
@@ -211,6 +211,71 @@ export const COVERS: Record<string, PostCover> = {
     coverImageAlt: "MJ é carregada pelo Homem-Aranha entre prédios de Nova York na arte oficial do trailer final dublado",
     imageCredit: "Sony Pictures Brasil / Marvel Studios",
     imageSource: "https://www.youtube.com/watch?v=bwt2-nyEP0A",
-    imageLicense: "Material promocional oficial (uso editorial)",
+    imageLicense: "Material promocional oficial",
+  },
+  // ── EDIÇÃO 28/08/2026 ───────────────────────────────────────────────
+  "gemini-omni-1-1-flash-leva-video-por-ia-a-4k-e-amplia-o-controle-dos-criadores": {
+    coverImage: "/images/articles/tecnologia/gemini-omni-1-1-flash-video-ia-4k.webp",
+    coverImageAlt:
+      "Logotipo Gemini Omni 1.1 Flash cercado por quadros de vídeos criados com inteligência artificial.",
+    imageCredit: "Google",
+    imageSource: "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    imageLicense: "Material institucional oficial de divulgação",
+  },
+  "mercado-de-seguranca-para-inteligencia-artificial-pode-alcancar-us-4-8-bilhoes-em-2027": {
+    coverImage: "/images/articles/tecnologia/seguranca-inteligencia-artificial-nist.webp",
+    coverImageAlt:
+      "Ilustração do NIST mostra marcações maliciosas em uma via desviando a inteligência artificial de um veículo autônomo.",
+    imageCredit: "N. Hanacek/NIST",
+    imageSource: "https://www.nist.gov/news-events/news/2024/01/nist-identifies-types-cyberattacks-manipulate-behavior-ai-systems",
+    imageLicense: "Imagem institucional ilustrativa do NIST",
+  },
+  "metal-gear-solid-4-deixa-o-playstation-3-apos-18-anos-com-a-master-collection-vol-2": {
+    coverImage: "/images/articles/games/metal-gear-solid-master-collection-vol-2.webp",
+    coverImageAlt:
+      "Arte oficial de Metal Gear Solid: Master Collection Vol. 2, coleção que reúne Metal Gear Solid 4, Peace Walker e conteúdos adicionais.",
+    imageCredit: "Konami Digital Entertainment",
+    imageSource: "https://www.playstation.com/en-us/games/metal-gear-solid-master-collection-vol-2/",
+    imageLicense: "Material promocional oficial",
+  },
+  "rog-xbox-ally-x20-aposta-em-tela-oled-e-hardware-premium": {
+    coverImage: "/images/articles/games/rog-xbox-ally-x20.webp",
+    coverImageAlt:
+      "ROG Xbox Ally X20 com tela ligada e controles acoplados diante da embalagem comemorativa de 20 anos da linha ROG.",
+    imageCredit: "ASUS / Xbox",
+    imageSource: "https://news.xbox.com/en-us/2026/08/25/preorder-the-rog-xbox-ally-x20-starting-today/",
+    imageLicense: "Material promocional oficial",
+  },
+  "samsung-apresenta-nova-geracao-galaxy-z-e-amplia-disputa-por-smartphones-com-ia": {
+    coverImage: "/images/articles/tecnologia/samsung-galaxy-z-fold8-flip8.webp",
+    coverImageAlt:
+      "Galaxy Z Flip8, Galaxy Z Fold8 Ultra e Galaxy Z Fold8 apresentados lado a lado em imagem oficial da Samsung.",
+    imageCredit: "Samsung Electronics",
+    imageSource: "https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living",
+    imageLicense: "Material promocional oficial",
+  },
+  "scott-pilgrim-ex-transforma-kim-pine-e-knives-chau-em-estilos-proprios-de-combate": {
+    coverImage: "/images/articles/games/scott-pilgrim-ex-back-in-the-band.webp",
+    coverImageAlt:
+      "Arte em pixel art de Scott Pilgrim EX Back in the Band com Stephen Stills, Kim Pine e Knives Chau.",
+    imageCredit: "Tribute Games / PlayStation",
+    imageSource: "https://blog.playstation.com/2026/08/27/scott-pilgrim-ex-bringing-three-new-heroes-to-life-in-back-in-the-band-dlc/",
+    imageLicense: "Material promocional oficial",
+  },
+  "star-wars-zero-company-estreia-com-estrategia-e-liberdade-para-criar-seu-proprio-esquadrao": {
+    coverImage: "/images/articles/star-wars/star-wars-zero-company.webp",
+    coverImageAlt:
+      "Arte oficial de Star Wars Zero Company com Hawks e integrantes do esquadrão reunidos diante do logotipo do jogo.",
+    imageCredit: "Electronic Arts / Bit Reactor / Lucasfilm Games",
+    imageSource: "https://www.ea.com/games/starwars/zero-company/news/lead-zero-company-to-victory",
+    imageLicense: "Material promocional oficial",
+  },
+  "whisper-of-the-house-transforma-organizacao-em-narrativa-e-chega-ao-ps5": {
+    coverImage: "/images/articles/games/whisper-of-the-house-ps5.webp",
+    coverImageAlt:
+      "Ambiente em pixel art de Whisper of the House com móveis, plantas e objetos organizados em diferentes cômodos.",
+    imageCredit: "GD Studio / PlayStation",
+    imageSource: "https://blog.playstation.com/2026/08/27/whisper-of-the-house-opens-its-doors-on-ps5-today/",
+    imageLicense: "Screenshot promocional oficial",
   },
 };

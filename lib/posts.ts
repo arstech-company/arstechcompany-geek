@@ -1633,6 +1633,1001 @@ const SEEDS: Seed[] = [
       { label: "Omelete — Cobertura brasileira do trailer final", url: "https://www.omelete.com.br/filmes/homem-aranha-um-novo-dia-trailer-final" },
     ],
   },
+  // ── EDIÇÃO 28/08/2026 ───────────────────────────────────────────────
+  {
+    title: "Gemini Omni 1.1 Flash leva vídeo por IA a 4K e amplia o controle dos criadores",
+    category: "Tecnologia",
+    author: "Shirley Brito",
+    date: "2026-08-28",
+    excerpt:
+      "Atualização do Google permite estender cenas, definir quadros inicial e final e testar ideias em 360p antes da renderização, aproximando a geração de vídeo de um fluxo profissional.",
+    tags: ["gemini-omni", "inteligencia-artificial", "video-generativo", "google-deepmind", "tecnologia-criativa", "criacao-de-conteudo"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "O Google apresentou em 27 de agosto o Gemini Omni 1.1 Flash, atualização de seu modelo voltado à criação e edição de vídeos por inteligência artificial. A nova versão chega ao Google AI Studio e à plataforma corporativa Gemini Enterprise Agent Platform com controles para prolongar cenas, construir transições entre dois quadros, produzir rascunhos mais baratos e elevar o resultado final a 4K.",
+      },
+      {
+        type: "paragraph",
+        text: "O anúncio importa porque desloca parte da competição entre modelos generativos. A disputa já não envolve apenas transformar um comando em um clipe visualmente convincente. Ferramentas dirigidas a profissionais precisam permitir revisão, continuidade e escolhas de direção — o tipo de controle que separa um experimento rápido de um fluxo capaz de entrar em publicidade, design, audiovisual ou conteúdo digital.",
+      },
+      { type: "heading", text: "Cenas podem continuar por até 40 segundos" },
+      {
+        type: "paragraph",
+        text: "Uma das principais novidades é a extensão de cenas. O Omni 1.1 Flash pode analisar até dez segundos do vídeo anterior antes de gerar a continuação, em vez de considerar somente o último segundo. O contexto maior busca preservar cenário, personagens e direção narrativa entre os trechos.",
+      },
+      {
+        type: "paragraph",
+        text: "Cada extensão acrescenta dez segundos, até uma duração acumulada de 40 segundos. O limite ainda é curto quando comparado a uma produção tradicional, mas abre espaço para criar uma sequência em etapas, testar ramificações e ajustar o rumo sem recomeçar a geração inteira.",
+      },
+      {
+        type: "paragraph",
+        text: "O modelo também aceita até três segundos de vídeo como referência multimodal. Esse material pode orientar movimento, composição ou consistência visual. Para equipes criativas, a possibilidade de partir de referências controladas tende a ser mais útil do que depender exclusivamente da interpretação de um texto.",
+      },
+      {
+        type: "highlight",
+        text: "O Omni 1.1 Flash consulta até dez segundos do trecho anterior e permite estender uma cena em blocos de dez segundos, chegando a 40 segundos acumulados.",
+      },
+      { type: "heading", text: "Dois quadros passam a orientar uma transição" },
+      {
+        type: "paragraph",
+        text: "O recurso de primeiro e último quadro permite definir onde uma tomada começa e onde deve terminar. A inteligência artificial gera o movimento intermediário, solução que pode ser usada em órbitas de câmera, aproximações, transições ou loops contínuos.",
+      },
+      {
+        type: "paragraph",
+        text: "Esse controle é especialmente relevante para artistas, animadoras, editoras e equipes pequenas que trabalham com storyboard. Em vez de aceitar uma câmera inteiramente decidida pelo modelo, a pessoa responsável pelo projeto estabelece dois pontos visuais essenciais e avalia como o sistema constrói o percurso entre eles.",
+      },
+      {
+        type: "paragraph",
+        text: "O ganho não elimina a direção humana. Pelo contrário: torna mais visível a necessidade de selecionar referências, avaliar continuidade, revisar falhas e decidir se uma geração realmente comunica a intenção do projeto. A ferramenta automatiza parte da execução, mas autoria, repertório e responsabilidade continuam fora do alcance de uma configuração técnica.",
+      },
+      { type: "heading", text: "Rascunhos em 360p reduzem custo e tempo de teste" },
+      {
+        type: "paragraph",
+        text: "Gerar várias alternativas em alta resolução pode consumir tempo e orçamento antes de a equipe decidir qual ideia vale finalizar. Para enfrentar esse problema, o Google adicionou uma modalidade de 360p destinada a rascunhos.",
+      },
+      {
+        type: "paragraph",
+        text: "Segundo a empresa, essa opção pode gerar prévias até 60% mais rapidamente e por um terço do custo da saída padrão em 720p. A proposta é testar três ou quatro variações, alterar um elemento por vez e comparar os resultados antes de investir em uma versão mais pesada.",
+      },
+      {
+        type: "paragraph",
+        text: "Depois da escolha, o modelo pode entregar saídas em 1080p ou fazer o upscale para 4K. A documentação oficial também posiciona o Omni Flash como um modelo conversacional: texto, imagem e vídeo podem entrar no mesmo processo, enquanto ajustes são solicitados em linguagem natural.",
+      },
+      {
+        type: "highlight",
+        text: "O modo de rascunho em 360p não é pensado como resultado final. Ele serve para prototipar mais rápido, comparar alternativas e reservar a renderização em 1080p ou 4K para a versão escolhida.",
+      },
+      { type: "heading", text: "Controle técnico não resolve as questões de autoria" },
+      {
+        type: "paragraph",
+        text: "A chegada a ferramentas usadas por desenvolvedores amplia o alcance da tecnologia. O Google afirma que o Omni 1.1 Flash já pode ser integrado a fluxos como Adobe Firefly, Figma Weave e Runway, além de aplicações construídas com sua API.",
+      },
+      {
+        type: "paragraph",
+        text: "Itay Schiff, diretor criativo do Figma Weave, destacou justamente a passagem da geração para a direção:",
+      },
+      {
+        type: "quote",
+        text: "Com extensões, referências mais ricas e resolução 4K, o Gemini Omni Flash leva as equipes além de gerar vídeos, para realmente dirigi-los.",
+        by: "Itay Schiff, diretor criativo do Figma Weave",
+      },
+      {
+        type: "paragraph",
+        text: "Ainda assim, resolução e controle de câmera não encerram debates sobre direitos autorais, consentimento, origem dos dados e identificação de conteúdo sintético. Projetos comerciais continuam precisando de regras sobre as referências enviadas ao modelo, a autorização de pessoas retratadas e a revisão de elementos que possam reproduzir marcas ou obras protegidas.",
+      },
+      {
+        type: "paragraph",
+        text: "O próprio Google publicou um cartão de modelo para descrever capacidades e limitações do Omni Flash. A existência dessa documentação é importante, mas a responsabilidade prática dependerá de como plataformas e equipes aplicam salvaguardas no uso cotidiano.",
+      },
+      { type: "heading", text: "A IA de vídeo começa a se parecer com uma ferramenta de produção" },
+      {
+        type: "paragraph",
+        text: "O Omni 1.1 Flash está disponível globalmente no Google Flow para assinantes AI Plus, Pro e Ultra. A extensão de cenas também chega ao aplicativo Gemini para esses planos, enquanto desenvolvedores podem experimentar a tecnologia pelo AI Studio e pelas APIs indicadas pela empresa.",
+      },
+      {
+        type: "paragraph",
+        text: "O avanço mais relevante não é apenas o 4K. É a tentativa de organizar a geração de vídeo em etapas reconhecíveis: referência, rascunho, comparação, direção, revisão e acabamento. Quanto mais esse processo se aproxima de um fluxo profissional, menos sentido faz tratar a inteligência artificial como um botão que entrega uma obra pronta.",
+      },
+      {
+        type: "paragraph",
+        text: "Para criadores, o valor estará na capacidade de conduzir a ferramenta sem perder a própria linguagem. Para empresas, estará em combinar velocidade com procedência, transparência e segurança jurídica. O Omni 1.1 Flash melhora o controle; agora, a maturidade do resultado dependerá de quem decide como usá-lo.",
+      },
+    ],
+    sources: [
+      { label: "Google — anúncio oficial do Gemini Omni 1.1 Flash", url: "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/" },
+      { label: "Google AI for Developers — documentação do Gemini Omni Flash", url: "https://ai.google.dev/gemini-api/docs/models/gemini-omni-flash" },
+      { label: "Google DeepMind — cartão do modelo Gemini Omni Flash", url: "https://deepmind.google/models/model-cards/gemini-omni-flash/" },
+      { label: "Google Cloud — preços da plataforma de agentes", url: "https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing" },
+    ],
+  },
+  {
+    title: "Mercado de segurança para inteligência artificial pode alcançar US$ 4,8 bilhões em 2027",
+    category: "Tecnologia",
+    author: "Shirley Brito",
+    date: "2026-08-28",
+    excerpt:
+      "Gartner prevê crescimento de 68,7% nos investimentos destinados a proteger modelos, aplicações e agentes de IA contra vazamentos, ataques e usos indevidos.",
+    tags: ["inteligencia-artificial", "seguranca-de-ia", "ciberseguranca", "gartner", "agentes-de-ia", "governanca-de-ia", "protecao-de-dados"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "O mercado mundial de tecnologias destinadas a proteger sistemas de inteligência artificial deve movimentar aproximadamente US$ 4,8 bilhões em 2027, segundo uma nova projeção do Gartner.",
+      },
+      {
+        type: "paragraph",
+        text: "O valor representa um crescimento de 68,7% em relação aos US$ 2,835 bilhões estimados para 2026. A consultoria também prevê que os investimentos podem se aproximar de US$ 7,7 bilhões em 2028.",
+      },
+      {
+        type: "paragraph",
+        text: "A expansão acompanha a entrada de modelos generativos e agentes autônomos em processos empresariais. Quanto mais esses sistemas recebem acesso a documentos, bancos de dados, aplicativos e ferramentas externas, maior é a necessidade de controlar quais informações podem consultar e quais ações estão autorizados a executar.",
+      },
+      { type: "heading", text: "Proteger a IA não é o mesmo que usar IA na segurança" },
+      {
+        type: "paragraph",
+        text: "A projeção do Gartner trata especificamente do mercado chamado de securing AI: produtos criados para proteger modelos, aplicações, dados e agentes de inteligência artificial.",
+      },
+      {
+        type: "paragraph",
+        text: "Esse segmento é diferente do mercado de soluções de cibersegurança que utilizam IA para detectar fraudes, analisar redes ou identificar ameaças. No primeiro caso, a inteligência artificial é o sistema que precisa ser protegido. No segundo, ela funciona como uma ferramenta de defesa.",
+      },
+      {
+        type: "paragraph",
+        text: "A diferença explica por que outras estimativas sobre “IA na cibersegurança” apresentam valores muito superiores. Os levantamentos não estão necessariamente em conflito, mas medem categorias distintas.",
+      },
+      {
+        type: "paragraph",
+        text: "O mercado analisado pelo Gartner reúne quatro áreas principais: segurança de aplicações de IA, controle do uso de IA, plataformas de governança e gateways responsáveis por intermediar o acesso aos modelos.",
+      },
+      {
+        type: "highlight",
+        text: "O levantamento não contabiliza todo produto de segurança que usa inteligência artificial. Ele considera as ferramentas desenvolvidas especificamente para proteger a própria IA.",
+      },
+      { type: "heading", text: "Aplicações concentram a maior parcela" },
+      {
+        type: "paragraph",
+        text: "A segurança de aplicações de IA deverá permanecer como a maior categoria identificada individualmente. O Gartner estima que os investimentos nessa área passarão de US$ 508 milhões em 2026 para US$ 851 milhões em 2027.",
+      },
+      {
+        type: "paragraph",
+        text: "O controle do uso de IA aparece em seguida, avançando de US$ 433 milhões para US$ 749 milhões. Essa categoria inclui ferramentas capazes de estabelecer políticas sobre quais serviços podem ser utilizados e que tipos de informações podem ser enviados a modelos externos.",
+      },
+      {
+        type: "paragraph",
+        text: "As plataformas de governança devem alcançar US$ 462 milhões em 2027. Esses sistemas ajudam empresas a registrar modelos, avaliar riscos, documentar decisões e acompanhar o cumprimento de normas internas e regulatórias.",
+      },
+      {
+        type: "paragraph",
+        text: "Os gateways de IA, responsáveis por controlar a comunicação entre usuários, aplicações e modelos, podem movimentar US$ 429 milhões no mesmo período.",
+      },
+      {
+        type: "paragraph",
+        text: "Outras ferramentas e serviços relacionados à proteção da IA completam a projeção e representam US$ 2,292 bilhões.",
+      },
+      { type: "heading", text: "Agentes criam novos pontos de ataque" },
+      {
+        type: "paragraph",
+        text: "Os riscos aumentam quando a IA deixa de apenas responder perguntas e passa a executar tarefas. Agentes podem consultar e-mails, movimentar arquivos, acessar sistemas corporativos ou iniciar processos sem supervisão constante.",
+      },
+      {
+        type: "paragraph",
+        text: "Uma instrução maliciosa escondida em um documento, página ou mensagem pode tentar alterar o comportamento desses agentes. Esse tipo de ataque é conhecido como injeção indireta de prompt.",
+      },
+      {
+        type: "paragraph",
+        text: "O Gartner prevê que, até 2029, mais da metade dos ataques bem-sucedidos contra agentes de IA poderá explorar falhas de controle de acesso e injeções de prompt.",
+      },
+      {
+        type: "paragraph",
+        text: "A cadeia de fornecimento também merece atenção. Projetos de IA costumam depender de bibliotecas abertas, modelos de terceiros, serviços em nuvem e grandes conjuntos de dados. Uma vulnerabilidade em qualquer componente pode afetar toda a aplicação.",
+      },
+      {
+        type: "quote",
+        text: "Esse avanço é impulsionado pela necessidade urgente de proteger sistemas de IA, enfrentar novas vulnerabilidades e fortalecer as defesas contra ameaças sofisticadas.",
+        by: "Shailendra Upadhyay, analista principal sênior do Gartner",
+      },
+      {
+        type: "paragraph",
+        text: "A declaração integra o comunicado divulgado pelo Gartner em 26 de agosto de 2026.",
+      },
+      { type: "heading", text: "Segurança exige monitoramento contínuo" },
+      {
+        type: "paragraph",
+        text: "As ameaças contra sistemas de IA não podem ser tratadas apenas com uma configuração inicial de segurança.",
+      },
+      {
+        type: "paragraph",
+        text: "O National Institute of Standards and Technology, o NIST, defende que empresas mantenham processos contínuos de testes, monitoramento e atualização. Novos comandos maliciosos podem explorar comportamentos que não foram previstos durante o desenvolvimento.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre os riscos estão o envenenamento de dados de treinamento, o roubo de informações, a manipulação das respostas e o uso indevido das ferramentas conectadas ao modelo.",
+      },
+      {
+        type: "highlight",
+        text: "Modelos protegidos no lançamento podem se tornar vulneráveis depois de conectados a novas fontes de dados, ferramentas e usuários. Por isso, testes e monitoramento precisam acompanhar todo o ciclo de vida da IA.",
+      },
+      {
+        type: "paragraph",
+        text: "A segurança também envolve decisões organizacionais. Empresas precisam saber quais modelos estão em operação, quem pode utilizá-los, que dados recebem e quais ações podem realizar.",
+      },
+      {
+        type: "paragraph",
+        text: "Isso torna governança, identidade digital e controle de acesso tão importantes quanto as barreiras técnicas instaladas ao redor do modelo.",
+      },
+      { type: "heading", text: "A proteção começa a acompanhar a adoção" },
+      {
+        type: "paragraph",
+        text: "A expansão do mercado indica que as empresas estão começando a reconhecer um custo que nem sempre aparecia nos primeiros projetos de inteligência artificial: proteger a tecnologia depois que ela entra em produção.",
+      },
+      {
+        type: "paragraph",
+        text: "Ferramentas especializadas não substituem práticas tradicionais de cibersegurança. Controle de identidade, proteção de dados, gestão de vulnerabilidades e monitoramento de fornecedores continuam essenciais.",
+      },
+      {
+        type: "paragraph",
+        text: "A diferença é que modelos e agentes introduzem comportamentos difíceis de prever apenas com regras fixas. A proteção precisa considerar tanto falhas técnicas quanto a possibilidade de alguém manipular a linguagem usada para comandar o sistema.",
+      },
+      {
+        type: "paragraph",
+        text: "O crescimento previsto para 2027 mostra que segurança e governança estão deixando de ser etapas posteriores. Para organizações que pretendem confiar tarefas reais à inteligência artificial, elas passam a fazer parte da própria infraestrutura necessária para utilizar a tecnologia.",
+      },
+    ],
+    sources: [
+      { label: "Gartner — mercado de proteção de IA pode alcançar US$ 4,8 bilhões em 2027", url: "https://www.gartner.com/en/newsroom/press-releases/2026-08-26-gartner-forecasts-the-market-for-securing-ai-will-reach-almost-5-billion-in-2027" },
+      { label: "NIST — diretrizes de cibersegurança para a era da IA", url: "https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era" },
+      { label: "NIST — ataques capazes de manipular sistemas de IA", url: "https://www.nist.gov/news-events/news/2024/01/nist-identifies-types-cyberattacks-manipulate-behavior-ai-systems" },
+      { label: "NIST — segurança de IA exige monitoramento e atualizações contínuas", url: "https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update" },
+    ],
+  },
+  {
+    title: "Metal Gear Solid 4 deixa o PlayStation 3 após 18 anos com a Master Collection Vol. 2",
+    category: "Games",
+    author: "Shirley Brito",
+    date: "2026-08-28",
+    excerpt:
+      "Primeiro porte oficial de Guns of the Patriots leva a última missão de Solid Snake para PS5, Xbox Series, PC e consoles Nintendo ao lado de Peace Walker e Ghost Babel.",
+    tags: ["metal-gear-solid", "metal-gear-solid-4", "master-collection-vol-2", "solid-snake", "konami", "games"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Depois de permanecer por 18 anos restrito ao PlayStation 3, Metal Gear Solid 4: Guns of the Patriots finalmente chegou a outras plataformas. O jogo integra a Metal Gear Solid: Master Collection Vol. 2, lançada em 27 de agosto para PlayStation 5, Xbox Series X|S, PC, Nintendo Switch 2 e Nintendo Switch.",
+      },
+      {
+        type: "paragraph",
+        text: "A nova coleção representa o primeiro porte oficial de Metal Gear Solid 4 desde seu lançamento original, em 2008. Até agora, quem desejava conhecer a última missão de Solid Snake dependia de um PlayStation 3 e de uma cópia compatível com o console.",
+      },
+      {
+        type: "paragraph",
+        text: "O pacote também inclui a versão HD de Metal Gear Solid: Peace Walker, originalmente lançado no PSP, e Metal Gear: Ghost Babel, título de Game Boy Color disponibilizado como conteúdo adicional.",
+      },
+      {
+        type: "highlight",
+        text: "Metal Gear Solid 4 recebe seu primeiro porte oficial desde 2008 e deixa de depender exclusivamente de um PlayStation 3 para ser preservado e jogado legalmente.",
+      },
+      { type: "heading", text: "Um dos capítulos mais importantes da série estava preso ao PS3" },
+      {
+        type: "paragraph",
+        text: "Metal Gear Solid 4: Guns of the Patriots ocupa uma posição central na cronologia criada por Hideo Kojima. Ambientado anos depois do incidente de Big Shell, o jogo acompanha um Solid Snake envelhecido em uma última missão para impedir Liquid Ocelot.",
+      },
+      {
+        type: "paragraph",
+        text: "A história procura encerrar conflitos e relações construídos desde os primeiros jogos da série. Personagens como Meryl, Raiden, Naomi Hunter, Otacon e Big Boss retornam em uma narrativa marcada por guerra, controle tecnológico e pelo legado deixado por diferentes gerações de soldados.",
+      },
+      {
+        type: "paragraph",
+        text: "Apesar dessa importância, Metal Gear Solid 4 nunca havia recebido uma versão oficial para outro console ou para computadores. Enquanto outros capítulos retornaram em coletâneas, remasterizações e relançamentos digitais, a conclusão da trajetória de Solid Snake permaneceu vinculada ao hardware lançado pela Sony em 2006.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa ausência criou uma lacuna na preservação da franquia. Jogadores podiam acompanhar boa parte da história de Snake em plataformas modernas, mas precisavam recorrer a um console antigo para acessar um de seus capítulos mais decisivos.",
+      },
+      { type: "heading", text: "O que está incluído na Master Collection Vol. 2" },
+      {
+        type: "paragraph",
+        text: "A principal atração da coleção é Metal Gear Solid 4, mas o pacote também recupera outra parte importante da cronologia.",
+      },
+      {
+        type: "paragraph",
+        text: "Metal Gear Solid: Peace Walker retorna em sua versão HD e acompanha Big Boss durante a criação de uma força militar independente. O jogo funciona como uma ligação direta entre Snake Eater e os acontecimentos que mais tarde dariam origem a Ground Zeroes e The Phantom Pain.",
+      },
+      {
+        type: "paragraph",
+        text: "A versão preserva o modo cooperativo e outras funções on-line para até seis participantes. A Konami informa, entretanto, que não haverá crossplay entre as diferentes plataformas.",
+      },
+      {
+        type: "paragraph",
+        text: "Metal Gear: Ghost Babel completa o pacote como conteúdo adicional. Lançado originalmente para Game Boy Color em 2000, o jogo apresenta uma história própria e não faz parte da cronologia principal da série.",
+      },
+      {
+        type: "paragraph",
+        text: "A coleção ainda oferece o banco de dados de Metal Gear Solid 4, livros digitais com roteiros e informações sobre personagens, além de uma seleção de músicas das trilhas sonoras.",
+      },
+      {
+        type: "paragraph",
+        text: "Metal Gear Solid 4 e Peace Walker também podem ser adquiridos separadamente em formato digital.",
+      },
+      { type: "heading", text: "O retorno não preserva toda a experiência original" },
+      {
+        type: "paragraph",
+        text: "A volta de Metal Gear Solid 4 resolve sua maior limitação de acesso, mas não recupera todos os componentes da versão de PlayStation 3.",
+      },
+      {
+        type: "paragraph",
+        text: "O suporte on-line anunciado pela Konami está concentrado em Peace Walker. A empresa não incluiu entre os recursos da coleção o retorno de Metal Gear Online, modo competitivo que acompanhava o quarto jogo e teve seus servidores encerrados em 2012.",
+      },
+      {
+        type: "paragraph",
+        text: "Isso significa que a campanha de Solid Snake está novamente disponível, mas parte da experiência original permanece restrita à memória de quem participou das partidas enquanto os servidores estavam ativos.",
+      },
+      {
+        type: "paragraph",
+        text: "A ausência não diminui a importância do relançamento, mas mostra que preservar um jogo envolve mais do que transportar sua campanha para um hardware recente. Recursos dependentes de servidores continuam sendo um dos maiores desafios para a conservação da história dos videogames.",
+      },
+      {
+        type: "paragraph",
+        text: "Antes do anúncio da Master Collection Vol. 2, Noriaki Okamura já havia reconhecido a dificuldade de transportar Metal Gear Solid 4 para plataformas atuais. Em entrevista ao Real Sound Tech, o produtor da série explicou que o jogo possuía uma estrutura técnica particularmente ligada ao PlayStation 3.",
+      },
+      {
+        type: "quote",
+        text: "O código de MGS4 é bastante peculiar. Trazê-lo para as plataformas atuais parece muito difícil.",
+        by: "Noriaki Okamura, produtor da série Metal Gear",
+      },
+      {
+        type: "paragraph",
+        text: "A declaração ajuda a dimensionar o trabalho envolvido no relançamento. O retorno de Metal Gear Solid 4 não representa apenas o fim de uma exclusividade comercial, mas a superação de uma barreira técnica reconhecida pela própria equipe responsável pela franquia.",
+      },
+      { type: "heading", text: "Preservação também significa ampliar o acesso" },
+      {
+        type: "paragraph",
+        text: "Relançar um título antigo não beneficia apenas quem deseja reencontrar uma experiência conhecida. A iniciativa permite que novas pessoas descubram obras importantes sem precisar procurar consoles descontinuados ou cópias físicas cada vez mais difíceis de encontrar.",
+      },
+      {
+        type: "paragraph",
+        text: "No caso de Metal Gear Solid 4, a exclusividade prolongada criou uma barreira concreta. Mesmo quem conheceu a franquia por meio das coleções recentes não conseguia acompanhar toda a trajetória de Solid Snake em um único ecossistema moderno.",
+      },
+      {
+        type: "paragraph",
+        text: "A Master Collection Vol. 2 reduz essa fragmentação e amplia o acesso para públicos que não tiveram contato com o PlayStation 3. Isso inclui uma geração de jogadoras e jogadores que conheceu Metal Gear por The Phantom Pain, pela primeira coletânea ou pelo remake de Snake Eater.",
+      },
+      {
+        type: "highlight",
+        text: "A importância da coleção não está apenas em melhorar jogos antigos, mas em impedir que capítulos essenciais de uma franquia permaneçam inacessíveis às novas gerações.",
+      },
+      { type: "heading", text: "Uma espera que finalmente chegou ao fim" },
+      {
+        type: "paragraph",
+        text: "Durante anos, Metal Gear Solid 4 foi o principal ausente das plataformas modernas. Sua chegada encerra uma exclusividade histórica e aproxima a Konami de reunir os capítulos centrais da franquia em sistemas atuais.",
+      },
+      {
+        type: "paragraph",
+        text: "A coleção também recupera Peace Walker, preserva Ghost Babel e reúne materiais que ajudam a compreender uma das cronologias mais complexas dos videogames.",
+      },
+      {
+        type: "paragraph",
+        text: "Ainda será necessário avaliar a qualidade técnica de cada versão, especialmente depois dos problemas enfrentados no lançamento da primeira Master Collection. A importância histórica do pacote, no entanto, já está clara.",
+      },
+      {
+        type: "paragraph",
+        text: "Depois de 18 anos esperando no PlayStation 3, a última missão de Solid Snake finalmente pode alcançar uma nova geração.",
+      },
+    ],
+    sources: [
+      { label: "Konami — Anúncio oficial da Master Collection Vol. 2", url: "https://www.konami.com/games/us/en/topics/3095/" },
+      { label: "Site oficial de Metal Gear Solid: Master Collection Vol. 2", url: "https://www.konami.com/mg/mc2/us/en/" },
+      { label: "PlayStation — Página oficial da coleção", url: "https://www.playstation.com/en-us/games/metal-gear-solid-master-collection-vol-2/" },
+      { label: "Steam — Master Collection Vol. 2", url: "https://store.steampowered.com/app/3859630/METAL_GEAR_SOLID_MASTER_COLLECTION_Vol2/" },
+    ],
+  },
+  {
+    title: "ROG Xbox Ally X20 aposta em tela OLED e hardware premium",
+    category: "Games",
+    author: "Shirley Brito",
+    date: "2026-08-28",
+    excerpt:
+      "Novo portátil da ASUS em parceria com o Xbox combina tela OLED de 120 Hz, processador Ryzen AI Z2 Extreme e acabamento comemorativo, mas chega ao mercado internacional por US$ 1.299.",
+    tags: ["rog-xbox-ally-x20", "xbox", "asus", "rog-ally", "jogos-portateis", "pc-gamer", "tela-oled", "amd-ryzen"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "A ASUS abriu a pré-venda internacional do ROG Xbox Ally X20, novo computador portátil para jogos desenvolvido em parceria com o Xbox. O modelo chega às lojas selecionadas em 15 de outubro de 2026, com preço inicial de US$ 1.299,99 nos Estados Unidos.",
+      },
+      {
+        type: "paragraph",
+        text: "Apresentado como o portátil mais avançado já produzido pela linha ROG Ally, o X20 aposta em uma tela OLED maior, controles redesenhados e componentes de alto desempenho. O aparelho também celebra os 20 anos da divisão Republic of Gamers, conhecida como ROG.",
+      },
+      {
+        type: "paragraph",
+        text: "Apesar do nome Xbox, o dispositivo não é um console tradicional. Ele utiliza Windows 11 e pode acessar jogos do Xbox, aplicativos de PC e bibliotecas de diferentes lojas digitais.",
+      },
+      { type: "heading", text: "Tela OLED é a principal novidade" },
+      {
+        type: "paragraph",
+        text: "O ROG Xbox Ally X20 recebeu uma tela ROG Nebula HDR OLED de 7,4 polegadas, com resolução Full HD e taxa de atualização de 120 Hz. O painel é maior do que o utilizado no Xbox Ally X anterior, mas foi incorporado sem aumentar significativamente as dimensões do aparelho.",
+      },
+      {
+        type: "paragraph",
+        text: "A tela possui certificação VESA DisplayHDR True Black 1400, suporte ao Dolby Vision e brilho máximo de 1.400 nits em determinados elementos HDR. O FreeSync Premium Pro trabalha com taxa de atualização variável entre 30 e 120 Hz para reduzir cortes e oscilações durante os jogos.",
+      },
+      {
+        type: "paragraph",
+        text: "O tempo de resposta informado pela fabricante é de 0,2 milissegundo. A ASUS também aplicou uma camada antirreflexo que, segundo a empresa, reduz os reflexos ambientais em até 65% quando comparada a um painel OLED convencional sem o mesmo tratamento.",
+      },
+      {
+        type: "highlight",
+        text: "A tela OLED de 7,4 polegadas combina resolução Full HD, frequência de 120 Hz, HDR e taxa de atualização variável — características que colocam a qualidade de imagem no centro da proposta do X20.",
+      },
+      { type: "heading", text: "Hardware busca sustentar jogos de PC" },
+      {
+        type: "paragraph",
+        text: "O portátil utiliza o processador AMD Ryzen AI Z2 Extreme, acompanhado por 24 GB de memória LPDDR5X e armazenamento SSD de 1 TB. A unidade interna segue o formato M.2 2280 e poderá ser substituída pelo usuário.",
+      },
+      {
+        type: "paragraph",
+        text: "A expansão de armazenamento também pode ser feita por meio de cartões microSD Express. O padrão oferece velocidades superiores às dos cartões microSD tradicionais, embora o leitor continue compatível com modelos mais antigos.",
+      },
+      {
+        type: "paragraph",
+        text: "Para sustentar o desempenho, o X20 utiliza uma bateria de 80 Wh e um sistema de resfriamento modificado. A nova estrutura direciona o fluxo de ar ao processador e utiliza ventoinhas de maior capacidade.",
+      },
+      {
+        type: "paragraph",
+        text: "O sistema operacional é o Windows 11, mas o aparelho pode ser iniciado no Xbox Mode, interface otimizada para navegação com os controles. A proposta é reunir jogos do Xbox e de outras lojas de PC em uma única biblioteca acessível pelo portátil.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa flexibilidade continua sendo uma das principais diferenças entre computadores portáteis com Windows e consoles fechados. Em contrapartida, o sistema precisa equilibrar compatibilidade, consumo de energia e uma interface originalmente criada para computadores convencionais.",
+      },
+      { type: "heading", text: "Controles também foram redesenhados" },
+      {
+        type: "paragraph",
+        text: "A ASUS adotou joysticks com sensores magnéticos TMR, tecnologia desenvolvida para ampliar a precisão e diminuir o risco de stick drift. A zona morta informada pela fabricante foi reduzida para 3%.",
+      },
+      {
+        type: "paragraph",
+        text: "O direcional também recebeu uma solução incomum. Chamado de Transforming D-pad, ele pode ser levantado e girado em 90 graus para alternar entre quatro e oito direções.",
+      },
+      {
+        type: "paragraph",
+        text: "A primeira configuração favorece jogos retrô e títulos que exigem movimentos mais precisos. A segunda pode ser mais adequada para jogos de luta e comandos diagonais.",
+      },
+      {
+        type: "paragraph",
+        text: "Gatilhos, botões frontais e empunhaduras foram redesenhados. As laterais receberam revestimento emborrachado, enquanto os botões ABXY ficaram mais alinhados à superfície quando pressionados.",
+      },
+      {
+        type: "paragraph",
+        text: "O editor Sean Hollister, que experimentou o aparelho para o site The Verge, destacou justamente o refinamento da experiência física.",
+      },
+      {
+        type: "quote",
+        text: "Ele pode ser o portátil Windows mais refinado e confortável de usar.",
+        by: "Sean Hollister, editor sênior do The Verge",
+      },
+      {
+        type: "paragraph",
+        text: "A avaliação preliminar também recomenda aguardar testes completos antes da compra, especialmente porque desempenho, aquecimento e duração da bateria ainda precisam ser analisados em condições reais.",
+      },
+      { type: "heading", text: "Design comemorativo cobra preço elevado" },
+      {
+        type: "paragraph",
+        text: "O acabamento utiliza uma carcaça preta semitranslúcida, estrutura interna dourada, iluminação nos joysticks e botão Xbox verde. O conjunto inclui ainda detalhes alusivos ao aniversário de 20 anos da ROG.",
+      },
+      {
+        type: "paragraph",
+        text: "A versão avulsa custa US$ 1.299,99. Também será comercializado um pacote de US$ 2.499,99 com óculos ROG XREAL R1 Edition 20, capa protetora desenvolvida pela dbrand e uma maleta rígida personalizada da Pelican.",
+      },
+      {
+        type: "paragraph",
+        text: "Os óculos utilizam duas telas Micro-OLED e simulam uma imagem de até 171 polegadas. O acessório é conectado ao portátil por um cabo USB-C.",
+      },
+      {
+        type: "paragraph",
+        text: "O preço coloca o X20 acima de muitos notebooks gamers e dos principais portáteis disponíveis atualmente. A tela OLED, os controles aperfeiçoados e o acabamento comemorativo ajudam a diferenciar o produto, mas não transformam a compra em uma escolha acessível.",
+      },
+      {
+        type: "paragraph",
+        text: "Até o momento, ASUS e Xbox não divulgaram preço, início das vendas ou disponibilidade oficial do ROG Xbox Ally X20 no Brasil. A ausência dessas informações também impede estimar quanto o portátil custaria no mercado nacional.",
+      },
+      {
+        type: "paragraph",
+        text: "O X20 mostra que a disputa pelos jogos portáteis está entrando em uma fase de maior segmentação. Enquanto alguns dispositivos buscam alcançar mais jogadores, a ASUS aposta em um modelo de coleção, com tela avançada, hardware potente e preço compatível com um produto de nicho.",
+      },
+    ],
+    sources: [
+      { label: "ASUS ROG — página oficial do ROG Xbox Ally X20", url: "https://rog.asus.com/gaming-handhelds/rog-ally/rog-xbox-ally-x20-2026/" },
+      { label: "ASUS ROG — pré-venda, preço e data de lançamento", url: "https://rog.asus.com/articles/rog-ally/pre-order-your-rog-xbox-ally-x20-today-standalone-or-as-part-of-an-incredible-rog-20th-anniversary-bundle/" },
+      { label: "Xbox Wire — início da pré-venda", url: "https://news.xbox.com/en-us/2026/08/25/preorder-the-rog-xbox-ally-x20-starting-today/" },
+      { label: "The Verge — primeiras impressões e análise do preço", url: "https://www.theverge.com/games/984139/the-oled-xbox-ally-x20-officially-starts-at-1300" },
+    ],
+  },
+  {
+    title: "Samsung apresenta nova geração Galaxy Z e amplia disputa por smartphones com IA",
+    category: "Tecnologia",
+    author: "Shirley Brito",
+    date: "2026-08-28",
+    excerpt:
+      "Galaxy Z Fold8 Ultra, Fold8 e Flip8 combinam formatos dobráveis com ferramentas de inteligência artificial adaptadas a diferentes formas de uso.",
+    tags: ["samsung", "galaxy-z", "galaxy-ai", "smartphones-dobraveis", "inteligencia-artificial", "galaxy-z-fold8-ultra", "galaxy-z-fold8", "galaxy-z-flip8"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "A Samsung iniciou no Brasil a entrega do Galaxy Z Fold8 Ultra, Galaxy Z Fold8 e Galaxy Z Flip8, nova geração de smartphones dobráveis da marca. Os aparelhos chegam ao mercado com mudanças no design, nas câmeras e no desempenho, mas é a integração com a inteligência artificial que ocupa o centro da estratégia.",
+      },
+      {
+        type: "paragraph",
+        text: "Apresentada globalmente em 22 de julho, a linha começou a ser entregue aos consumidores brasileiros em 21 de agosto. A proposta da Samsung é oferecer três experiências diferentes: produtividade avançada no Fold8 Ultra, equilíbrio entre trabalho e entretenimento no Fold8 e portabilidade no Flip8.",
+      },
+      {
+        type: "paragraph",
+        text: "Mais do que atualizar especificações, a empresa tenta mostrar que a inteligência artificial pode se adaptar ao formato físico de cada dispositivo.",
+      },
+      { type: "heading", text: "Três dobráveis para diferentes formas de uso" },
+      {
+        type: "paragraph",
+        text: "O Galaxy Z Fold8 Ultra ocupa o topo da nova família. O aparelho tem tela interna de 8 polegadas, espessura de 4,1 milímetros quando aberto, câmera principal de 200 megapixels e bateria de 5.000 mAh.",
+      },
+      {
+        type: "paragraph",
+        text: "O modelo foi pensado para atividades que se beneficiam de uma tela maior, como edição de documentos, criação de conteúdo, execução simultânea de aplicativos e consumo de vídeos.",
+      },
+      {
+        type: "paragraph",
+        text: "O Galaxy Z Fold8 mantém a estrutura de smartphone que se transforma em uma pequena tela de trabalho. Pesando 201 gramas, o dispositivo utiliza o processador Snapdragon 8 Elite Gen 5 for Galaxy e traz mudanças na proporção das telas externa e interna.",
+      },
+      {
+        type: "paragraph",
+        text: "Já o Galaxy Z Flip8 aposta em um formato mais compacto. O aparelho pesa 180 gramas, tem 6,1 milímetros de espessura quando aberto e recebeu uma nova versão da FlexWindow, tela externa que permite consultar informações e utilizar recursos sem abrir completamente o telefone.",
+      },
+      {
+        type: "highlight",
+        text: "A Samsung não está oferecendo apenas três tamanhos. Cada formato recebeu ferramentas de IA voltadas a uma experiência diferente: produtividade no Ultra, multitarefa no Fold e acesso rápido no Flip.",
+      },
+      { type: "heading", text: "Inteligência artificial integrada ao formato" },
+      {
+        type: "paragraph",
+        text: "A nova geração chega com recursos como Now Brief, Now Nudge e Gemini Intelligence. As ferramentas podem organizar informações do cotidiano, sugerir ações e acessar diferentes aplicativos para executar tarefas solicitadas pelo usuário.",
+      },
+      {
+        type: "paragraph",
+        text: "No Fold8 Ultra, a tela maior permite utilizar assistentes de IA ao lado de documentos, vídeos ou páginas abertas. O usuário pode, por exemplo, consultar informações sem abandonar o conteúdo principal ou trabalhar com diferentes aplicativos simultaneamente.",
+      },
+      {
+        type: "paragraph",
+        text: "No Flip8, parte dessas interações pode acontecer pela tela externa. A proposta é permitir o acesso a resumos, notificações e comandos rápidos sem exigir que o aparelho seja aberto a todo momento.",
+      },
+      {
+        type: "paragraph",
+        text: "A adaptação da inteligência artificial ao formato representa um passo importante para a categoria. Em vez de apresentar a IA apenas como uma lista de funções adicionais, a Samsung tenta incorporá-la à maneira como cada aparelho é utilizado.",
+      },
+      {
+        type: "quote",
+        text: "À medida que a IA se torna mais autônoma, os dispositivos móveis serão a porta de entrada mais pessoal para experiências adaptadas a cada usuário.",
+        by: "TM Roh, CEO e responsável pela divisão Device eXperience da Samsung",
+      },
+      {
+        type: "paragraph",
+        text: "A declaração foi publicada pela Samsung durante o anúncio global dos aparelhos, em 22 de julho de 2026.",
+      },
+      { type: "heading", text: "Câmeras e criação de conteúdo continuam em evidência" },
+      {
+        type: "paragraph",
+        text: "As câmeras também foram ajustadas para aproveitar os formatos dobráveis. O Fold8 Ultra utiliza um sensor principal de 200 megapixels e uma nova câmera ultrawide de 50 megapixels.",
+      },
+      {
+        type: "paragraph",
+        text: "O Fold8 possui duas câmeras de 50 megapixels e recursos como o My FanCam, criado para acompanhar pessoas em movimento durante gravações.",
+      },
+      {
+        type: "paragraph",
+        text: "No Flip8, a combinação da câmera principal de 50 megapixels com o modo FlexCam permite apoiar o aparelho parcialmente dobrado e fotografar sem tripé. A tela externa também pode ser usada para visualizar o enquadramento.",
+      },
+      {
+        type: "paragraph",
+        text: "Essas possibilidades interessam especialmente a quem produz vídeos, fotografias ou transmissões para redes sociais. O formato dobrável transforma o próprio aparelho em suporte e facilita gravações individuais ou em grupo.",
+      },
+      {
+        type: "paragraph",
+        text: "A abordagem evita limitar a comunicação do Flip8 apenas à aparência ou às opções de cores. Recursos de câmera, personalização e mobilidade podem ser relevantes para diferentes perfis de criadoras e usuárias, sem recorrer à ideia de que determinados produtos precisam ser simplificados para alcançar o público feminino.",
+      },
+      { type: "heading", text: "Privacidade passa a fazer parte da disputa" },
+      {
+        type: "paragraph",
+        text: "O avanço dos assistentes de IA também aumenta as dúvidas sobre quais informações são analisadas e armazenadas pelos dispositivos.",
+      },
+      {
+        type: "paragraph",
+        text: "A Samsung afirma que a linha utiliza recursos como Knox Vault, Privacy Alerts e AI Assistant Activity. O painel permite visualizar quais aplicativos e assistentes tiveram acesso a determinadas informações, enquanto os alertas procuram identificar atividades consideradas sensíveis.",
+      },
+      {
+        type: "paragraph",
+        text: "A One UI 9 também reúne controles relacionados à inteligência artificial e à privacidade. A presença dessas ferramentas não elimina a necessidade de atenção, mas indica que a transparência sobre o uso dos dados começa a fazer parte da competição entre fabricantes.",
+      },
+      {
+        type: "highlight",
+        text: "Quanto mais os assistentes conhecem hábitos, aplicativos e informações pessoais, mais importantes se tornam os controles que mostram quando e como esses dados foram utilizados.",
+      },
+      { type: "heading", text: "A disputa agora é pela utilidade da IA" },
+      {
+        type: "paragraph",
+        text: "A inteligência artificial já deixou de ser uma novidade isolada nos smartphones premium. O desafio atual é demonstrar que ela consegue resolver tarefas reais sem tornar a experiência mais complicada.",
+      },
+      {
+        type: "paragraph",
+        text: "Com três formatos, a Samsung amplia sua aposta em uma categoria que ainda procura alcançar um público maior. O Fold8 Ultra representa a proposta mais ambiciosa, enquanto o Fold8 busca equilibrar produtividade e entretenimento. O Flip8 tenta levar recursos avançados para um aparelho menor e mais fácil de transportar.",
+      },
+      {
+        type: "paragraph",
+        text: "O sucesso dessa estratégia dependerá de fatores como preço, durabilidade das telas, autonomia de bateria e qualidade dos recursos de IA em português. Também será necessário avaliar se as ferramentas continuarão úteis depois do impacto inicial do lançamento.",
+      },
+      {
+        type: "paragraph",
+        text: "A nova geração Galaxy Z mostra, porém, que a próxima disputa dos smartphones não acontecerá somente pela melhor câmera ou pelo processador mais rápido. Ela também será definida pela capacidade de transformar inteligência artificial em uma experiência prática, transparente e adaptada à vida de cada pessoa.",
+      },
+    ],
+    sources: [
+      { label: "Samsung Global Newsroom — Galaxy Z Fold8 Ultra, Fold8 e Flip8", url: "https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living" },
+      { label: "Samsung Newsroom Brasil — apresentação da linha Galaxy Z no Brasil", url: "https://news.samsung.com/br/samsung-apresenta-os-novos-galaxy-z-fold8-galaxy-z-fold8-ultra-e-galaxy-z-flip8-no-brasil" },
+      { label: "Samsung Newsroom Brasil — início das entregas da nova linha", url: "https://news.samsung.com/br/sucesso-na-pre-venda-samsung-inicia-entrega-do-novo-galaxy-z-series-no-brasil-nesta-sexta-feira-21" },
+      { label: "Samsung Mobile Press — informações oficiais dos aparelhos", url: "https://www.samsungmobilepress.com/articles/galaxy-z-fold8-ultra-fold8-flip8-perfected-every-way-living" },
+    ],
+  },
+  {
+    title: "Scott Pilgrim EX transforma Kim Pine e Knives Chau em estilos próprios de combate",
+    category: "Games",
+    author: "Shirley Brito",
+    date: "2026-08-28",
+    excerpt:
+      "DLC Back in the Band reúne a formação da Sex Bob-omb e mostra como silhueta, postura e animação traduzem personalidade em jogabilidade.",
+    tags: ["scott-pilgrim-ex", "back-in-the-band", "knives-chau", "kim-pine", "tribute-games", "pixel-art", "animacao-2d"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Scott Pilgrim EX recebeu em 27 de agosto o DLC pago Back in the Band, que adiciona Stephen Stills, Kim Pine e Knives Chau ao elenco jogável. O conteúdo reúne a formação completa da Sex Bob-omb e chega acompanhado por Coin-Op Chaos, atualização gratuita com modo Arcade, cooperação e suporte entre plataformas.",
+      },
+      {
+        type: "paragraph",
+        text: "Mais do que ampliar a seleção de personagens, o lançamento revela como a Tribute Games usa animação para transformar personalidade em regras de combate. Kim, Knives e Stephen não aparecem apenas com roupas e golpes diferentes: postura, ritmo, alcance e pequenas expressões ajudam a comunicar quem são antes mesmo de a partida começar.",
+      },
+      { type: "heading", text: "A tela de seleção virou uma pequena apresentação" },
+      {
+        type: "paragraph",
+        text: "Com três novos nomes, a equipe precisou reorganizar a tela de seleção sem perder clareza. O animador Artem Samoilov trabalhou a composição para equilibrar o elenco e, ao mesmo tempo, conduzir o olhar para as novas opções.",
+      },
+      {
+        type: "paragraph",
+        text: "Cada animação ociosa foi pensada como uma introdução. Kim Pine demonstra confiança contida e uma dose de atitude. Knives Chau transmite energia e prontidão para se mover. Stephen Stills parece relaxado, mas deixa escapar uma expressão breve de surpresa.",
+      },
+      {
+        type: "quote",
+        text: "Cada animação de seleção foi criada como uma pequena performance.",
+        by: "Artem Samoilov, animador 2D da Tribute Games",
+      },
+      {
+        type: "paragraph",
+        text: "Esses gestos podem passar despercebidos conscientemente, mas cumprem uma função. Em poucos segundos, indicam ritmo e temperamento sem depender de uma ficha de personagem. É uma forma de narrativa visual adequada a um jogo de ação, no qual a leitura precisa acontecer enquanto o público decide com quem jogar.",
+      },
+      { type: "heading", text: "Silhueta e postura conectam quadrinhos e pixel art" },
+      {
+        type: "paragraph",
+        text: "Antes de chegar aos sprites finais, os novos personagens passaram por esboços que definiram silhueta, postura e personalidade. Pequenas alterações no ângulo do corpo, na expressão ou na amplitude de um gesto ajudam a manter cada figura legível em meio às cores e aos efeitos de um combate cooperativo.",
+      },
+      {
+        type: "paragraph",
+        text: "A equipe também precisava permanecer reconhecível para quem acompanha as criações de Bryan Lee O’Malley. O desafio não era copiar um desenho estático, mas traduzir sua identidade para movimentos repetidos centenas de vezes durante uma partida.",
+      },
+      {
+        type: "highlight",
+        text: "Em pixel art, poucos quadros precisam cumprir várias funções ao mesmo tempo: indicar personalidade, antecipar o golpe e manter o personagem legível em uma tela cheia de inimigos.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa preocupação mostra por que animação de jogos não é apenas acabamento. Uma pose prepara a expectativa de velocidade; uma pausa comunica peso; o alcance de um acessório interfere na distância segura para atacar. O visual ensina o sistema enquanto constrói a caracterização.",
+      },
+      { type: "heading", text: "Knives Chau ganha velocidade e combate de aproximação" },
+      {
+        type: "paragraph",
+        text: "Knives foi desenhada como uma lutadora rápida, voltada a entrar e sair do alcance dos inimigos. O cachecol funciona como elemento visual e arma, ampliando alguns ataques e reforçando o movimento acrobático. Golpes de faca completam um estilo baseado em pressão e mobilidade.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa decisão é importante porque evita transformar a personagem em simples variação de outro lutador. A Tribute Games afirma que o objetivo era traduzir sua personalidade para a jogabilidade. Energia inquieta, rapidez e iniciativa aparecem tanto nas animações quanto na maneira de controlar Knives.",
+      },
+      {
+        type: "paragraph",
+        text: "Kim Pine segue uma direção diferente. Sua presença mais firme e controlada combina com a baterista que observa o caos ao redor com expressão pouco impressionada. Mesmo quando o material divulgado não detalha cada número ou combinação, a equipe deixa claro que postura e tempo ajudam a diferenciar sua atuação.",
+      },
+      {
+        type: "paragraph",
+        text: "O recorte também amplia o espaço de duas personagens femininas que, em adaptações anteriores, muitas vezes orbitavam os conflitos afetivos de Scott. Como lutadoras selecionáveis, Kim e Knives passam a ser definidas por decisões de design, habilidades e formas próprias de ocupar a tela.",
+      },
+      { type: "heading", text: "Back in the Band é pago, mas a atualização Arcade é gratuita" },
+      {
+        type: "paragraph",
+        text: "O pacote Back in the Band custa US$ 3,99 no mercado internacional e adiciona os três personagens, novos assistentes, movimentos, combinações e paletas. Preço e disponibilidade na loja brasileira devem ser conferidos antes da publicação, porque conversão, impostos e condições regionais podem alterar o valor.",
+      },
+      {
+        type: "paragraph",
+        text: "Ao mesmo tempo, Coin-Op Chaos chega gratuitamente. A atualização introduz um modo Arcade baseado em vidas, créditos, pontuação e ranking local. Também oferece cooperação, entrada e saída durante a sessão e suporte multiplataforma.",
+      },
+      {
+        type: "highlight",
+        text: "O conteúdo foi dividido em duas partes: personagens adicionais no DLC pago e um modo Arcade gratuito para toda a base do jogo.",
+      },
+      {
+        type: "paragraph",
+        text: "A separação permite que o estúdio venda a expansão de elenco sem colocar a nova estrutura Arcade atrás do mesmo pagamento. Ainda assim, a recepção dependerá do equilíbrio dos personagens, da integração com o elenco original e do valor cobrado em cada região.",
+      },
+      { type: "heading", text: "Personalidade não precisa parar na aparência" },
+      {
+        type: "paragraph",
+        text: "Scott Pilgrim sempre reuniu quadrinhos, música, games e referências à cultura pop. Em Scott Pilgrim EX, essa mistura só funciona quando cada linguagem participa da experiência, em vez de servir como decoração nostálgica.",
+      },
+      {
+        type: "paragraph",
+        text: "O trabalho apresentado pela Tribute Games mostra um processo de observação e iteração. Conceitos estabelecem silhuetas; sprites testam leitura; expressões quase invisíveis dão humanidade; golpes transformam traços de personalidade em escolhas mecânicas.",
+      },
+      {
+        type: "paragraph",
+        text: "Kim Pine e Knives Chau são bons exemplos do resultado possível quando personagens conhecidas recebem espaço para agir com identidade própria. Uma é marcada por confiança contida; a outra, por velocidade e energia. Nenhuma precisa ser reduzida à relação que mantém com Scott.",
+      },
+      {
+        type: "paragraph",
+        text: "Ao reunir a Sex Bob-omb e expandir o elenco, Back in the Band entrega conteúdo novo. Seu aspecto mais interessante, porém, está nos bastidores: a demonstração de que alguns poucos pixels, quando bem dirigidos, conseguem dizer quem uma personagem é e como ela quer lutar.",
+      },
+    ],
+    sources: [
+      { label: "PlayStation Blog — processo criativo de Back in the Band", url: "https://blog.playstation.com/2026/08/27/scott-pilgrim-ex-bringing-three-new-heroes-to-life-in-back-in-the-band-dlc/" },
+      { label: "GamesPress — comunicado oficial de lançamento do DLC e da atualização", url: "https://www.gamespress.com/SCOTT-PILGRIM-EX-BRINGS-THE-BAND-BACK-TOGETHER-WITH-NEW-PAID-DLC-AND-F" },
+      { label: "Nintendo Everything — disponibilidade no Nintendo Switch", url: "https://nintendoeverything.com/scott-pilgrim-ex-reveals-back-in-the-band-dlc-and-free-coin-op-chaos-update/" },
+      { label: "Polygon — desenvolvimento e colaboração com Bryan Lee O’Malley", url: "https://www.polygon.com/gaming/604420/scott-pilgrim-ex-new-game-release" },
+    ],
+  },
+  {
+    title: "Star Wars Zero Company estreia com estratégia e liberdade para criar seu próprio esquadrão",
+    category: "Star Wars",
+    author: "Shirley Brito",
+    date: "2026-08-28",
+    excerpt:
+      "Novo jogo da Bit Reactor leva as Guerras Clônicas para uma campanha centrada em personalização, vínculos e decisões que afetam toda a equipe.",
+    tags: ["star-wars", "star-wars-zero-company", "games", "bit-reactor", "lucasfilm-games", "electronic-arts"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Star Wars Zero Company chegou em 27 de agosto ao PC, PlayStation 5 e Xbox Series X|S com uma proposta diferente de boa parte dos jogos da franquia: colocar o jogador no comando de uma equipe personalizável em batalhas táticas por turnos.",
+      },
+      {
+        type: "paragraph",
+        text: "Desenvolvido pela Bit Reactor em colaboração com a Lucasfilm Games e publicado pela Electronic Arts, o título se passa no período final das Guerras Clônicas. Em vez de acompanhar novamente os personagens mais conhecidos da saga, a campanha apresenta um grupo que trabalha nas sombras do conflito.",
+      },
+      {
+        type: "paragraph",
+        text: "O jogador assume o controle de Hawks, antiga liderança militar da República e atual comandante da Zero Company, uma organização formada por mercenários, ex-soldados, alienígenas, droides e especialistas de diferentes origens.",
+      },
+      {
+        type: "paragraph",
+        text: "A missão do grupo é impedir os planos de Kundri Fathom, líder da Infinite Coil, organização ligada aos Separatistas que ameaça espalhar uma praga pela galáxia.",
+      },
+      {
+        type: "highlight",
+        text: "Mais do que comandar personagens predeterminados, o jogador pode construir sua própria liderança e definir quem fará parte da Zero Company.",
+      },
+      { type: "heading", text: "Uma história construída ao redor da equipe" },
+      {
+        type: "paragraph",
+        text: "Hawks ocupa a posição central da campanha, mas pode ter nome, aparência, espécie, voz, roupas e especialização definidos pelo jogador.",
+      },
+      {
+        type: "paragraph",
+        text: "A equipe também combina personagens desenvolvidos pela Bit Reactor com operadores personalizados. Esses novos integrantes recebem identidade visual, equipamentos, habilidades e funções escolhidas de acordo com o estilo de cada campanha.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa liberdade permite formar um esquadrão ofensivo, priorizar especialistas em suporte, investir em ataques de longa distância ou equilibrar diferentes funções.",
+      },
+      {
+        type: "paragraph",
+        text: "A personalização não fica restrita aos combates. Segundo a Bit Reactor, a maioria das cenas é processada em tempo real para que os personagens criados apareçam durante os principais momentos da história.",
+      },
+      {
+        type: "paragraph",
+        text: "Hawks, portanto, não precisa corresponder a um único gênero, aparência ou origem previamente estabelecida. A liderança da companhia também funciona como um espaço de identificação dentro do universo de Star Wars.",
+      },
+      { type: "heading", text: "Mulheres ocupam posições centrais no conflito" },
+      {
+        type: "paragraph",
+        text: "A campanha apresenta personagens femininas em diferentes lados da guerra e não as concentra apenas em funções de apoio.",
+      },
+      {
+        type: "paragraph",
+        text: "Tel-Rea Vokoss é uma padawan Tognath que tenta honrar o legado de sua mestra Jedi. Cly Kullervo pertence a um antigo clã de guerreiros mandalorianos e se aproxima da companhia durante sua busca por vingança.",
+      },
+      {
+        type: "paragraph",
+        text: "Jae Mordant exerce influência política e econômica na história. Depois de perder seu território para a Infinite Coil, ela participa diretamente da contratação da Zero Company.",
+      },
+      {
+        type: "paragraph",
+        text: "Kundri Fathom também ocupa uma posição de autoridade própria: é ela quem lidera a organização que o esquadrão precisa enfrentar.",
+      },
+      {
+        type: "paragraph",
+        text: "A campanha completa mostrará se todas essas personagens receberam o mesmo cuidado narrativo. O que já chama atenção é a variedade de funções que exercem — liderança, combate, estratégia, poder político e oposição.",
+      },
+      {
+        type: "paragraph",
+        text: "Para o público feminino geek, essa construção possui um valor que vai além da quantidade de mulheres presentes. Representatividade também envolve tomar decisões, liderar equipes e participar ativamente dos conflitos que movimentam a história.",
+      },
+      {
+        type: "quote",
+        text: "Em Zero Company, a personalização mais interessante não está apenas na aparência de Hawks, mas na possibilidade de imaginar diferentes pessoas ocupando a posição de liderança.",
+        by: "Shirley Brito, ARS GEEK",
+      },
+      { type: "heading", text: "Cada decisão pode colocar o esquadrão em risco" },
+      {
+        type: "paragraph",
+        text: "As batalhas acontecem em turnos e utilizam uma câmera isométrica. Cada integrante possui pontos de ação que podem ser usados para movimentação, ataques e habilidades especiais.",
+      },
+      {
+        type: "paragraph",
+        text: "Cobertura, distância, linha de visão e probabilidade de acerto interferem nos confrontos. O jogador também precisa combinar as capacidades dos operadores, já que nenhuma personagem foi criada para resolver todas as situações sozinha.",
+      },
+      {
+        type: "paragraph",
+        text: "As consequências podem ser permanentes. Na dificuldade padrão, um operador que acumular três ferimentos pode morrer definitivamente. A base da companhia possui até mesmo um memorial dedicado aos integrantes perdidos durante a campanha.",
+      },
+      {
+        type: "paragraph",
+        text: "O sistema aumenta o peso de cada escolha. Arriscar uma posição para concluir um objetivo pode colocar em perigo alguém que participou de várias missões e desenvolveu relações com o restante do grupo.",
+      },
+      { type: "heading", text: "Vínculos também fazem parte da estratégia" },
+      {
+        type: "paragraph",
+        text: "Entre as missões, o esquadrão retorna ao Den, sua base de operações no Anel de Kafrene. O local permite recrutar integrantes, tratar ferimentos, melhorar equipamentos e conversar com os membros da companhia.",
+      },
+      {
+        type: "paragraph",
+        text: "Personagens que lutam juntos desenvolvem vínculos capazes de desbloquear benefícios permanentes. Algumas decisões tomadas por Hawks também podem fortalecer uma relação e prejudicar outra.",
+      },
+      {
+        type: "paragraph",
+        text: "O recurso não transforma o jogo em um simulador de relacionamentos, mas acrescenta uma dimensão humana à estratégia. O jogador não administra apenas habilidades e equipamentos: também precisa lidar com confiança, discordâncias e perdas.",
+      },
+      {
+        type: "highlight",
+        text: "Os vínculos entre operadores podem liberar vantagens permanentes, enquanto escolhas realizadas durante a campanha alteram a relação entre os integrantes da companhia.",
+      },
+      { type: "heading", text: "Uma nova perspectiva para as Guerras Clônicas" },
+      {
+        type: "paragraph",
+        text: "As Guerras Clônicas já foram exploradas em filmes, séries, animações, livros e outros jogos. A novidade de Zero Company não está no período escolhido, mas no ponto de vista.",
+      },
+      {
+        type: "paragraph",
+        text: "O jogo deixa os grandes heróis da saga em segundo plano e concentra sua história em uma equipe formada por personagens que dificilmente apareceriam nos registros oficiais da guerra.",
+      },
+      {
+        type: "paragraph",
+        text: "A proposta combina personalização, combate tático e relações entre integrantes do esquadrão. Seu sucesso dependerá do equilíbrio das batalhas, da variedade das missões e da capacidade da campanha de fazer cada escolha parecer realmente importante.",
+      },
+      {
+        type: "paragraph",
+        text: "Mais do que permitir escolher a aparência de Hawks, o desafio da Bit Reactor será fazer o jogador acreditar que aquela companhia — com suas diferenças, vínculos e perdas — realmente lhe pertence.",
+      },
+    ],
+    sources: [
+      { label: "Electronic Arts — Lead Zero Company to Victory", url: "https://www.ea.com/games/starwars/zero-company/news/lead-zero-company-to-victory" },
+      { label: "Electronic Arts — Answering the Internet’s Biggest Questions", url: "https://www.ea.com/games/starwars/zero-company/news/answering-biggest-questions" },
+      { label: "StarWars.com — Final Trailer de Star Wars Zero Company", url: "https://www.starwars.com/news/star-wars-zero-company-gameplay-trailer" },
+    ],
+  },
+  {
+    title: "Whisper of the House transforma organização em narrativa e chega ao PS5",
+    category: "Games",
+    author: "Shirley Brito",
+    date: "2026-08-28",
+    excerpt:
+      "Jogo cozy da GD Studio combina mais de 1.800 móveis, liberdade de decoração e pequenos mistérios contados pelos objetos deixados em cada ambiente.",
+    tags: ["whisper-of-the-house", "gd-studio", "jogos-cozy", "playstation-5", "xbox-series", "pixel-art", "narrativa-ambiental"],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Whisper of the House chegou ao PlayStation 5 em 27 de agosto. Desenvolvido pela GD Studio, o jogo coloca o público no papel de uma pessoa responsável por organizar mudanças, abrir lojas, arrumar cômodos e ajudar moradores de Whisper Town — tarefas que parecem simples, mas escondem histórias sobre quem viveu em cada espaço.",
+      },
+      {
+        type: "paragraph",
+        text: "O lançamento amplia a presença de um tipo de game que encontra desafio fora do combate. Aqui, observar, escolher, combinar e interpretar importam mais do que derrotar inimigos. A proposta conversa com quem procura experiências tranquilas, mas não se limita à decoração: objetos, cartas e detalhes estranhos formam uma camada de mistério que recompensa a curiosidade.",
+      },
+      { type: "heading", text: "Cada cômodo funciona como retrato de uma pessoa" },
+      {
+        type: "paragraph",
+        text: "Os pedidos começam com problemas concretos. Um morador precisa se instalar em uma casa nova; outro quer remover a desordem; uma loja deve ser preparada para abrir. Enquanto o ambiente ganha forma, os objetos indicam hábitos, lembranças e planos interrompidos.",
+      },
+      {
+        type: "paragraph",
+        text: "Uma xícara esquecida perto da cama, uma planta virada para a janela ou uma carta escondida atrás dos livros pode revelar mais do que um diálogo expositivo. A GD Studio descreve os cômodos como pequenos retratos de seus proprietários, construídos pela relação entre objetos e espaço.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa escolha aproxima Whisper of the House da narrativa ambiental. O jogador não recebe todas as respostas prontas. Precisa observar o que foi guardado, o que está fora do lugar e quais combinações sugerem algo sobre a pessoa que pediu ajuda.",
+      },
+      {
+        type: "quote",
+        text: "Queríamos que os jogadores sentissem o prazer de tornar um cômodo funcional enquanto também se perguntavam por que ele era daquele jeito.",
+        by: "Zhicheng, produtor da GD Studio",
+      },
+      { type: "heading", text: "Organizar não significa encontrar uma única resposta" },
+      {
+        type: "paragraph",
+        text: "O jogo evita transformar todo pedido em uma lista rígida. Algumas encomendas exigem compreender uma necessidade específica; outras dão liberdade para montar o espaço de acordo com a interpretação de quem joga.",
+      },
+      {
+        type: "paragraph",
+        text: "O catálogo reúne mais de 1.800 peças de mobiliário e mais de dez plantas de casas. Papéis de parede, pisos e determinados móveis podem receber ajustes de cor ou textura. A variedade permite criar desde um escritório coberto de estantes até uma estufa iluminada ou um abrigo cheio de suprimentos.",
+      },
+      {
+        type: "highlight",
+        text: "Com mais de 1.800 móveis e mais de dez plantas, Whisper of the House usa a personalização como parte da narrativa, não apenas como recompensa estética.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa liberdade também evita uma mensagem comum em jogos de organização: a ideia de que existe somente uma casa correta, vazia e visualmente perfeita. A GD Studio afirma que o objetivo não é fazer todos os ambientes parecerem iguais, mas compreender o que importa para cada morador e criar um lugar onde sua história possa continuar.",
+      },
+      { type: "heading", text: "Pequenas interações sustentam o ritmo cozy" },
+      {
+        type: "paragraph",
+        text: "A quantidade de móveis não é o único elemento apresentado pelo estúdio. Muitos objetos respondem ao toque: um gramofone pode ser acionado, um pato de borracha apertado e uma folha retirada de uma caixa de lenços.",
+      },
+      {
+        type: "paragraph",
+        text: "Essas ações nem sempre avançam uma missão. Elas existem para tornar o cenário tátil e recompensar quem experimenta. O desenho de som acompanha essa intenção com ruídos de cerâmica, páginas, vento e outros detalhes próximos de uma atmosfera ASMR.",
+      },
+      {
+        type: "paragraph",
+        text: "O resultado procura oferecer um ritmo sem urgência. Pegar, mover e posicionar um objeto deve ser satisfatório por si só. É uma filosofia diferente da progressão baseada em velocidade ou pontuação, embora ainda exija atenção para interpretar os pedidos e descobrir soluções.",
+      },
+      {
+        type: "paragraph",
+        text: "Jogos cozy são frequentemente tratados como uma categoria menor ou associada de forma automática a um único perfil de público. Whisper of the House ajuda a mostrar por que essa leitura é limitada. Design de sistemas, narrativa ambiental, interação e composição visual continuam presentes; apenas trabalham com outros tipos de tensão e recompensa.",
+      },
+      { type: "heading", text: "A cidade acolhedora também guarda segredos" },
+      {
+        type: "paragraph",
+        text: "Whisper Town não é completamente comum. O estúdio cita um número 42 flutuando dentro de um museu, rumores sobre um fantasma perto do poço, rachaduras que escondem algo impossível e cartas que levantam novas perguntas.",
+      },
+      {
+        type: "paragraph",
+        text: "A equipe chama essa camada de “investigação cozy”. Os mistérios não interrompem o ritmo nem obrigam o jogador a correr para a próxima revelação. Eles permanecem ao lado das tarefas de organização, esperando que alguém note uma inconsistência.",
+      },
+      {
+        type: "highlight",
+        text: "O mesmo olhar usado para escolher o lugar de uma lembrança também pode revelar que existe algo estranho naquele cômodo.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa combinação amplia a motivação para continuar explorando. Arrumar uma casa produz satisfação imediata; compreender o que aconteceu com seus moradores cria continuidade. O mistério nasce dos mesmos espaços e objetos usados na decoração, em vez de parecer um sistema separado.",
+      },
+      { type: "heading", text: "Um lançamento que valoriza atenção e cuidado" },
+      {
+        type: "paragraph",
+        text: "Whisper of the House já estava disponível para computadores e recebeu agora versões para PS5 e Xbox Series. No PlayStation 5, o lançamento foi acompanhado por desconto de 20% por tempo limitado; preço e duração da oferta podem variar conforme a região, por isso devem ser confirmados diretamente na loja brasileira antes da publicação.",
+      },
+      {
+        type: "paragraph",
+        text: "Mais do que oferecer um catálogo extenso, o jogo propõe outra relação com os ambientes virtuais. Uma casa não é apenas um tabuleiro a ser limpo nem uma vitrine pronta para receber itens raros. Ela guarda escolhas, ausências e lembranças.",
+      },
+      {
+        type: "paragraph",
+        text: "Ao transformar organização em forma de escuta, a GD Studio constrói uma experiência que encontra história nas coisas pequenas. Whisper of the House pode parecer silencioso diante de lançamentos maiores, mas justamente por isso oferece um espaço diferente: um jogo em que prestar atenção é a principal habilidade.",
+      },
+    ],
+    sources: [
+      { label: "PlayStation Blog — anúncio oficial da chegada ao PS5", url: "https://blog.playstation.com/2026/08/27/whisper-of-the-house-opens-its-doors-on-ps5-today/" },
+      { label: "PlayStation Store — página oficial de Whisper of the House", url: "https://store.playstation.com/" },
+      { label: "Xbox Wire — pré-venda e lançamento nos consoles Xbox", url: "https://news.xbox.com/en-us/2026/08/14/whisper-of-the-house-unpacks-cozy-xbox-preorders-today/" },
+      { label: "Gematsu — confirmação de plataformas e conteúdo", url: "https://www.gematsu.com/2026/08/whisper-of-the-house-coming-to-ps5-xbox-series-on-august-27" },
+    ],
+  },
 ];
 
 /**
@@ -1641,6 +2636,14 @@ const SEEDS: Seed[] = [
  * seguintes preenchem a seção "Recentes".
  */
 const ORDER: string[] = [
+  "Gemini Omni 1.1 Flash leva vídeo por IA a 4K e amplia o controle dos criadores",
+  "Mercado de segurança para inteligência artificial pode alcançar US$ 4,8 bilhões em 2027",
+  "Metal Gear Solid 4 deixa o PlayStation 3 após 18 anos com a Master Collection Vol. 2",
+  "ROG Xbox Ally X20 aposta em tela OLED e hardware premium",
+  "Samsung apresenta nova geração Galaxy Z e amplia disputa por smartphones com IA",
+  "Scott Pilgrim EX transforma Kim Pine e Knives Chau em estilos próprios de combate",
+  "Star Wars Zero Company estreia com estratégia e liberdade para criar seu próprio esquadrão",
+  "Whisper of the House transforma organização em narrativa e chega ao PS5",
   "Resident Evil Requiem: como a Capcom reencontrou a essência de Resident Evil",
   "Star Wars: A Caçada por Ben Solo nasceu de uma ideia de Adam Driver, mas nunca recebeu sinal verde da Disney",
   "God of War Laufey: Faye assume o centro da franquia em novo capítulo oficial",
