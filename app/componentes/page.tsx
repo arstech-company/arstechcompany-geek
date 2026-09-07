@@ -10,19 +10,44 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-const SWATCHES = [
-  { name: "Navy profundo", hex: "#00080f" },
-  { name: "Navy base", hex: "#00111d" },
-  { name: "Card navy", hex: "#020e38" },
-  { name: "Steel blue", hex: "#3d60b0" },
-  { name: "Ciano elétrico", hex: "#38bdf8" },
-  { name: "Texto claro", hex: "#edf2f8" },
-  { name: "Filmes", hex: "#a78bfa" },
-  { name: "Star Wars", hex: "#e2c044" },
-  { name: "Marvel", hex: "#e5484d" },
-  { name: "DC", hex: "#4c8dff" },
-  { name: "Animes", hex: "#ec6bb0" },
-  { name: "Games", hex: "#3ecf8e" },
+// Cores da marca ARS Tech. Espelham 1:1 os tokens de app/globals.css —
+// ao mexer lá, atualize aqui.
+const BRAND_SWATCHES = [
+  { name: "Navy 900 · base", hex: "#1e2749", token: "--navy-900" },
+  { name: "Navy 700 · superfície", hex: "#273469", token: "--navy-700" },
+  { name: "Slate 800 · cards", hex: "#30343f", token: "--slate-800" },
+  { name: "Steel 400 · bordas", hex: "#9197b4", token: "--steel-400" },
+  { name: "Ghost 50 · branco", hex: "#fafaff", token: "--ghost-50" },
+];
+
+// Escala derivada da matiz do --navy-700 (228°). Existe porque a paleta
+// da marca não tem tom claro o bastante para link, CTA e foco sobre fundo
+// escuro com contraste AA.
+const SCALE_SWATCHES = [
+  { name: "Blue 600 · CTA", hex: "#3b4c9e", token: "--blue-600" },
+  { name: "Blue 500 · wash", hex: "#4a5cbf", token: "--blue-500" },
+  { name: "Blue 400 · metadados", hex: "#949ed6", token: "--blue-400" },
+  { name: "Blue 300 · links", hex: "#9ca9f2", token: "--blue-300" },
+  { name: "Blue 200 · foco/ativo", hex: "#a5b2ff", token: "--blue-200" },
+];
+
+// Tons de texto que não saem da paleta bruta nem da escala derivada: são
+// definidos direto nos tokens semânticos de app/globals.css. Ficam aqui para
+// que a página continue documentando 1:1 tudo que pinta texto no site.
+const TEXT_SWATCHES = [
+  { name: "Corpo de artigo", hex: "#dadce8", token: "--text-body" },
+  { name: "Texto secundário", hex: "#a3a9c4", token: "--text-muted" },
+];
+
+// Contraste do #9197B4 da paleta contra as superfícies reais do site, medido
+// para decidir se ele poderia ser o token de texto secundário. Reprova AA em
+// quatro delas — por isso --text-muted usa #a3a9c4.
+const MUTED_RATIOS = [
+  { surface: "--bg-deep", hex: "#1e2749", ratio: "5,06:1", pass: true },
+  { surface: "--bg-navy", hex: "#273469", ratio: "4,09:1", pass: false },
+  { surface: "--bg-card", hex: "#30343f", ratio: "4,32:1", pass: false },
+  { surface: ".band", hex: "#2c3454", ratio: "4,22:1", pass: false },
+  { surface: ".post-card", hex: "#2e344b", ratio: "4,27:1", pass: false },
 ];
 
 const DS_TAGS = ["star-wars", "analise", "bastidores", "cultura-pop", "games"];
@@ -32,26 +57,87 @@ export default function ComponentesPage() {
 
   return (
     <main className="container container--ds page-pad">
-      <div className="ds-kicker">SISTEMA VISUAL // ARS GEEK v1.0</div>
+      <div className="ds-kicker">SISTEMA VISUAL // ARS GEEK v2.0</div>
       <h1 className="ds-title">Componentes</h1>
       <p className="ds-lead">
-        Identidade derivada da paleta navy da ARS Tech Company, com ciano elétrico (#38bdf8) como cor de
-        evolução geek e seis cores de apoio — uma por universo. Tipografia: Geist para leitura, Geist Mono
-        para camada HUD.
+        Identidade construída sobre a paleta navy da ARS Tech Company, com uma escala azul derivada para
+        estados interativos e sete cores de apoio — uma por universo. Todo texto e todo par de foco foi
+        verificado em WCAG AA (mínimo 4,5:1 para texto, 3:1 para UI) contra a superfície mais clara do
+        site. Tipografia: Geist para leitura, Geist Mono para a camada HUD.
       </p>
 
-      <h2 className="ds-section-title">Paleta</h2>
+      <h2 className="ds-section-title">Paleta da marca</h2>
       <div className="swatch-grid">
-        {SWATCHES.map((s) => (
-          <div key={s.hex} className="swatch">
-            <div className="swatch__color" style={{ background: s.hex }} />
+        {BRAND_SWATCHES.map((s) => (
+          <div key={s.token} className="swatch">
+            <div className="swatch__color" style={{ background: `var(${s.token})` }} />
             <div className="swatch__label">
               <div className="swatch__name">{s.name}</div>
-              <div className="swatch__hex">{s.hex}</div>
+              <div className="swatch__hex">
+                {s.hex} · {s.token}
+              </div>
             </div>
           </div>
         ))}
       </div>
+
+      <h2 className="ds-section-title">Escala interativa derivada</h2>
+      <div className="swatch-grid">
+        {SCALE_SWATCHES.map((s) => (
+          <div key={s.token} className="swatch">
+            <div className="swatch__color" style={{ background: `var(${s.token})` }} />
+            <div className="swatch__label">
+              <div className="swatch__name">{s.name}</div>
+              <div className="swatch__hex">
+                {s.hex} · {s.token}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h2 className="ds-section-title">Texto</h2>
+      <div className="swatch-grid">
+        {TEXT_SWATCHES.map((s) => (
+          <div key={s.token} className="swatch">
+            <div className="swatch__color" style={{ background: `var(${s.token})` }} />
+            <div className="swatch__label">
+              <div className="swatch__name">{s.name}</div>
+              <div className="swatch__hex">
+                {s.hex} · {s.token}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <aside className="highlight-block" style={{ marginBottom: 44 }}>
+        <div className="highlight-block__kicker">⟡ DECISÃO DE ACESSIBILIDADE</div>
+        <p className="highlight-block__text">
+          <strong style={{ color: "var(--white)" }}>#9197B4</strong> é cor oficial da paleta da marca e
+          continua no sistema como <code>--steel-400</code>, aplicada em bordas, separadores e UI não
+          textual. Ela <strong style={{ color: "var(--white)" }}>não</strong> é usada como cor de texto:
+          contra as superfícies reais do site ela reprova o mínimo de 4,5:1 da WCAG AA para texto normal.
+          O token semântico <code>--text-muted</code> usa <strong style={{ color: "var(--white)" }}>#a3a9c4</strong>,
+          que preserva a matiz, sobe a luminosidade o mínimo necessário e passa em todas as superfícies
+          (pior caso 5,07:1). Acessibilidade prevalece sobre o uso literal do HEX da paleta.
+        </p>
+        <div className="ds-badges" style={{ marginTop: 16 }}>
+          {MUTED_RATIOS.map((r) => (
+            <span
+              key={r.surface}
+              className="badge badge--sm"
+              style={{
+                color: r.pass ? "var(--white)" : "var(--text-muted)",
+                borderColor: "var(--steel-400)",
+                background: r.hex,
+              }}
+            >
+              #9197B4 / {r.surface} · {r.ratio} · {r.pass ? "AA" : "reprova"}
+            </span>
+          ))}
+        </div>
+      </aside>
 
       <h2 className="ds-section-title">Botões</h2>
       <div className="ds-row ds-panel">
@@ -115,9 +201,9 @@ export default function ComponentesPage() {
 
       <h2 className="ds-section-title">Blocos editoriais</h2>
       <div className="ds-blocks">
-        <blockquote className="quote-block" style={{ borderLeftColor: "#38bdf8", background: "rgba(56,189,248,.08)" }}>
+        <blockquote className="quote-block" style={{ borderLeftColor: "var(--interactive)", background: "rgb(var(--interactive-rgb) / .08)" }}>
           “Que a força esteja com o seu deploy.”
-          <footer style={{ color: "#38bdf8" }}>— Bloco de citação</footer>
+          <footer style={{ color: "var(--interactive)" }}>— Bloco de citação</footer>
         </blockquote>
 
         <figure className="code-block">

@@ -22,11 +22,14 @@ export default function Header() {
     <header className="site-header">
       <div className="container site-header__inner">
         <Link href="/" className="brand">
+          {/* Derivada de performance: mesmo logo oficial de
+              public/images/logo.jpeg, apenas redimensionado (120px = 3x do
+              slot de 40px, cobre telas HiDPI). O original permanece intocado. */}
           <Image
-            src={withBasePath("/images/ars-tech-logo.jpeg")}
-            alt="ARS Tech"
-            width={36}
-            height={36}
+            src={withBasePath("/images/logo-120.webp")}
+            alt="ARS Tech Company"
+            width={44}
+            height={44}
             priority
             className="brand__logo"
           />

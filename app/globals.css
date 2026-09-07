@@ -1,16 +1,64 @@
 :root {
-  --bg-deep: #00080f;
-  --bg-navy: #00111d;
-  --bg-card: #020e38;
-  --accent: #3d60b0;
-  --accent-mid: #5a7cc2;
-  --accent-light: #8aaad8;
-  --text-body: #c6d4e8;
-  --text-muted: #7c96c8;
-  --white: #edf2f8;
-  --cyan: #38bdf8;
-  --cta-gradient: linear-gradient(135deg, #2563eb, #38bdf8);
+  /* ── Paleta da marca ARS Tech ─────────────────────────────────────
+     As cinco cores oficiais, usadas como camada bruta. Nada no site
+     referencia estas variáveis diretamente: use os tokens semânticos. */
+  --navy-900: #1e2749;   /* base do gradiente, header e footer        */
+  --navy-700: #273469;   /* azul-marinho de superfície                */
+  --slate-800: #30343f;  /* grafite azulado, cards e painéis          */
+  --steel-400: #9197b4;  /* cinza-azulado — cor OFICIAL da paleta.
+                            É a camada de marca deste tom: bordas,
+                            separadores e UI não textual. NÃO é usada
+                            como cor de texto — ver --text-muted.      */
+  --ghost-50: #fafaff;   /* branco da marca                           */
+
+  /* ── Escala azul derivada (matiz 228° de --navy-700) ──────────────
+     A paleta da marca não tem tom claro o bastante para link, CTA e
+     foco sobre fundo escuro com contraste AA. Estes tons preservam a
+     matiz e sobem a luminosidade só o necessário. Contraste medido na
+     superfície mais clara do site (.band sobre o pico do gradiente):
+     blue-400 4.56:1 · blue-300 5.26:1 · blue-200 5.84:1.             */
+  --blue-600: #3b4c9e;
+  --blue-500: #4a5cbf;
+  --blue-400: #949ed6;
+  --blue-300: #9ca9f2;
+  --blue-200: #a5b2ff;
+
+  /* ── Tokens semânticos (é o que os componentes usam) ────────────── */
+  --bg-deep: var(--navy-900);
+  --bg-navy: var(--navy-700);
+  --bg-card: var(--slate-800);
+  --accent: var(--blue-500);        /* washes de hover                 */
+  --accent-mid: var(--blue-400);    /* rótulos HUD/mono, metadados     */
+  --accent-light: var(--blue-300);  /* links                           */
+  --interactive: var(--blue-200);   /* foco, estado ativo, destaques   */
+  --text-body: #dadce8;             /* corpo de artigo — 8.6:1         */
+
+  /* --text-muted: acessibilidade sobrescreve o literal da paleta.
+     A especificação mapeava --text-muted para o #9197B4 da marca, mas esse
+     valor reprova WCAG AA (mín. 4,5:1 para texto normal) em 4 das 6
+     superfícies reais do site:
+         #9197B4 sobre --bg-deep   5,06:1  AA ok
+         #9197B4 sobre --bg-navy   4,09:1  REPROVA
+         #9197B4 sobre --bg-card   4,32:1  REPROVA
+         #9197B4 sobre .band       4,22:1  REPROVA
+         #9197B4 sobre .post-card  4,27:1  REPROVA
+     #a3a9c4 preserva a matiz e sobe a luminosidade o mínimo necessário
+     para passar em todas (pior caso 5,07:1 sobre --bg-navy).
+     O #9197B4 continua oficial na paleta, como --steel-400 (bordas/UI). */
+  --text-muted: #a3a9c4;            /* texto secundário — 5,07:1 no pior caso */
+  --white: var(--ghost-50);
+  --cta-gradient: linear-gradient(135deg, var(--blue-300), var(--blue-200));
   --header-height: 64px;
+
+  /* Canais RGB para transparências: rgb(var(--x-rgb) / <alpha>) */
+  --bg-deep-rgb: 30 39 73;
+  --bg-navy-rgb: 39 52 105;
+  --bg-card-rgb: 48 52 63;
+  --accent-rgb: 74 92 191;
+  --accent-light-rgb: 156 169 242;
+  --interactive-rgb: 165 178 255;
+  --steel-rgb: 145 151 180;
+  --text-muted-rgb: 163 169 196;
 }
 
 * {
@@ -45,8 +93,8 @@ a:hover {
 }
 
 ::selection {
-  background: rgba(56, 189, 248, 0.35);
-  color: var(--white);
+  background: rgb(var(--interactive-rgb) / 0.35);
+  color: var(--navy-900);
 }
 
 input::placeholder {
@@ -61,7 +109,7 @@ button {
 input:focus-visible,
 button:focus-visible,
 a:focus-visible {
-  outline: 2px solid var(--cyan);
+  outline: 2px solid var(--interactive);
   outline-offset: 2px;
 }
 
@@ -88,7 +136,7 @@ a:focus-visible {
   z-index: 100;
   padding: 10px 18px;
   border-radius: 8px;
-  background: var(--cyan);
+  background: var(--interactive);
   color: var(--bg-deep);
   font-weight: 700;
   font-size: 14px;
@@ -106,8 +154,8 @@ a:focus-visible {
   pointer-events: none;
   z-index: 0;
   background-image:
-    linear-gradient(rgba(90, 124, 194, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(90, 124, 194, 0.05) 1px, transparent 1px);
+    linear-gradient(rgb(var(--steel-rgb) / 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--steel-rgb) / 0.05) 1px, transparent 1px);
   background-size: 48px 48px;
 }
 
@@ -142,8 +190,8 @@ a:focus-visible {
   top: 0;
   z-index: 50;
   backdrop-filter: blur(14px);
-  background: rgba(0, 8, 15, 0.78);
-  border-bottom: 1px solid rgba(90, 124, 194, 0.22);
+  background: rgb(var(--bg-deep-rgb) / 0.78);
+  border-bottom: 1px solid rgb(var(--steel-rgb) / 0.22);
 }
 
 .site-header__inner {
@@ -161,8 +209,12 @@ a:focus-visible {
 }
 
 .brand__logo {
-  border-radius: 9px;
   display: block;
+  /* logo.jpeg é quadrado (1600x1600) e tem fundo navy sólido embutido:
+     o raio arredonda a moldura para ela não ler como um retângulo colado
+     sobre o header. object-fit preserva a proporção 1:1 original. */
+  border-radius: 8px;
+  object-fit: contain;
 }
 
 .brand__word {
@@ -173,18 +225,18 @@ a:focus-visible {
 
 .brand__name {
   font-weight: 800;
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 0.06em;
   color: var(--white);
 }
 
 .brand__geek {
-  color: var(--cyan);
+  color: var(--interactive);
 }
 
 .brand__domain {
   font-family: var(--font-geist-mono), monospace;
-  font-size: 9.5px;
+  font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 0.14em;
 }
@@ -208,12 +260,12 @@ a:focus-visible {
 
 .nav__link:hover {
   color: var(--white);
-  background: rgba(61, 96, 176, 0.18);
+  background: rgb(var(--accent-rgb) / 0.18);
 }
 
 .nav__link--active {
   color: var(--white);
-  background: rgba(61, 96, 176, 0.22);
+  background: rgb(var(--accent-rgb) / 0.22);
 }
 
 .nav__cta {
@@ -222,15 +274,15 @@ a:focus-visible {
   border-radius: 999px;
   font-size: 12.5px;
   font-weight: 700;
-  color: var(--white);
+  color: var(--navy-900);
   background: var(--cta-gradient);
-  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 6px 18px rgb(var(--interactive-rgb) / 0.3);
   transition: box-shadow 0.2s;
 }
 
 .nav__cta:hover {
-  box-shadow: 0 8px 24px rgba(56, 189, 248, 0.4);
-  color: var(--white);
+  box-shadow: 0 8px 24px rgb(var(--interactive-rgb) / 0.4);
+  color: var(--navy-900);
 }
 
 @media (max-width: 640px) {
@@ -253,6 +305,52 @@ a:focus-visible {
   }
 }
 
+/* Abaixo de ~340px (Galaxy Fold fechado) nem a versão comprimida do header
+   cabe: a marca fica só no símbolo. O link continua sendo a home e mantém o
+   nome acessível pelo alt da imagem. */
+@media (max-width: 340px) {
+  .brand__word {
+    display: none;
+  }
+}
+
+/* Telas estreitas (iPhone SE, 360px): a linha do header — marca + Home +
+   Artigos + CTA — não cabe nos tamanhos padrão e transbordava para fora da
+   viewport. Aqui só comprimimos o suficiente para caber. */
+@media (max-width: 420px) {
+  .site-header__inner {
+    gap: 6px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  /* O logo de 44px é calibrado para desktop; aqui ele voltaria a espremer a
+     linha do header e pesaria demais na tela. 36px mantém a marca legível. */
+  .brand__logo {
+    width: 36px;
+    height: 36px;
+  }
+
+  .brand__name {
+    font-size: 13px;
+    letter-spacing: 0.02em;
+  }
+
+  .nav__link {
+    padding: 7px 6px;
+    font-size: 12px;
+  }
+
+  .nav__cta {
+    margin-left: 2px;
+    padding: 7px 9px;
+    font-size: 11.5px;
+    white-space: nowrap;
+  }
+}
+
 /* ── Buttons ───────────────────────────────────────────────────────── */
 .btn {
   display: inline-flex;
@@ -269,27 +367,27 @@ a:focus-visible {
 }
 
 .btn-primary {
-  color: var(--white);
+  color: var(--navy-900);
   background: var(--cta-gradient);
-  box-shadow: 0 10px 28px rgba(37, 99, 235, 0.32);
+  box-shadow: 0 10px 28px rgb(var(--interactive-rgb) / 0.32);
 }
 
 .btn-primary:hover {
-  box-shadow: 0 14px 34px rgba(56, 189, 248, 0.42);
-  color: var(--white);
+  box-shadow: 0 14px 34px rgb(var(--interactive-rgb) / 0.42);
+  color: var(--navy-900);
 }
 
 .btn-outline {
   color: var(--accent-light);
   background: transparent;
-  border: 1px solid rgba(138, 170, 216, 0.4);
+  border: 1px solid rgb(var(--accent-light-rgb) / 0.4);
   font-weight: 600;
 }
 
 .btn-outline:hover {
   color: var(--white);
   border-color: var(--accent-mid);
-  background: rgba(61, 96, 176, 0.15);
+  background: rgb(var(--accent-rgb) / 0.15);
 }
 
 .btn-ghost {
@@ -300,7 +398,7 @@ a:focus-visible {
 
 .btn-ghost:hover {
   color: var(--white);
-  background: rgba(61, 96, 176, 0.15);
+  background: rgb(var(--accent-rgb) / 0.15);
 }
 
 .btn:disabled {
@@ -316,7 +414,9 @@ a:focus-visible {
 
 /* ── Hero ──────────────────────────────────────────────────────────── */
 .hero {
-  padding: 72px 0 56px;
+  /* padding-block: .hero divide o elemento com .container na home — o
+     shorthand `padding` zeraria o recuo lateral de .container. */
+  padding-block: 72px 56px;
 }
 
 .hero__kicker {
@@ -326,14 +426,14 @@ a:focus-visible {
   font-family: var(--font-geist-mono), monospace;
   font-size: 12px;
   letter-spacing: 0.22em;
-  color: var(--cyan);
+  color: var(--interactive);
   margin-bottom: 18px;
 }
 
 .hero__kicker-rule {
   width: 28px;
   height: 1px;
-  background: var(--cyan);
+  background: var(--interactive);
   display: inline-block;
 }
 
@@ -348,7 +448,7 @@ a:focus-visible {
 }
 
 .gradient-text {
-  background: linear-gradient(120deg, var(--cyan), var(--accent-light));
+  background: linear-gradient(120deg, var(--white), var(--accent-light));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -371,11 +471,11 @@ a:focus-visible {
 
 /* ── Section headers ───────────────────────────────────────────────── */
 .section {
-  padding: 60px 0;
+  padding-block: 60px;
 }
 
 .section--tight {
-  padding: 0 0 64px;
+  padding-block: 0 64px;
 }
 
 .section__head {
@@ -404,7 +504,7 @@ a:focus-visible {
 .section__link {
   font-size: 13.5px;
   font-weight: 600;
-  color: var(--cyan);
+  color: var(--interactive);
 }
 
 .section__link:hover {
@@ -412,9 +512,9 @@ a:focus-visible {
 }
 
 .band {
-  border-top: 1px solid rgba(90, 124, 194, 0.18);
-  border-bottom: 1px solid rgba(90, 124, 194, 0.18);
-  background: rgba(0, 17, 29, 0.5);
+  border-top: 1px solid rgb(var(--steel-rgb) / 0.18);
+  border-bottom: 1px solid rgb(var(--steel-rgb) / 0.18);
+  background: rgb(var(--bg-navy-rgb) / 0.5);
 }
 
 .band--top-only {
@@ -483,7 +583,7 @@ a:focus-visible {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(0, 8, 15, 0.34) 0%, rgba(0, 8, 15, 0.05) 38%, rgba(0, 17, 29, 0.62) 100%);
+    linear-gradient(180deg, rgb(var(--bg-deep-rgb) / 0.34) 0%, rgb(var(--bg-deep-rgb) / 0.05) 38%, rgb(var(--bg-navy-rgb) / 0.62) 100%);
   pointer-events: none;
 }
 
@@ -499,7 +599,7 @@ a:focus-visible {
 /* ── Post cards ────────────────────────────────────────────────────── */
 .featured-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
   gap: 20px;
 }
 
@@ -511,7 +611,7 @@ a:focus-visible {
 
 .post-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
   gap: 20px;
 }
 
@@ -520,8 +620,8 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   border-radius: 16px;
-  border: 1px solid rgba(90, 124, 194, 0.25);
-  background: rgba(2, 14, 56, 0.45);
+  border: 1px solid rgb(var(--steel-rgb) / 0.25);
+  background: rgb(var(--bg-card-rgb) / 0.45);
   overflow: hidden;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
@@ -532,8 +632,8 @@ a:focus-visible {
 
 .post-card--hero {
   min-height: 420px;
-  border-color: rgba(90, 124, 194, 0.28);
-  background: rgba(2, 14, 56, 0.5);
+  border-color: rgb(var(--steel-rgb) / 0.28);
+  background: rgb(var(--bg-card-rgb) / 0.5);
 }
 
 .post-card--hero .cover {
@@ -543,14 +643,14 @@ a:focus-visible {
 
 .post-card--side {
   flex: 1;
-  border-color: rgba(90, 124, 194, 0.28);
-  background: rgba(2, 14, 56, 0.5);
+  border-color: rgb(var(--steel-rgb) / 0.28);
+  background: rgb(var(--bg-card-rgb) / 0.5);
   padding: 22px 24px;
   gap: 10px;
 }
 
 .post-card--related {
-  border-color: rgba(90, 124, 194, 0.25);
+  border-color: rgb(var(--steel-rgb) / 0.25);
   padding: 20px 22px;
   gap: 9px;
 }
@@ -675,7 +775,7 @@ a:focus-visible {
 }
 
 .sectors-carousel:focus-visible {
-  outline: 2px solid var(--cyan);
+  outline: 2px solid var(--interactive);
   outline-offset: 2px;
   border-radius: 14px;
 }
@@ -696,8 +796,8 @@ a:focus-visible {
   align-items: center;
   justify-content: center;
   border-radius: 999px;
-  border: 1px solid rgba(90, 124, 194, 0.4);
-  background: rgba(0, 8, 15, 0.82);
+  border: 1px solid rgb(var(--steel-rgb) / 0.4);
+  background: rgb(var(--bg-deep-rgb) / 0.82);
   backdrop-filter: blur(4px);
   color: var(--accent-light);
   font-size: 20px;
@@ -708,12 +808,12 @@ a:focus-visible {
 }
 
 .sectors-carousel__btn:hover:not(:disabled) {
-  border-color: var(--cyan);
-  color: var(--cyan);
+  border-color: var(--interactive);
+  color: var(--interactive);
 }
 
 .sectors-carousel__btn:focus-visible {
-  outline: 2px solid var(--cyan);
+  outline: 2px solid var(--interactive);
   outline-offset: 2px;
 }
 
@@ -738,8 +838,8 @@ a:focus-visible {
   gap: 8px;
   padding: 18px;
   border-radius: 14px;
-  border: 1px solid rgba(90, 124, 194, 0.25);
-  background: rgba(2, 14, 56, 0.45);
+  border: 1px solid rgb(var(--steel-rgb) / 0.25);
+  background: rgb(var(--bg-card-rgb) / 0.45);
   transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
 
@@ -783,7 +883,7 @@ a:focus-visible {
   font-family: var(--font-geist-mono), monospace;
   font-size: 11.5px;
   letter-spacing: 0.22em;
-  color: var(--cyan);
+  color: var(--interactive);
   margin-bottom: 12px;
 }
 
@@ -797,7 +897,9 @@ a:focus-visible {
 .search-field {
   position: relative;
   flex: 1;
-  min-width: 260px;
+  /* min() para o campo poder encolher abaixo de 260px em telas muito
+     estreitas em vez de empurrar a linha para fora da viewport. */
+  min-width: min(260px, 100%);
 }
 
 .search-field__icon {
@@ -815,8 +917,8 @@ a:focus-visible {
   width: 100%;
   padding: 12px 18px 12px 40px;
   border-radius: 12px;
-  border: 1px solid rgba(138, 170, 216, 0.3);
-  background: rgba(2, 14, 56, 0.5);
+  border: 1px solid rgb(var(--accent-light-rgb) / 0.3);
+  background: rgb(var(--bg-card-rgb) / 0.5);
   color: var(--white);
   font-size: 14.5px;
   font-family: inherit;
@@ -844,7 +946,7 @@ a:focus-visible {
   font-size: 13px;
   font-weight: 600;
   font-family: inherit;
-  border: 1px solid rgba(124, 150, 200, 0.3);
+  border: 1px solid rgb(var(--text-muted-rgb) / 0.3);
   background: transparent;
   color: var(--text-muted);
   transition: border-color 0.2s, color 0.2s, background 0.2s;
@@ -861,7 +963,7 @@ a:focus-visible {
 .empty-state {
   text-align: center;
   padding: 60px 20px;
-  border: 1px dashed rgba(90, 124, 194, 0.35);
+  border: 1px dashed rgb(var(--steel-rgb) / 0.35);
   border-radius: 16px;
 }
 
@@ -898,7 +1000,7 @@ a:focus-visible {
 }
 
 .breadcrumb a:hover {
-  color: var(--cyan);
+  color: var(--interactive);
 }
 
 .article__title {
@@ -921,8 +1023,8 @@ a:focus-visible {
   align-items: center;
   gap: 14px;
   padding: 16px 0;
-  border-top: 1px solid rgba(90, 124, 194, 0.22);
-  border-bottom: 1px solid rgba(90, 124, 194, 0.22);
+  border-top: 1px solid rgb(var(--steel-rgb) / 0.22);
+  border-bottom: 1px solid rgb(var(--steel-rgb) / 0.22);
   flex-wrap: wrap;
 }
 
@@ -958,7 +1060,7 @@ a:focus-visible {
 .article-cover {
   height: clamp(220px, 34vw, 340px);
   border-radius: 18px;
-  border: 1px solid rgba(90, 124, 194, 0.3);
+  border: 1px solid rgb(var(--steel-rgb) / 0.3);
 }
 
 .article-cover .cover__code {
@@ -988,16 +1090,16 @@ a:focus-visible {
 .article-sources {
   margin-top: 26px;
   padding: 18px 22px;
-  border: 1px solid rgba(90, 124, 194, 0.25);
+  border: 1px solid rgb(var(--steel-rgb) / 0.25);
   border-radius: 14px;
-  background: rgba(0, 17, 29, 0.5);
+  background: rgb(var(--bg-navy-rgb) / 0.5);
 }
 
 .article-sources__title {
   font-family: var(--font-geist-mono), monospace;
   font-size: 11px;
   letter-spacing: 0.22em;
-  color: var(--cyan);
+  color: var(--interactive);
   margin-bottom: 10px;
 }
 
@@ -1015,7 +1117,7 @@ a:focus-visible {
 }
 
 .article-sources__list a:hover {
-  color: var(--cyan);
+  color: var(--interactive);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -1060,8 +1162,8 @@ a:focus-visible {
   margin: 28px 0;
   border-radius: 14px;
   overflow: hidden;
-  border: 1px solid rgba(90, 124, 194, 0.3);
-  background: #010a15;
+  border: 1px solid rgb(var(--steel-rgb) / 0.3);
+  background: var(--bg-deep);
 }
 
 .code-block__bar {
@@ -1069,8 +1171,8 @@ a:focus-visible {
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  border-bottom: 1px solid rgba(90, 124, 194, 0.22);
-  background: rgba(2, 14, 56, 0.6);
+  border-bottom: 1px solid rgb(var(--steel-rgb) / 0.22);
+  background: rgb(var(--bg-card-rgb) / 0.6);
 }
 
 .code-block__dot {
@@ -1100,15 +1202,15 @@ a:focus-visible {
   margin: 28px 0;
   padding: 20px 24px;
   border-radius: 14px;
-  border: 1px solid rgba(56, 189, 248, 0.35);
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.14), rgba(0, 17, 29, 0.6));
+  border: 1px solid rgb(var(--interactive-rgb) / 0.35);
+  background: linear-gradient(135deg, rgb(var(--interactive-rgb) / 0.14), rgb(var(--bg-navy-rgb) / 0.6));
 }
 
 .highlight-block__kicker {
   font-family: var(--font-geist-mono), monospace;
   font-size: 10.5px;
   letter-spacing: 0.22em;
-  color: var(--cyan);
+  color: var(--interactive);
   margin-bottom: 8px;
 }
 
@@ -1125,7 +1227,7 @@ a:focus-visible {
   flex-wrap: wrap;
   margin: 30px 0 0;
   padding-top: 24px;
-  border-top: 1px solid rgba(90, 124, 194, 0.22);
+  border-top: 1px solid rgb(var(--steel-rgb) / 0.22);
 }
 
 .tag {
@@ -1134,20 +1236,20 @@ a:focus-visible {
   padding: 5px 12px;
   border-radius: 999px;
   color: var(--text-muted);
-  border: 1px solid rgba(124, 150, 200, 0.3);
+  border: 1px solid rgb(var(--text-muted-rgb) / 0.3);
 }
 
 .related-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
   gap: 20px;
 }
 
 /* ── Newsletter-style panel (reused for generic CTA-less callouts) ──── */
 .panel {
   border-radius: 20px;
-  border: 1px solid rgba(56, 189, 248, 0.3);
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.16), rgba(0, 17, 29, 0.8));
+  border: 1px solid rgb(var(--interactive-rgb) / 0.3);
+  background: linear-gradient(135deg, rgb(var(--interactive-rgb) / 0.16), rgb(var(--bg-navy-rgb) / 0.8));
   padding: clamp(32px, 5vw, 56px);
   text-align: center;
   position: relative;
@@ -1163,28 +1265,28 @@ a:focus-visible {
 .panel__bracket--tl {
   top: 16px;
   left: 16px;
-  border-top: 2px solid rgba(56, 189, 248, 0.5);
-  border-left: 2px solid rgba(56, 189, 248, 0.5);
+  border-top: 2px solid rgb(var(--interactive-rgb) / 0.5);
+  border-left: 2px solid rgb(var(--interactive-rgb) / 0.5);
 }
 
 .panel__bracket--br {
   bottom: 16px;
   right: 16px;
-  border-bottom: 2px solid rgba(56, 189, 248, 0.5);
-  border-right: 2px solid rgba(56, 189, 248, 0.5);
+  border-bottom: 2px solid rgb(var(--interactive-rgb) / 0.5);
+  border-right: 2px solid rgb(var(--interactive-rgb) / 0.5);
 }
 
 /* ── Footer ────────────────────────────────────────────────────────── */
 .site-footer {
   position: relative;
   z-index: 1;
-  border-top: 1px solid rgba(90, 124, 194, 0.22);
-  background: rgba(0, 8, 15, 0.85);
+  border-top: 1px solid rgb(var(--steel-rgb) / 0.22);
+  background: rgb(var(--bg-deep-rgb) / 0.85);
 }
 
 .site-footer__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
   gap: 32px;
   padding: 44px 24px 30px;
 }
@@ -1192,7 +1294,7 @@ a:focus-visible {
 .site-footer__brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 12px;
 }
 
@@ -1224,7 +1326,7 @@ a:focus-visible {
 }
 
 .site-footer__bottom {
-  border-top: 1px solid rgba(90, 124, 194, 0.15);
+  border-top: 1px solid rgb(var(--steel-rgb) / 0.15);
 }
 
 .site-footer__bottom-inner {
@@ -1243,7 +1345,7 @@ a:focus-visible {
   font-family: var(--font-geist-mono), monospace;
   font-size: 11.5px;
   letter-spacing: 0.22em;
-  color: var(--cyan);
+  color: var(--interactive);
   margin-bottom: 12px;
 }
 
@@ -1272,21 +1374,21 @@ a:focus-visible {
 .ds-panel {
   padding: 26px;
   border-radius: 16px;
-  border: 1px solid rgba(90, 124, 194, 0.22);
-  background: rgba(2, 14, 56, 0.35);
+  border: 1px solid rgb(var(--steel-rgb) / 0.22);
+  background: rgb(var(--bg-card-rgb) / 0.35);
   margin-bottom: 44px;
 }
 
 .swatch-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(165px, 100%), 1fr));
   gap: 12px;
   margin-bottom: 44px;
 }
 
 .swatch {
   border-radius: 12px;
-  border: 1px solid rgba(90, 124, 194, 0.25);
+  border: 1px solid rgb(var(--steel-rgb) / 0.25);
   overflow: hidden;
 }
 
@@ -1296,7 +1398,7 @@ a:focus-visible {
 
 .swatch__label {
   padding: 10px 12px;
-  background: rgba(2, 14, 56, 0.5);
+  background: rgb(var(--bg-card-rgb) / 0.5);
 }
 
 .swatch__name {
@@ -1335,7 +1437,7 @@ a:focus-visible {
   width: 38px;
   height: 38px;
   border-radius: 10px;
-  border: 1px solid rgba(138, 170, 216, 0.3);
+  border: 1px solid rgb(var(--accent-light-rgb) / 0.3);
   background: transparent;
   color: var(--text-muted);
   font-family: var(--font-geist-mono), monospace;
@@ -1343,14 +1445,14 @@ a:focus-visible {
 }
 
 .page-btn:hover {
-  border-color: var(--cyan);
+  border-color: var(--interactive);
   color: var(--white);
 }
 
 .page-btn--active {
   border: none;
   background: var(--cta-gradient);
-  color: var(--white);
+  color: var(--navy-900);
   font-weight: 700;
 }
 
@@ -1381,7 +1483,7 @@ a:focus-visible {
   font-family: var(--font-geist-mono), monospace;
   font-size: clamp(48px, 10vw, 96px);
   font-weight: 900;
-  color: var(--cyan);
+  color: var(--interactive);
   letter-spacing: 0.05em;
   margin-bottom: 12px;
 }
@@ -1407,14 +1509,14 @@ a:focus-visible {
   }
 
   .hero {
-    padding: 48px 0 40px;
+    padding-block: 48px 40px;
   }
 
   .section {
-    padding: 40px 0;
+    padding-block: 40px;
   }
 
   .section--tight {
-    padding: 0 0 44px;
+    padding-block: 0 44px;
   }
 }

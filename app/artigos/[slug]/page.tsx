@@ -94,7 +94,7 @@ export default async function ArticlePage({ params }: PageProps) {
           <span
             className="avatar"
             aria-hidden="true"
-            style={{ background: `linear-gradient(135deg, ${post.color}, #020e38)` }}
+            style={{ background: `linear-gradient(135deg, ${post.color}, var(--bg-card))` }}
           >
             {post.initials}
           </span>

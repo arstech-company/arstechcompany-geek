@@ -12,10 +12,10 @@ export default function Footer() {
         <div>
           <div className="site-footer__brand">
             <Image
-              src={withBasePath("/images/ars-tech-logo.jpeg")}
+              src={withBasePath("/images/logo-120.webp")}
               alt=""
-              width={30}
-              height={30}
+              width={36}
+              height={36}
               className="brand__logo"
             />
             <span className="brand__name">
@@ -31,11 +31,7 @@ export default function Footer() {
           <div className="site-footer__heading">UNIVERSOS</div>
           <nav className="site-footer__links" aria-label="Categorias">
             {CATEGORIES.map((category) => (
-              <Link
-                key={category.slug}
-                href={`/artigos?categoria=${category.slug}`}
-                style={{ color: "var(--accent-light)" }}
-              >
+              <Link key={category.slug} href={`/artigos?categoria=${category.slug}`}>
                 {category.name}
               </Link>
             ))}
@@ -59,7 +55,7 @@ export default function Footer() {
       <div className="site-footer__bottom">
         <div className="container site-footer__bottom-inner">
           <span>© {year} ARS Tech Company. Todos os direitos reservados.</span>
-          <span>geek.arstechcompany.com.br // v1.0</span>
+          <span>geek.arstechcompany.com.br // v2.0</span>
         </div>
       </div>
     </footer>

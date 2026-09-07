@@ -1,7 +1,7 @@
 <a name="top"></a>
 
 <div align="center">
-  <img src="public/images/ars-tech-logo.jpeg" alt="ARS TECH COMPANY Logo" width="110" />
+  <img src="public/images/logo.jpeg" alt="ARS TECH COMPANY Logo" width="110" />
 
   <h1>ARS GEEK — Blog Geek da ARS Tech Company</h1>
 
@@ -21,8 +21,9 @@
 
 Blog editorial geek da ARS Tech Company, publicado em `geek.arstechcompany.com.br`. Cobre seis categorias —
 Filmes, Star Wars, Marvel, DC, Animes e Games — com busca local e filtro por categoria. Identidade dark-mode
-derivada do site institucional (`arstechcompany-site`), com uma camada "HUD sci-fi" e ciano elétrico
-(`#38bdf8`) como cor de assinatura do braço geek.
+sobre a paleta navy da ARS Tech Company (`#1E2749`, `#273469`, `#30343F`, `#9197B4`, `#FAFAFF`), com uma
+camada "HUD sci-fi" e uma escala azul derivada (`--blue-200` a `--blue-600`) para links, CTA e foco. Os
+tokens vivem em `app/globals.css` e estão documentados visualmente em `/componentes`.
 
 O conteúdo editorial vive em `lib/posts.ts`: **18 matérias originais** (3 por categoria), assinadas por
 Renato Brito e publicadas em 13/07/2026, escritas com base em fatos verificados em fontes públicas
@@ -96,6 +97,29 @@ Essas duas últimas não são segredos — são os mesmos identificadores públi
 `arstechcompany-site` (`G-84NNFCLZVT` e `ca-pub-9829402470557693`), reaproveitados aqui. Ficam fora do
 código-fonte para manter o padrão de configuração via ambiente e para permitir desativar cada integração
 individualmente sem editar código.
+
+## Identidade visual e assets de marca
+
+O logo oficial é **`public/images/logo.jpeg`** (1600×1600, lockup completo A/R·S + TECH COMPANY).
+É a única fonte de verdade da marca — nenhum símbolo, monograma ou variante é derivado dele.
+
+| Uso | Arquivo | Origem |
+|---|---|---|
+| Header (40×40) e Footer (32×32) | `public/images/logo-120.webp` | redimensionamento proporcional de `logo.jpeg` para 120px (3× o slot, cobre HiDPI); 2,5 KB no lugar de 276 KB |
+| Favicon | `app/icon.jpeg` (512×512) | redimensionamento proporcional de `logo.jpeg` |
+| apple-touch-icon | `app/apple-icon.png` (180×180) | redimensionamento proporcional de `logo.jpeg` |
+| Open Graph / Twitter | `public/images/ars-og-card.jpg` (1200×630) | o mesmo lockup oficial em canvas 1.91:1, proporção do lockup preservada (desvio 0,29%) |
+
+As derivadas são **apenas redimensionamento**: sem recorte, sem recolorir, sem remover elementos, sem
+efeitos. `logo.jpeg` permanece preservado e intocado como asset oficial.
+
+**Limitação conhecida do favicon:** o lockup completo inclui a palavra "TECH COMPANY", que é
+naturalmente ilegível em 16×16/32×32. Isso é uma característica da arte, não da implementação — um
+favicon otimizado para tamanhos muito pequenos dependerá de um asset oficial específico fornecido pelo
+proprietário da marca. Nenhum símbolo simplificado foi criado para contornar isso.
+
+A referência visual da paleta está em `brand/paleta_de_cores.jpeg` (não deve ser modificada). Os valores
+numéricos oficiais vivem em `:root` de `app/globals.css` e estão documentados em `/componentes`.
 
 ## Esteira (CI/CD)
 

@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#00080f",
+  themeColor: "#1e2749",
   colorScheme: "dark",
 };
 
@@ -49,13 +49,13 @@ export const metadata: Metadata = {
     title: `${SITE_NAME} — Onde tecnologia encontra cultura pop`,
     description: SITE_DESCRIPTION,
     url: "/",
-    images: [{ url: "/images/ars-tech-logo.jpeg", width: 1254, height: 1254, alt: "ARS GEEK" }],
+    images: [{ url: "/images/ars-og-card.jpg", width: 1200, height: 630, alt: "ARS GEEK — ARS Tech Company" }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: `${SITE_NAME} — Onde tecnologia encontra cultura pop`,
     description: SITE_DESCRIPTION,
-    images: ["/images/ars-tech-logo.jpeg"],
+    images: ["/images/ars-og-card.jpg"],
   },
   ...(ADSENSE_CLIENT_ID
     ? { other: { "google-adsense-account": ADSENSE_CLIENT_ID } }

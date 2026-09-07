@@ -78,7 +78,7 @@ export default function ArticlesExplorer({ posts, categories }: ArticlesExplorer
           aria-pressed={category === "Todas"}
           style={
             category === "Todas"
-              ? { borderColor: "#38bdf8", background: "rgba(56,189,248,.18)" }
+              ? { borderColor: "var(--interactive)", background: "rgb(var(--interactive-rgb) / .18)" }
               : undefined
           }
           onClick={() => selectCategory("Todas")}

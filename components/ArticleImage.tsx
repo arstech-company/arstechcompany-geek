@@ -39,7 +39,7 @@ export default function ArticleImage({
     <div
       className={["cover", "cover--photo", className].filter(Boolean).join(" ")}
       style={{
-        background: `linear-gradient(145deg, ${hexToRgba(color, 0.28)}, #00111d 75%)`,
+        background: `linear-gradient(145deg, ${hexToRgba(color, 0.28)}, var(--bg-navy) 75%)`,
         color,
       }}
     >
